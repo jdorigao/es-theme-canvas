@@ -143,14 +143,14 @@ License: Creative Commons CC-BY-NC-SA
 			<origin>0 0.5</origin>
 			<fontPath>${fontRegular}</fontPath>
 			<color>${gameMetadataColor}</color>
-			<lineSpacing>1</lineSpacing>
+			<lineSpacing>1.2</lineSpacing>
 		</datetime>
 
 		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
 			<origin>0 0.5</origin>
 			<fontPath>${fontRegular}</fontPath>
 			<color>${gameMetadataColor}</color>
-			<lineSpacing>1</lineSpacing>
+			<lineSpacing>1.2</lineSpacing>
 			<value>Unknown</value>
 		</text>
 
@@ -206,6 +206,7 @@ License: Creative Commons CC-BY-NC-SA
 			<autoScrollDelay>5000</autoScrollDelay>
 			<color>${gameMetadataColor}</color>
 			<zIndex>${zMetadata}</zIndex>
+			<lineSpacing>1.2</lineSpacing>
 		</text>
 	</view>
 

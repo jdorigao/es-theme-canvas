@@ -28,11 +28,11 @@
 		</imagegrid>
 
 		<imagegrid name="gamegrid">
-			<margin>0.015</margin>
+			<margin>0.025</margin>
   		<pos>0.0125 0.08</pos>
   		<size ifSubset="metadata:on">0.975 0.72</size>
   		<size ifSubset="metadata:off">0.975 0.78</size>
-			<padding>7 7 7 7</padding>
+			<padding>10 10 10 10</padding>
 			<imageSource>cover</imageSource>
 			<scrollbarColor>${secondaryColor}</scrollbarColor>
 			<scrollbarCorner>0.49</scrollbarCorner>
@@ -47,7 +47,7 @@
 			<backgroundEdgeColor>00000000</backgroundEdgeColor>
 			<backgroundCornerSize>11 11</backgroundCornerSize>
 			<selectionMode>image</selectionMode>
-			<padding>3.5 3.5</padding>
+			<padding>5 5</padding>
 		</gridtile>
 
     <image name="gridtile.image">
