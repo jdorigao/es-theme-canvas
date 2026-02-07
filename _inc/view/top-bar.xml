@@ -45,4 +45,41 @@
       <zIndex>${zText}</zIndex>
     </text>
   </view>
+
+  <view name="system">
+    <image name="gamesicon" extra="true">
+      <pos>0.075 0.05</pos>
+      <size>0 ${systemInfoFontSize}</size>
+      <origin>1 0.5</origin>
+      <path>${themePath}/_inc/images/gamescount.svg</path>
+      <color>${systemInfoColor}</color>
+      <opacity>${highOpacity}</opacity>
+      <zIndex>${zIcons}</zIndex>
+      <visible>true</visible>
+    </image>
+
+		<text name="systemInfo">
+      <origin>0 0.5</origin>
+      <fontPath>${fontBold}</fontPath>
+      <zIndex>${zText}</zIndex>
+      <color>${systemInfoColor}</color>
+      <lineSpacing>1</lineSpacing>
+      <size>0 ${systemInfoFont}</size>
+      <fontSize>${systemInfoFont}</fontSize>
+      <alignment>left</alignment>
+		</text>
+
+		<text name="systemInfoGrid" extra="true">
+		  <pos>0.085 0.05</pos>
+			<text>{system:total}</text>
+			<fontPath>${fontBold}</fontPath>
+			<origin>0 0.5</origin>
+			<zIndex>${zText}</zIndex>
+			<color>${systemInfoColor}</color>
+			<alignment>left</alignment>
+			<lineSpacing>1</lineSpacing>
+      <size>0 ${systemInfoFont}</size>
+      <fontSize>${systemInfoFont}</fontSize>
+		</text>
+	</view>
 </theme>

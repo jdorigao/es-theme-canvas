@@ -15,17 +15,6 @@
 			<w>0.985</w>
 		</imagegrid>
 
-		<image name="gamesicon" extra="true">
-			<pos>0.075 0.05</pos>
-      <size>0 ${systemInfoFontSize}</size>
-		</image>
-
-		<text name="systemInfoGrid">
-			<pos>0.085 0.05</pos>
-			<size>0 ${systemInfoFontSize}</size>
-      <fontSize>${systemInfoFontSize}</fontSize>
-		</text>
-
 		<imagegrid name="imagegrid">
 			<zIndex>${zUI}</zIndex>
 			<pos>0.008 0.08</pos>
@@ -291,10 +280,6 @@
 				</image>
 			</itemTemplate>
 		</carousel>
-
-		<text name="systemInfoGrid" extra="true">
-            <visible>false</visible>
-		</text>
 	</view>
 
 	<view name="gamecarousel">

@@ -18,7 +18,6 @@
       <minLogoOpacity>${mediumOpacity}</minLogoOpacity>
       <logoAlignment>center</logoAlignment>
       <defaultTransition>instant</defaultTransition>
-      <systemInfoDelay>0.05</systemInfoDelay>
 
       <!-- System View: Carousel (Icon)-->
       <itemTemplate ifSubset="icon-scheme:icon">
@@ -172,8 +171,5 @@
 				</text>
 			</itemTemplate>
     </carousel>
-    <text name="systemInfoGrid" extra="true">
-      <visible>false</visible>
-    </text>
   </view>
 </theme>
