@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+  <!-- Bottom Bar Elements -->
+  <view name="system, basic, detailed, gamecarousel, grid">
+    <!-- Help System -->
+    <helpsystem alignment="center" name="help">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 ${helpPos}</pos>
+      <fontSize>${helpFontSize}</fontSize>
+      <fontPath>${fontBold}</fontPath>
+      <textColor>${helpTextColor}</textColor>
+      <iconColor>${helpTextColor}</iconColor>
+      <iconA>${themePath}/_inc/images/help-button-east.svg</iconA>
+      <iconB>${themePath}/_inc/images/help-button-south.svg</iconB>
+      <iconX>${themePath}/_inc/images/help-button-north.svg</iconX>
+      <iconY>${themePath}/_inc/images/help-button-west.svg</iconY>
+    </helpsystem>
+  </view>
+</theme>
