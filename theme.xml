@@ -94,73 +94,7 @@ License: Creative Commons CC-BY-NC-SA
 	<!-- Screen View -->
 	<include>${themePath}/_inc/view/top-bar.xml</include>
 	<include>${themePath}/_inc/view/bottom-bar.xml</include>
-
-	<!-- View: Menu -->
-	<view name="menu">
-		<menuText name="menutitle">
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>0.034</fontSize>
-			<color>${menuTextColor}</color>
-		</menuText>
-
-		<menuText name="menufooter">
-			<fontPath>${fontRegular}</fontPath>
-			<fontSize>0.02</fontSize>
-			<color>${menuTextColor}</color>
-		</menuText>
-
-		<menuText name="menutext">
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>0.025</fontSize>
-			<color>${menuTextColor}</color>
-			<separatorColor>${gamelistSelectorColor}</separatorColor>
-			<selectedColor>${gamelistSelectedColor}</selectedColor>
-			<selectorColor>${gamelistSelectorColor}</selectorColor>
-		</menuText>
-
-		<menuTextSmall name="menutextsmall">
-			<fontPath>${fontRegular}</fontPath>
-			<fontSize>0.016</fontSize>
-			<color>${menuTextColor}</color>
-		</menuTextSmall>
-
-		<menuGroup name="menugroup">
-		  <alignment>center</alignment>
-			<fontPath>${fontRegular}</fontPath>
-			<fontSize>0.02</fontSize>
-			<color>${menuTextColor}</color>
-			<separatorColor>${menuTextColor}</separatorColor>
-			<backgroundColor>${menuBackgroundColorTitle}</backgroundColor>
-		</menuGroup>
-
-		<menuTextEdit name="menutextedit">
-			<inactive>${themePath}/_inc/images/menu-textinput-${menuInputMode}.png</inactive>
-			<active>${themePath}/_inc/images/menu-textinput-active-${menuInputMode}.png</active>
-		</menuTextEdit>
-
-		<menuBackground name="menubg">
-			<color>${menuBackgroundColor}</color>
-			<cornerSize>20 20</cornerSize>
-		</menuBackground>
-
-		<menuIcons name="menuicons">
-			<iconSystem>${themePath}/_inc/images/menu/System.png</iconSystem>
-			<iconUpdates>${themePath}/_inc/images/menu/Updates.png</iconUpdates>
-			<iconControllers>${themePath}/_inc/images/menu/Controllers.png</iconControllers>
-			<iconGames>${themePath}/_inc/images/menu/Games.png</iconGames>
-			<iconUI>${themePath}/_inc/images/menu/UI.png</iconUI>
-			<iconSound>${themePath}/_inc/images/menu/Sound.png</iconSound>
-			<iconNetwork>${themePath}/_inc/images/menu/Network.png</iconNetwork>
-			<iconScraper>${themePath}/_inc/images/menu/Scraper.png</iconScraper>
-			<iconAdvanced>${themePath}/_inc/images/menu/Advanced.png</iconAdvanced>
-			<iconQuit>${themePath}/_inc/images/menu/Quit.png</iconQuit>
-			<iconRetroachievements>${themePath}/_inc/images/menu/Achievements.png</iconRetroachievements>
-			<iconKodi>${themePath}/_inc/images/menu/Kodi.png</iconKodi>
-			<iconRestart>${themePath}/_inc/images/menu/Restart.png</iconRestart>
-			<iconShutdown>${themePath}/_inc/images/menu/Shutdown.png</iconShutdown>
-			<iconFastShutdown>${themePath}/_inc/images/menu/Fastshutdown.png</iconFastShutdown>
-		</menuIcons>
- 	</view>
+	<include>${themePath}/_inc/view/menu.xml</include>
 
 	<!-- All Views -->
 	<view name="system, basic, detailed, gamecarousel, grid">
