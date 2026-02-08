@@ -1,0 +1,263 @@
+{
+  "elements": [
+    {
+      "name": "text",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "color" },
+        { "name": "fontSize" },
+        { "name": "text" },
+        { "name": "horizontalAlignment" },
+        { "name": "verticalAlignment" },
+        { "name": "forceUppercase" },
+        { "name": "lineSpacing" }
+      ]
+    },
+    {
+      "name": "image",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "path" },
+        { "name": "tile" },
+        { "name": "color" },
+        { "name": "origin" },
+        { "name": "rotation" },
+        { "name": "zIndex" }
+      ]
+    },
+    {
+      "name": "ninepatch",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "path" },
+        { "name": "centerColor" },
+        { "name": "edgeColor" },
+        { "name": "cornerSize" }
+      ]
+    },
+    {
+      "name": "datetime",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "color" },
+        { "name": "fontSize" },
+        { "name": "format" },
+        { "name": "displayRelative" }
+      ]
+    },
+    {
+      "name": "rating",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "color" },
+        { "name": "filledPath" },
+        { "name": "unfilledPath" },
+        { "name": "visibleCount" },
+        { "name": "displayCount" }
+      ]
+    },
+    {
+      "name": "sound",
+      "properties": [{ "name": "path" }]
+    },
+    {
+      "name": "video",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "path" },
+        { "name": "delay" },
+        { "name": "volume" },
+        { "name": "showSnapshotNoVideo" },
+        { "name": "showSnapshotDelay" }
+      ]
+    },
+    {
+      "name": "animate",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "color" },
+        { "name": "opacity" },
+        { "name": "duration" },
+        { "name": "easing" },
+        { "name": "delay" },
+        { "name": "repeat" }
+      ]
+    },
+    {
+      "name": "carousel",
+      "properties": [
+        { "name": "type" },
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "origin" },
+        { "name": "color" },
+        { "name": "logoScale" },
+        { "name": "logoRotation" },
+        { "name": "logoRotationOrigin" },
+        { "name": "maxLogoCount" },
+        { "name": "zIndex" },
+        { "name": "defaultTransition" },
+        { "name": "scrollSound" },
+        { "name": "anyLogoFills" },
+        { "name": "wrapAround" },
+        { "name": "circular" },
+        { "name": "horizontal" },
+        { "name": "enableMasking" }
+      ]
+    },
+    {
+      "name": "gridtile",
+      "properties": [
+        { "name": "size" },
+        { "name": "padding" },
+        { "name": "backgroundImage" },
+        { "name": "backgroundCornerSize" },
+        { "name": "backgroundCenterColor" },
+        { "name": "backgroundEdgeColor" },
+        { "name": "selectedBackgroundColor" },
+        { "name": "textColor" },
+        { "name": "selectedTextColor" },
+        { "name": "fontPath" },
+        { "name": "fontSize" },
+        { "name": "textMarquee" },
+        { "name": "textLetterCase" },
+        { "name": "textHorizontalAlignment" },
+        { "name": "textVerticalAlignment" },
+        { "name": "imageColor" },
+        { "name": "imageOrigin" },
+        { "name": "imageScale" },
+        { "name": "imageRotate" },
+        { "name": "imageZIndex" },
+        { "name": "textZIndex" },
+        { "name": "reflexionDistance" },
+        { "name": "reflexionAlpha" },
+        { "name": "reflexionOnCurrent" },
+        { "name": "imageLeftPadding" },
+        { "name": "imageRightPadding" },
+        { "name": "imageTopPadding" },
+        { "name": "imageBottomPadding" },
+        { "name": "imageMinSize" },
+        { "name": "imageMaxSize" },
+        { "name": "imageRoundCorners" },
+        { "name": "textLeftPadding" },
+        { "name": "textRightPadding" },
+        { "name": "textTopPadding" },
+        { "name": "textBottomPadding" },
+        { "name": "imageHorizontalAlignment" },
+        { "name": "imageVerticalAlignment" },
+        { "name": "imageBackgroundPath" },
+        { "name": "imageBackgroundCenterColor" },
+        { "name": "imageBackgroundEdgeColor" },
+        { "name": "imageBackgroundCornerSize" },
+        { "name": "reflexionOnCurrent" },
+        { "name": "imageBackgroundTile" },
+        { "name": "imageBackgroundOrigin" },
+        { "name": "imageBackgroundScale" },
+        { "name": "imageBackgroundRotate" },
+        { "name": "imageBackgroundZIndex" },
+        { "name": "imageBackgroundHorizontalAlignment" },
+        { "name": "imageBackgroundVerticalAlignment" }
+      ]
+    },
+    {
+      "name": "imagegrid",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "margin" },
+        { "name": "gameImage" },
+        { "name": "folderImage" },
+        { "name": "imageSource" },
+        { "name": "showVideoAtDelay" },
+        { "name": "scrollDirection" },
+        { "name": "autoLayout" },
+        { "name": "autoLayoutSelectedZoom" },
+        { "name": "animateSelection" },
+        { "name": "centerSelection" },
+        { "name": "scrollLoop" },
+        { "name": "imageSizeMode" },
+        { "name": "imageGridMode" },
+        { "name": "imageGrowth" },
+        { "name": "imageMargin" },
+        { "name": "imageUnfocusedScale" },
+        { "name": "imageFocusScale" },
+        { "name": "imageRotation" },
+        { "name": "imageRotationOrigin" },
+        { "name": "imageFlip" },
+        { "name": "imageHorizontalAlignment" },
+        { "name": "imageVerticalAlignment" },
+        { "name": "imageAspect" },
+        { "name": "imageColor" },
+        { "name": "imageTargetRatio" },
+        { "name": "zIndex" },
+        { "name": "label" },
+        { "name": "labelTextSize" },
+        { "name": "labelTextOffset" },
+        { "name": "labelTextAlign" },
+        { "name": "labelColor" },
+        { "name": "labelFont" },
+        { "name": "selectedColor" },
+        { "name": "selectorColor" },
+        { "name": "selectorImagePath" },
+        { "name": "selectorImageTile" },
+        { "name": "selectorMinSize" },
+        { "name": "selectorSize" },
+        { "name": "selectorOffset" },
+        { "name": "scrollSound" },
+        { "name": "centerSelectionCursor" },
+        { "name": "alwaysDisplayGrid" },
+        { "name": "reflexionDistance" },
+        { "name": "reflexionAlpha" },
+        { "name": "reflexionOnCurrent" },
+        { "name": "drawables" },
+        { "name": "showSnapshots" },
+        { "name": "showClones" },
+        { "name": "showFavorites" },
+        { "name": "showHidden" },
+        { "name": "showManuals" },
+        { "name": "showMissing" },
+        { "name": "showParentFolder" },
+        { "name": "showPlaylist" },
+        { "name": "showRegion" },
+        { "name": "showSorts" },
+        { "name": "showSystem" },
+        { "name": "showVideo" },
+        { "name": "showVirtualFolders" }
+      ]
+    }
+  ],
+  "element_aliases": [
+    { "alias": "md_lblRating", "target": "text" },
+    { "alias": "md_lblReleaseDate", "target": "text" },
+    { "alias": "md_lblDeveloper", "target": "text" },
+    { "alias": "md_lblPublisher", "target": "text" },
+    { "alias": "md_lblGenre", "target": "text" },
+    { "alias": "md_lblPlayers", "target": "text" },
+    { "alias": "md_lblLastPlayed", "target": "text" },
+    { "alias": "md_lblPlayCount", "target": "text" },
+    { "alias": "md_image", "target": "image" },
+    { "alias": "md_video", "target": "video" },
+    { "alias": "md_rating", "target": "rating" },
+    { "alias": "md_releasedate", "target": "datetime" },
+    { "alias": "headerImage", "target": "image" },
+    { "alias": "logo", "target": "image" },
+    { "alias": "background", "target": "image" },
+    { "alias": "gridtile", "target": "image" }
+  ],
+  "base_classes": [
+    { "type": "menuComponent", "base": "image" },
+    { "type": "menuText", "base": "text" },
+    { "type": "menuTextEdit", "base": "text" },
+    { "type": "menuSwitch", "base": "image" },
+    { "type": "menuButton", "base": "image" },
+    { "type": "menuSlider", "base": "image" },
+    { "type": "menuWindow", "base": "image" }
+  ]
+}
