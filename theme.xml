@@ -92,199 +92,21 @@ License: Creative Commons CC-BY-NC-SA
 	<include ifSubset="system-view:carousel">${themePath}/_inc/system-view/carousel.xml</include>
 
 	<!-- Screen View -->
-	<view name="screen">
-    <controllerActivity name="controllerActivity">
-      <pos ifSubset="system-view:grid">0.7 0.02</pos>
-      <pos ifSubset="system-view:carousel">0.04 0.02</pos>
-      <size>0.2 0.03</size>
-      <itemSpacing>0.003</itemSpacing>
-      <color>${systemInfoColor}</color>
-      <zIndex>${zIcons}</zIndex>
-      <imagePath>${themePath}/_inc/images/gamepad.svg</imagePath>
-      <gunPath>${themePath}/_inc/images/gun.svg</gunPath>
-      <wheelPath>${themePath}/_inc/images/wheel.svg</wheelPath>
-      <activityColor>A0A0FFC0</activityColor>
-      <hotkeyColor>FFA0A0C0</hotkeyColor>
-      <horizontalAlignment ifSubset="system-view:grid">right</horizontalAlignment>
-      <horizontalAlignment ifSubset="system-view:carousel">left</horizontalAlignment>
-    </controllerActivity>
-
-    <batteryIndicator name="batteryIndicator">
-      <color>${systemInfoColor}</color>
-      <pos>0.93 0.012</pos>
-      <size>0.04 0.04</size>
-      <zIndex>${zIcons}</zIndex>
-      <full>${themePath}/_inc/images/battery/battery-icon-100.svg</full>
-      <at75>${themePath}/_inc/images/battery/battery-icon-75.svg</at75>
-      <at50>${themePath}/_inc/images/battery/battery-icon-50.svg</at50>
-      <at25>${themePath}/_inc/images/battery/battery-icon-25.svg</at25>
-      <empty>${themePath}/_inc/images/battery/battery-icon-0.svg</empty>
-      <incharge>${themePath}/_inc/images/battery/battery-icon-charging.svg</incharge>
-      <networkIcon>${themePath}/_inc/images/network-icon-on.svg</networkIcon>
-      <planemodeIcon>${themePath}/_inc/images/network-icon-off.svg</planemodeIcon>
-      <horizontalAlignment>center</horizontalAlignment>
-    </batteryIndicator>
-
-    <text name="clock">
-      <color>${systemInfoColor}</color>
-      <fontPath>${fontBold}</fontPath>
-      <fontSize>${indicatorFontSize}</fontSize>
-      <lineSpacing>1</lineSpacing>
-      <pos>0.5 0.04</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.18 0.1</size>
-      <alignment>center</alignment>
-      <verticalAlignment>center</verticalAlignment>
-      <zIndex>${zText}</zIndex>
-    </text>
-  </view>
-
-	<!-- View: Menu -->
-	<view name="menu">
-		<menuText name="menutitle">
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>0.034</fontSize>
-			<color>${menuTextColor}</color>
-		</menuText>
-
-		<menuText name="menufooter">
-			<fontPath>${fontRegular}</fontPath>
-			<fontSize>0.02</fontSize>
-			<color>${menuTextColor}</color>
-		</menuText>
-
-		<menuText name="menutext">
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>0.025</fontSize>
-			<color>${menuTextColor}</color>
-			<separatorColor>${gamelistSelectorColor}</separatorColor>
-			<selectedColor>${gamelistSelectedColor}</selectedColor>
-			<selectorColor>${gamelistSelectorColor}</selectorColor>
-		</menuText>
-
-		<menuTextSmall name="menutextsmall">
-			<fontPath>${fontRegular}</fontPath>
-			<fontSize>0.016</fontSize>
-			<color>${menuTextColor}</color>
-		</menuTextSmall>
-
-		<menuGroup name="menugroup">
-		  <alignment>center</alignment>
-			<fontPath>${fontRegular}</fontPath>
-			<fontSize>0.02</fontSize>
-			<color>${menuTextColor}</color>
-			<separatorColor>${menuTextColor}</separatorColor>
-			<backgroundColor>${menuBackgroundColorTitle}</backgroundColor>
-		</menuGroup>
-
-		<menuTextEdit name="menutextedit">
-			<inactive>${themePath}/_inc/images/menu-textinput-${menuInputMode}.png</inactive>
-			<active>${themePath}/_inc/images/menu-textinput-active-${menuInputMode}.png</active>
-		</menuTextEdit>
-
-		<menuBackground name="menubg">
-			<color>${menuBackgroundColor}</color>
-			<cornerSize>20 20</cornerSize>
-		</menuBackground>
-
-		<menuIcons name="menuicons">
-			<iconSystem>${themePath}/_inc/images/menu/System.png</iconSystem>
-			<iconUpdates>${themePath}/_inc/images/menu/Updates.png</iconUpdates>
-			<iconControllers>${themePath}/_inc/images/menu/Controllers.png</iconControllers>
-			<iconGames>${themePath}/_inc/images/menu/Games.png</iconGames>
-			<iconUI>${themePath}/_inc/images/menu/UI.png</iconUI>
-			<iconSound>${themePath}/_inc/images/menu/Sound.png</iconSound>
-			<iconNetwork>${themePath}/_inc/images/menu/Network.png</iconNetwork>
-			<iconScraper>${themePath}/_inc/images/menu/Scraper.png</iconScraper>
-			<iconAdvanced>${themePath}/_inc/images/menu/Advanced.png</iconAdvanced>
-			<iconQuit>${themePath}/_inc/images/menu/Quit.png</iconQuit>
-			<iconRetroachievements>${themePath}/_inc/images/menu/Achievements.png</iconRetroachievements>
-			<iconKodi>${themePath}/_inc/images/menu/Kodi.png</iconKodi>
-			<iconRestart>${themePath}/_inc/images/menu/Restart.png</iconRestart>
-			<iconShutdown>${themePath}/_inc/images/menu/Shutdown.png</iconShutdown>
-			<iconFastShutdown>${themePath}/_inc/images/menu/Fastshutdown.png</iconFastShutdown>
-		</menuIcons>
- 	</view>
+	<include>${themePath}/_inc/view/top-bar.xml</include>
+	<include>${themePath}/_inc/view/bottom-bar.xml</include>
+	<include>${themePath}/_inc/view/menu.xml</include>
 
 	<!-- All Views -->
 	<view name="system, basic, detailed, gamecarousel, grid">
-		<!-- Help System -->
-		<helpsystem alignment="center" name="help">
-			<origin>0.5 0.5</origin>
-			<pos>0.5 ${helpPos}</pos>
-			<fontSize>${helpFontSize}</fontSize>
-			<fontPath>${fontBold}</fontPath>
-			<textColor>${helpTextColor}</textColor>
-			<iconColor>${helpTextColor}</iconColor>
-			<iconA>${themePath}/_inc/images/help-button-east.svg</iconA>
-			<iconB>${themePath}/_inc/images/help-button-south.svg</iconB>
-			<iconX>${themePath}/_inc/images/help-button-north.svg</iconX>
-			<iconY>${themePath}/_inc/images/help-button-west.svg</iconY>
-		</helpsystem>
-
-		<!-- System Backgrounds -->
-		<image name="background-art" extra="true">
-			<path ifSubset="color-scheme:beige|dark|light|neon|pastel|purple|retro">${backgroundArtPath}.webp</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<minSize>1 1</minSize>
-			<zIndex>${zBackgroundArt}</zIndex>
-		</image>
-	</view>
-
-	<!-- System View: All -->
-	<view name="system">
-		<image name="gamesicon" extra="true">
-			<origin ifSubset="system-view:grid">1 0.5</origin>
-			<origin ifSubset="system-view:carousel">0.5 0.5</origin>
-			<path>${themePath}/_inc/images/gamescount.svg</path>
-			<color>${systemInfoColor}</color>
-			<opacity>${highOpacity}</opacity>
-			<zIndex>${zIcons}</zIndex>
-			<visible ifSubset="system-view:grid">true</visible>
-			<visible ifSubset="system-view:carousel">false</visible>
-		</image>
-
-		<image name="countline" extra="true">
-			<origin>0.5 0.5</origin>
-			<path>${themePath}/_inc/images/countline.svg</path>
-			<color>${systemInfoColor}</color>
-			<opacity>${highOpacity}</opacity>
-			<zIndex>${zIcons}</zIndex>
-			<visible ifSubset="system-view:grid">false</visible>
-			<visible ifSubset="system-view:carousel">true</visible>
-		</image>
-
-		<text name="systemInfo">
-			<fontPath>${fontBold}</fontPath>
-			<zIndex>${zText}</zIndex>
-			<color>${systemInfoColor}</color>
-			<lineSpacing>1</lineSpacing>
-      <size>0 ${systemDescriptionFontSize}</size>
-      <fontSize>${systemDescriptionFontSize}</fontSize>
-		</text>
-
-		<text name="systemInfo" ifSubset="system-view:grid">
-			<origin>0 0.5</origin>
-			<alignment>left</alignment>
-		</text>
-
-		<text name="systemInfo" ifSubset="system-view:carousel">
-			<origin>0.5 0.5</origin>
-		</text>
-
-		<text name="systemInfoGrid" extra="true">
-			<text>{system:total}</text>
-			<fontPath>${fontBold}</fontPath>
-			<origin>0 0.5</origin>
-			<zIndex>${zText}</zIndex>
-			<color>${systemInfoColor}</color>
-			<alignment>left</alignment>
-			<lineSpacing>1</lineSpacing>
-      <size>0 ${systemDescriptionFontSize}</size>
-      <fontSize>${systemDescriptionFontSize}</fontSize>
-		</text>
-	</view>
+  	<!-- System Backgrounds -->
+  	<image name="background-art" extra="true">
+  		<path ifSubset="color-scheme:beige|dark|light|neon|pastel|purple|retro">${backgroundArtPath}.webp</path>
+  		<origin>0.5 0.5</origin>
+  		<pos>0.5 0.5</pos>
+  		<minSize>1 1</minSize>
+  		<zIndex>${zBackgroundArt}</zIndex>
+  	</image>
+  </view>
 
 	<!-- Gamelist: System Logo -->
 	<view name="basic, detailed, gamecarousel, grid">
@@ -321,14 +143,14 @@ License: Creative Commons CC-BY-NC-SA
 			<origin>0 0.5</origin>
 			<fontPath>${fontRegular}</fontPath>
 			<color>${gameMetadataColor}</color>
-			<lineSpacing>1</lineSpacing>
+			<lineSpacing>1.2</lineSpacing>
 		</datetime>
 
 		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
 			<origin>0 0.5</origin>
 			<fontPath>${fontRegular}</fontPath>
 			<color>${gameMetadataColor}</color>
-			<lineSpacing>1</lineSpacing>
+			<lineSpacing>1.2</lineSpacing>
 			<value>Unknown</value>
 		</text>
 
@@ -384,6 +206,7 @@ License: Creative Commons CC-BY-NC-SA
 			<autoScrollDelay>5000</autoScrollDelay>
 			<color>${gameMetadataColor}</color>
 			<zIndex>${zMetadata}</zIndex>
+			<lineSpacing>1.2</lineSpacing>
 		</text>
 	</view>
 

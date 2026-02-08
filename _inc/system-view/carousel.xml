@@ -18,7 +18,6 @@
       <minLogoOpacity>${mediumOpacity}</minLogoOpacity>
       <logoAlignment>center</logoAlignment>
       <defaultTransition>instant</defaultTransition>
-      <systemInfoDelay>0.05</systemInfoDelay>
 
       <!-- System View: Carousel (Icon)-->
       <itemTemplate ifSubset="icon-scheme:icon">
@@ -114,7 +113,7 @@
 				</storyboard>
 				<image name="shade" extra="true">
 					<path>${themePath}/_inc/images/square-bg.webp</path>
-					<pos>0.5 0.82</pos>
+					<pos>0.5 0.85</pos>
 					<origin>0.5 1</origin>
 					<maxSize>0.84 0.84</maxSize>
 					<roundCorners ifSubset="font-size:medium|large">${CornersLarge}</roundCorners>
@@ -128,7 +127,7 @@
           >firstfile("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
 					<pos>0.5 0.78</pos>
 					<origin>0.5 1</origin>
-					<maxSize>0.75 0.75</maxSize>
+					<maxSize>0.71 0.71</maxSize>
 					<scale>1</scale>
 					<roundCorners ifSubset="font-size:medium|large">${CornersLarge}</roundCorners>
 					<roundCorners ifSubset="font-size:small">${CornersMedium}</roundCorners>
@@ -172,8 +171,5 @@
 				</text>
 			</itemTemplate>
     </carousel>
-    <text name="systemInfoGrid" extra="true">
-      <visible>false</visible>
-    </text>
   </view>
 </theme>
