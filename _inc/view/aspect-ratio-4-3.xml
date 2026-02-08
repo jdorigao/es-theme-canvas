@@ -106,7 +106,7 @@
 		</datetime>
 
 		<text name="md_name">
-			<pos>0.464 0.8595</pos>
+			<pos>0.464 0.8695</pos>
       <size>.364 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
@@ -197,7 +197,7 @@
 		</datetime>
 
 		<text name="md_name">
-      <pos>0.472 0.8425</pos>
+      <pos>0.472 0.8525</pos>
       <size>.495 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
@@ -294,7 +294,7 @@
 		</datetime>
 
 		<text name="md_name">
-			<pos>0.050 0.522</pos>
+			<pos>0.050 0.532</pos>
 			<size>0.435 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
@@ -390,7 +390,7 @@
 		</datetime>
 
 		<text name="md_name">
-      <pos>0.0625 0.53</pos>
+      <pos>0.0625 0.54</pos>
       <size>.4225 0.05</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
