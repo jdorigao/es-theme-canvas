@@ -250,6 +250,7 @@
 			<size>${gamelistSize}</size>
 			<fontSize>${gamelistFontSize}</fontSize>
 			<selectorHeight>${gamelistSelectorHeight}</selectorHeight>
+			<scrollSound>${themePath}/_inc/sounds/scroll.wav</scrollSound>
 			<lines>${linecount}</lines>
 			<alignment>left</alignment>
 		</textlist>
