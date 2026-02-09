@@ -1,0 +1,219 @@
+{
+  "formatVersion": 7,
+  "nodes": [
+    {
+      "type": "view",
+      "name": "menu",
+      "elements": [
+        {
+          "type": "menuText",
+          "name": "menutitle",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontBold}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.034"
+            },
+            {
+              "name": "color",
+              "value": "${menuTextColor}"
+            }
+          ]
+        },
+        {
+          "type": "menuText",
+          "name": "menufooter",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.02"
+            },
+            {
+              "name": "color",
+              "value": "${menuTextColor}"
+            }
+          ]
+        },
+        {
+          "type": "menuText",
+          "name": "menutext",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontBold}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.025"
+            },
+            {
+              "name": "color",
+              "value": "${menuTextColor}"
+            },
+            {
+              "name": "separatorColor",
+              "value": "${gamelistSelectorColor}"
+            },
+            {
+              "name": "selectedColor",
+              "value": "${gamelistSelectedColor}"
+            },
+            {
+              "name": "selectorColor",
+              "value": "${gamelistSelectorColor}"
+            }
+          ]
+        },
+        {
+          "type": "menuTextSmall",
+          "name": "menutextsmall",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.016"
+            },
+            {
+              "name": "color",
+              "value": "${menuTextColor}"
+            }
+          ]
+        },
+        {
+          "type": "menuGroup",
+          "name": "menugroup",
+          "props": [
+            {
+              "name": "alignment",
+              "value": "center"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.02"
+            },
+            {
+              "name": "color",
+              "value": "${menuTextColor}"
+            },
+            {
+              "name": "separatorColor",
+              "value": "${menuTextColor}"
+            },
+            {
+              "name": "backgroundColor",
+              "value": "${menuBackgroundColorTitle}"
+            }
+          ]
+        },
+        {
+          "type": "menuTextEdit",
+          "name": "menutextedit",
+          "props": [
+            {
+              "name": "inactive",
+              "value": "${themePath}/_inc/images/menu-textinput-${menuInputMode}.png"
+            },
+            {
+              "name": "active",
+              "value": "${themePath}/_inc/images/menu-textinput-active-${menuInputMode}.png"
+            }
+          ]
+        },
+        {
+          "type": "menuBackground",
+          "name": "menubg",
+          "props": [
+            {
+              "name": "color",
+              "value": "${menuBackgroundColor}"
+            },
+            {
+              "name": "cornerSize",
+              "value": "20 20"
+            }
+          ]
+        },
+        {
+          "type": "menuIcons",
+          "name": "menuicons",
+          "props": [
+            {
+              "name": "iconSystem",
+              "value": "${themePath}/_inc/images/menu/System.png"
+            },
+            {
+              "name": "iconUpdates",
+              "value": "${themePath}/_inc/images/menu/Updates.png"
+            },
+            {
+              "name": "iconControllers",
+              "value": "${themePath}/_inc/images/menu/Controllers.png"
+            },
+            {
+              "name": "iconGames",
+              "value": "${themePath}/_inc/images/menu/Games.png"
+            },
+            {
+              "name": "iconUI",
+              "value": "${themePath}/_inc/images/menu/UI.png"
+            },
+            {
+              "name": "iconSound",
+              "value": "${themePath}/_inc/images/menu/Sound.png"
+            },
+            {
+              "name": "iconNetwork",
+              "value": "${themePath}/_inc/images/menu/Network.png"
+            },
+            {
+              "name": "iconScraper",
+              "value": "${themePath}/_inc/images/menu/Scraper.png"
+            },
+            {
+              "name": "iconAdvanced",
+              "value": "${themePath}/_inc/images/menu/Advanced.png"
+            },
+            {
+              "name": "iconQuit",
+              "value": "${themePath}/_inc/images/menu/Quit.png"
+            },
+            {
+              "name": "iconRetroachievements",
+              "value": "${themePath}/_inc/images/menu/Achievements.png"
+            },
+            {
+              "name": "iconKodi",
+              "value": "${themePath}/_inc/images/menu/Kodi.png"
+            },
+            {
+              "name": "iconRestart",
+              "value": "${themePath}/_inc/images/menu/Restart.png"
+            },
+            {
+              "name": "iconShutdown",
+              "value": "${themePath}/_inc/images/menu/Shutdown.png"
+            },
+            {
+              "name": "iconFastShutdown",
+              "value": "${themePath}/_inc/images/menu/Fastshutdown.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
