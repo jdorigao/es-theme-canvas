@@ -1,0 +1,61 @@
+{
+  "formatVersion": 7,
+  "nodes": [
+    {
+      "type": "view",
+      "name": "system, basic, detailed, gamecarousel, grid",
+      "elements": [
+        {
+          "type": "helpsystem",
+          "name": "help",
+          "props": [
+            {
+              "name": "alignment",
+              "value": "center"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 ${helpPos}"
+            },
+            {
+              "name": "fontSize",
+              "value": "${helpFontSize}"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontBold}"
+            },
+            {
+              "name": "textColor",
+              "value": "${helpTextColor}"
+            },
+            {
+              "name": "iconColor",
+              "value": "${helpTextColor}"
+            },
+            {
+              "name": "iconA",
+              "value": "${themePath}/_inc/images/help-button-east.svg"
+            },
+            {
+              "name": "iconB",
+              "value": "${themePath}/_inc/images/help-button-south.svg"
+            },
+            {
+              "name": "iconX",
+              "value": "${themePath}/_inc/images/help-button-north.svg"
+            },
+            {
+              "name": "iconY",
+              "value": "${themePath}/_inc/images/help-button-west.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
