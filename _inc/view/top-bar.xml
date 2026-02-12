@@ -3,8 +3,8 @@
   <!-- Top Bar Elements -->
   <view name="screen">
     <controllerActivity name="controllerActivity">
-      <pos>0.65 0.02</pos>
-      <size>0.2 0.03</size>
+      <pos>0.68 0.02</pos>
+      <size>0.2 0.025</size>
       <itemSpacing>0.003</itemSpacing>
       <color>${systemInfoColor}</color>
       <zIndex>${zIcons}</zIndex>
@@ -35,11 +35,11 @@
     <text name="clock">
       <color>${systemInfoColor}</color>
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${systemInfoFont}</fontSize>
+      <fontSize>${systemInfoFontSize}</fontSize>
       <lineSpacing>1</lineSpacing>
       <pos>0.5 0.04</pos>
       <origin>0.5 0.5</origin>
-      <size>0 ${systemInfoFont}</size>
+      <size>0 ${systemInfoFontSize}</size>
       <alignment>center</alignment>
       <verticalAlignment>center</verticalAlignment>
       <zIndex>${zText}</zIndex>
@@ -64,8 +64,8 @@
       <fontPath>${fontBold}</fontPath>
       <zIndex>${zText}</zIndex>
       <color>${systemInfoColor}</color>
-      <size>0 ${systemInfoFont}</size>
-      <fontSize>${systemInfoFont}</fontSize>
+      <size>0 ${systemInfoFontSize}</size>
+      <fontSize>${systemInfoFontSize}</fontSize>
       <alignment>left</alignment>
 		</text>
 	</view>
