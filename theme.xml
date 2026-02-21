@@ -94,7 +94,7 @@ License: Creative Commons CC-BY-NC-SA
 	<!-- Screen View -->
 	<include>${themePath}/_inc/bar/top-bar.xml</include>
 	<include>${themePath}/_inc/bar/bottom-bar.xml</include>
-	<include>${themePath}/_inc/view/menu.xml</include>
+	<include>${themePath}/_inc/menu/menu.xml</include>
 
 	<!-- All Views -->
 	<view name="system, basic, detailed, gamecarousel, grid">

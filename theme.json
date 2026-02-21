@@ -317,7 +317,7 @@
     },
     {
       "type": "include",
-      "path": "${themePath}/_inc/view/menu.json"
+      "path": "${themePath}/_inc/menu/menu.json"
     },
     {
       "type": "view",
