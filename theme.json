@@ -309,11 +309,11 @@
     },
     {
       "type": "include",
-      "path": "${themePath}/_inc/view/top-bar.json"
+      "path": "${themePath}/_inc/bar/top-bar.json"
     },
     {
       "type": "include",
-      "path": "${themePath}/_inc/view/bottom-bar.json"
+      "path": "${themePath}/_inc/bar/bottom-bar.json"
     },
     {
       "type": "include",

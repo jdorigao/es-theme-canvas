@@ -92,8 +92,8 @@ License: Creative Commons CC-BY-NC-SA
 	<include ifSubset="system-view:carousel">${themePath}/_inc/system-view/carousel.xml</include>
 
 	<!-- Screen View -->
-	<include>${themePath}/_inc/view/top-bar.xml</include>
-	<include>${themePath}/_inc/view/bottom-bar.xml</include>
+	<include>${themePath}/_inc/bar/top-bar.xml</include>
+	<include>${themePath}/_inc/bar/bottom-bar.xml</include>
 	<include>${themePath}/_inc/view/menu.xml</include>
 
 	<!-- All Views -->
