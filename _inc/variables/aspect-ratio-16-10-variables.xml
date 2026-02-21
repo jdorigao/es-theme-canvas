@@ -6,7 +6,6 @@
     <itemcount>3.5</itemcount>
     <itemsize>0.293 0.36</itemsize>
     <logospacing>1.2</logospacing>
-    <helpFontSize>0.024</helpFontSize>
     <gamelistBackgroundImageCalculated
       cache="true"
     >${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-small.webp</gamelistBackgroundImageCalculated>
@@ -29,7 +28,6 @@
     <itemcount>3</itemcount>
     <itemsize>0.34 0.46</itemsize>
     <logospacing>0.2</logospacing>
-    <helpFontSize>0.027</helpFontSize>
     <gamelistBackgroundImageCalculated
       cache="true"
     >${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp</gamelistBackgroundImageCalculated>
@@ -51,8 +49,7 @@
     <systemYearFontSize>0.042</systemYearFontSize>
     <itemcount>1.5</itemcount>
     <itemsize>0.44 0.54</itemsize>
-    <logospacing>-0.75</logospacing>
-    <helpFontSize>0.026</helpFontSize>
+    <logospacing>0.75</logospacing>
     <gamelistBackgroundImageCalculated
       cache="true"
     >${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-large.webp</gamelistBackgroundImageCalculated>

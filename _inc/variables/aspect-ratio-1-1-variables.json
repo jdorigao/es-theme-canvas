@@ -37,13 +37,6 @@
       }
     },
     {
-      "key": "helpFontSize",
-      "value": "0.024",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-small.webp",
       "filters": {
@@ -163,13 +156,6 @@
       }
     },
     {
-      "key": "helpFontSize",
-      "value": "0.028",
-      "filters": {
-        "ifSubset": "font-size:medium"
-      }
-    },
-    {
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp",
       "filters": {
@@ -284,13 +270,6 @@
     {
       "key": "logospacing",
       "value": "-0.75",
-      "filters": {
-        "ifSubset": "font-size:large"
-      }
-    },
-    {
-      "key": "helpFontSize",
-      "value": "0.037",
       "filters": {
         "ifSubset": "font-size:large"
       }

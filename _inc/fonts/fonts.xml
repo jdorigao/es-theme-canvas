@@ -8,5 +8,8 @@
 
 		<!-- Top bar -->
 		<topBarFontSize>0.025</topBarFontSize>
+
+		<!-- Bottom bar -->
+		<bottomBarFontSize>0.025</bottomBarFontSize>
 	</variables>
 </theme>

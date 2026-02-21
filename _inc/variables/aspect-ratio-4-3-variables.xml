@@ -6,8 +6,6 @@
     <itemcount>3.5</itemcount>
     <itemsize>0.293 0.36</itemsize>
     <logospacing>1.2</logospacing>
-    <helpFontSize>0.024</helpFontSize>
-    <helpFontSizeSmall>0.019</helpFontSizeSmall>
     <helpPosSmall>0.03</helpPosSmall>
     <gamelistBackgroundImageCalculated
       cache="true"
@@ -31,8 +29,6 @@
     <itemcount>3</itemcount>
     <itemsize>0.34 0.46</itemsize>
     <logospacing>0.2</logospacing>
-    <helpFontSize>0.026</helpFontSize>
-    <helpFontSizeSmall>0.019</helpFontSizeSmall>
     <helpPosSmall>0.03</helpPosSmall>
     <gamelistBackgroundImageCalculated
       cache="true"
@@ -56,8 +52,6 @@
     <itemcount>1.5</itemcount>
     <itemsize>0.44 0.54</itemsize>
     <logospacing>-0.75</logospacing>
-    <helpFontSize>0.026</helpFontSize>
-    <helpFontSizeSmall>0.019</helpFontSizeSmall>
     <helpPosSmall>0.03</helpPosSmall>
     <gamelistBackgroundImageCalculated
       cache="true"

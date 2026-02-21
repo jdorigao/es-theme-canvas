@@ -20,6 +20,10 @@
     {
       "key": "topBarFontSize",
       "value": "0.025"
+    },
+    {
+      "key": "bottomBarFontSize",
+      "value": "0.025"
     }
   ]
 }

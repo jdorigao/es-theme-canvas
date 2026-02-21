@@ -37,20 +37,6 @@
       }
     },
     {
-      "key": "helpFontSize",
-      "value": "0.024",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
-      "key": "helpFontSizeSmall",
-      "value": "0.019",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
       "key": "helpPosSmall",
       "value": "0.03",
       "filters": {
@@ -177,20 +163,6 @@
       }
     },
     {
-      "key": "helpFontSize",
-      "value": "0.026",
-      "filters": {
-        "ifSubset": "font-size:medium"
-      }
-    },
-    {
-      "key": "helpFontSizeSmall",
-      "value": "0.019",
-      "filters": {
-        "ifSubset": "font-size:medium"
-      }
-    },
-    {
       "key": "helpPosSmall",
       "value": "0.03",
       "filters": {
@@ -312,20 +284,6 @@
     {
       "key": "logospacing",
       "value": "-0.75",
-      "filters": {
-        "ifSubset": "font-size:large"
-      }
-    },
-    {
-      "key": "helpFontSize",
-      "value": "0.026",
-      "filters": {
-        "ifSubset": "font-size:large"
-      }
-    },
-    {
-      "key": "helpFontSizeSmall",
-      "value": "0.019",
       "filters": {
         "ifSubset": "font-size:large"
       }
