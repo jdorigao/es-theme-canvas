@@ -27,8 +27,8 @@
       <at25>${themePath}/_inc/images/battery/battery-icon-25.svg</at25>
       <empty>${themePath}/_inc/images/battery/battery-icon-0.svg</empty>
       <incharge>${themePath}/_inc/images/battery/battery-icon-charging.svg</incharge>
-      <networkIcon>${themePath}/_inc/images/network-icon-on.svg</networkIcon>
-      <planemodeIcon>${themePath}/_inc/images/network-icon-off.svg</planemodeIcon>
+      <networkIcon>${themePath}/_inc/images/network/network-icon-on.svg</networkIcon>
+      <planemodeIcon>${themePath}/_inc/images/network/network-icon-off.svg</planemodeIcon>
       <horizontalAlignment>center</horizontalAlignment>
     </batteryIndicator>
 
