@@ -3,19 +3,129 @@
   "nodes": [
     {
       "type": "view",
+      "name": "system",
+      "elements": [
+        {
+          "type": "image",
+          "name": "gamesicon",
+          "extra": true,
+          "props": [
+            {
+              "name": "pos",
+              "value": "0.03 0.02"
+            },
+            {
+              "name": "size",
+              "value": "${topBarFontSize} 0"
+            },
+            {
+              "name": "path",
+              "value": "${themePath}/_inc/images/gamescount.svg"
+            },
+            {
+              "name": "color",
+              "value": "${systemInfoColor}"
+            },
+            {
+              "name": "zIndex",
+              "value": "${zIcons}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "systemInfo",
+          "extra": true,
+          "props": [
+            {
+              "name": "pos",
+              "value": "0.07 0.02"
+            },
+            {
+              "name": "size",
+              "value": "0.3 ${topBarFontSize}"
+            },
+            {
+              "name": "alignment",
+              "value": "left"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontBold}"
+            },
+            {
+              "name": "zIndex",
+              "value": "${zText}"
+            },
+            {
+              "name": "color",
+              "value": "${systemInfoColor}"
+            },
+            {
+              "name": "fontSize",
+              "value": "${topBarFontSize}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "view",
       "name": "screen",
       "elements": [
+        {
+          "type": "text",
+          "name": "clock",
+          "props": [
+            {
+              "name": "origin",
+              "value": "0.5 0.01"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 0"
+            },
+            {
+              "name": "size",
+              "value": "0.15 ${topBarFontSize}"
+            },
+            {
+              "name": "alignment",
+              "value": "center"
+            },
+            {
+              "name": "color",
+              "value": "${systemInfoColor}"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontBold}"
+            },
+            {
+              "name": "fontSize",
+              "value": "${topBarFontSize}"
+            },
+            {
+              "name": "zIndex",
+              "value": "${zText}"
+            }
+          ]
+        },
         {
           "type": "controllerActivity",
           "name": "controllerActivity",
           "props": [
             {
               "name": "pos",
-              "value": "0.65 0.02"
+              "value": "0.735 0.02"
             },
             {
               "name": "size",
-              "value": "0.2 0.03"
+              "value": "0.15 ${topBarFontSize}"
+            },
+            {
+              "name": "horizontalAlignment",
+              "value": "right"
             },
             {
               "name": "itemSpacing",
@@ -43,15 +153,11 @@
             },
             {
               "name": "activityColor",
-              "value": "A0A0FFC0"
+              "value": "#A0A0FFC0"
             },
             {
               "name": "hotkeyColor",
-              "value": "FFA0A0C0"
-            },
-            {
-              "name": "horizontalAlignment",
-              "value": "right"
+              "value": "#FFA0A0C0"
             }
           ]
         },
@@ -60,20 +166,20 @@
           "name": "batteryIndicator",
           "props": [
             {
-              "name": "color",
-              "value": "${systemInfoColor}"
-            },
-            {
               "name": "pos",
-              "value": "0.9 0.012"
+              "value": "0.93 0.01"
             },
             {
               "name": "size",
               "value": "0.04 0.04"
             },
             {
-              "name": "zIndex",
-              "value": "${zIcons}"
+              "name": "verticalAlignment",
+              "value": "right"
+            },
+            {
+              "name": "color",
+              "value": "${systemInfoColor}"
             },
             {
               "name": "full",
@@ -101,145 +207,15 @@
             },
             {
               "name": "networkIcon",
-              "value": "${themePath}/_inc/images/network-icon-on.svg"
+              "value": "${themePath}/_inc/images/network/network-icon-on.svg"
             },
             {
               "name": "planemodeIcon",
               "value": "${themePath}/_inc/images/network/network-icon-off.svg"
             },
             {
-              "name": "horizontalAlignment",
-              "value": "center"
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "name": "clock",
-          "props": [
-            {
-              "name": "color",
-              "value": "${systemInfoColor}"
-            },
-            {
-              "name": "fontPath",
-              "value": "${fontBold}"
-            },
-            {
-              "name": "fontSize",
-              "value": "${systemInfoFont}"
-            },
-            {
-              "name": "lineSpacing",
-              "value": "1"
-            },
-            {
-              "name": "pos",
-              "value": "0.5 0.04"
-            },
-            {
-              "name": "origin",
-              "value": "0.5 0.5"
-            },
-            {
-              "name": "size",
-              "value": "0 ${systemInfoFont}"
-            },
-            {
-              "name": "alignment",
-              "value": "center"
-            },
-            {
-              "name": "verticalAlignment",
-              "value": "center"
-            },
-            {
-              "name": "zIndex",
-              "value": "${zText}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "view",
-      "name": "system",
-      "elements": [
-        {
-          "type": "image",
-          "name": "gamesicon",
-          "extra": true,
-          "props": [
-            {
-              "name": "pos",
-              "value": "0.075 0.05"
-            },
-            {
-              "name": "size",
-              "value": "0 ${systemInfoFontSize}"
-            },
-            {
-              "name": "origin",
-              "value": "1 0.5"
-            },
-            {
-              "name": "path",
-              "value": "${themePath}/_inc/images/gamescount.svg"
-            },
-            {
-              "name": "color",
-              "value": "${systemInfoColor}"
-            },
-            {
-              "name": "opacity",
-              "value": "${highOpacity}"
-            },
-            {
               "name": "zIndex",
               "value": "${zIcons}"
-            },
-            {
-              "name": "visible",
-              "value": "true"
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "name": "systemInfo",
-          "extra": true,
-          "props": [
-            {
-              "name": "origin",
-              "value": "0 0.5"
-            },
-            {
-              "name": "pos",
-              "value": "0.085 0.05"
-            },
-            {
-              "name": "fontPath",
-              "value": "${fontBold}"
-            },
-            {
-              "name": "zIndex",
-              "value": "${zText}"
-            },
-            {
-              "name": "color",
-              "value": "${systemInfoColor}"
-            },
-            {
-              "name": "size",
-              "value": "0 ${systemInfoFont}"
-            },
-            {
-              "name": "fontSize",
-              "value": "${systemInfoFont}"
-            },
-            {
-              "name": "alignment",
-              "value": "left"
             }
           ]
         }

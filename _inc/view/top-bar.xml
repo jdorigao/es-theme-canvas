@@ -1,26 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <theme>
   <!-- Top Bar Elements -->
+  <view name="system">
+    <image name="gamesicon" extra="true">
+      <pos>0.03 0.02</pos>
+      <size>${topBarFontSize} 0</size>
+      <path>${themePath}/_inc/images/gamescount.svg</path>
+      <color>${systemInfoColor}</color>
+      <zIndex>${zIcons}</zIndex>
+    </image>
+
+    <text name="systemInfo" extra="true">
+      <pos>0.07 0.02</pos>
+      <size>0.3 ${topBarFontSize}</size>
+      <alignment>left</alignment>
+      <fontPath>${fontBold}</fontPath>
+      <zIndex>${zText}</zIndex>
+      <color>${systemInfoColor}</color>
+      <fontSize>${topBarFontSize}</fontSize>
+    </text>
+  </view>
+
   <view name="screen">
+    <text name="clock">
+      <origin>0.5 0.01</origin>
+      <pos>0.5 0</pos>
+      <size>0.15 ${topBarFontSize}</size>
+      <alignment>center</alignment>
+      <color>${systemInfoColor}</color>
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>${topBarFontSize}</fontSize>
+      <zIndex>${zText}</zIndex>
+    </text>
+
     <controllerActivity name="controllerActivity">
-      <pos>0.65 0.02</pos>
-      <size>0.2 0.03</size>
+      <pos>0.735 0.02</pos>
+      <size>0.15 ${topBarFontSize}</size>
+      <horizontalAlignment>right</horizontalAlignment>
       <itemSpacing>0.003</itemSpacing>
       <color>${systemInfoColor}</color>
       <zIndex>${zIcons}</zIndex>
       <imagePath>${themePath}/_inc/images/gamepad.svg</imagePath>
       <gunPath>${themePath}/_inc/images/gun.svg</gunPath>
       <wheelPath>${themePath}/_inc/images/wheel.svg</wheelPath>
-      <activityColor>A0A0FFC0</activityColor>
-      <hotkeyColor>FFA0A0C0</hotkeyColor>
-      <horizontalAlignment>right</horizontalAlignment>
+      <activityColor>#A0A0FFC0</activityColor>
+      <hotkeyColor>#FFA0A0C0</hotkeyColor>
     </controllerActivity>
 
     <batteryIndicator name="batteryIndicator">
-      <color>${systemInfoColor}</color>
-      <pos>0.9 0.012</pos>
+      <pos>0.93 0.01</pos>
       <size>0.04 0.04</size>
-      <zIndex>${zIcons}</zIndex>
+      <verticalAlignment>right</verticalAlignment>
+      <color>${systemInfoColor}</color>
       <full>${themePath}/_inc/images/battery/battery-icon-100.svg</full>
       <at75>${themePath}/_inc/images/battery/battery-icon-75.svg</at75>
       <at50>${themePath}/_inc/images/battery/battery-icon-50.svg</at50>
@@ -29,44 +60,7 @@
       <incharge>${themePath}/_inc/images/battery/battery-icon-charging.svg</incharge>
       <networkIcon>${themePath}/_inc/images/network/network-icon-on.svg</networkIcon>
       <planemodeIcon>${themePath}/_inc/images/network/network-icon-off.svg</planemodeIcon>
-      <horizontalAlignment>center</horizontalAlignment>
-    </batteryIndicator>
-
-    <text name="clock">
-      <color>${systemInfoColor}</color>
-      <fontPath>${fontBold}</fontPath>
-      <fontSize>${systemInfoFont}</fontSize>
-      <lineSpacing>1</lineSpacing>
-      <pos>0.5 0.04</pos>
-      <origin>0.5 0.5</origin>
-      <size>0 ${systemInfoFont}</size>
-      <alignment>center</alignment>
-      <verticalAlignment>center</verticalAlignment>
-      <zIndex>${zText}</zIndex>
-    </text>
-  </view>
-
-  <view name="system">
-    <image name="gamesicon" extra="true">
-      <pos>0.075 0.05</pos>
-      <size>0 ${systemInfoFontSize}</size>
-      <origin>1 0.5</origin>
-      <path>${themePath}/_inc/images/gamescount.svg</path>
-      <color>${systemInfoColor}</color>
-      <opacity>${highOpacity}</opacity>
       <zIndex>${zIcons}</zIndex>
-      <visible>true</visible>
-    </image>
-
-    <text name="systemInfo" extra="true">
-      <origin>0 0.5</origin>
-      <pos>0.085 0.05</pos>
-      <fontPath>${fontBold}</fontPath>
-      <zIndex>${zText}</zIndex>
-      <color>${systemInfoColor}</color>
-      <size>0 ${systemInfoFont}</size>
-      <fontSize>${systemInfoFont}</fontSize>
-      <alignment>left</alignment>
-		</text>
-	</view>
+    </batteryIndicator>
+  </view>
 </theme>

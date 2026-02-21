@@ -70,8 +70,6 @@
   </variables>
 
   <variables>
-    <systemInfoFontSize>0.036</systemInfoFontSize>
-    <indicatorFontSize>0.036</indicatorFontSize>
     <helpPos>0.97</helpPos>
     <CornersGrid>10</CornersGrid>
     <CornersSmall>20</CornersSmall>
