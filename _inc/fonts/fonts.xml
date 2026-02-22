@@ -18,8 +18,8 @@
     <bottomBarFontSize>0.025</bottomBarFontSize>
 
     <!-- System View Font Sizes (Grid/Carousel) - Default (medium) -->
-    <systemDescriptionFontSize>0.042</systemDescriptionFontSize>
-    <systemYearFontSize>0.042</systemYearFontSize>
+    <systemDescriptionFontSize>0.03</systemDescriptionFontSize>
+    <systemYearFontSize>0.03</systemYearFontSize>
 
     <!-- Game View Font Sizes - Default (medium, 16:9|16:10|1:1) -->
     <gamelistFontSize>0.031</gamelistFontSize>

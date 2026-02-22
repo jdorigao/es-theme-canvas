@@ -69,21 +69,21 @@
 
         <text name="systemyear" alignment="center" multiLine="true">
           <origin>0.5 0</origin>
-          <pos>0.5 0.75</pos>
+          <pos>0.5 0.78</pos>
           <size>0.5 0.2</size>
           <forceUppercase>true</forceUppercase>
           <text>{system:releaseYear}</text>
           <fontSize>${systemDescriptionFontSize}</fontSize>
-          <fontPath>${fontBold}</fontPath>
+          <fontPath>${fontRegular}</fontPath>
           <color>${systemInfoColor}</color>
           <scale>1</scale>
           <zIndex>${zText}</zIndex>
         </text>
 
         <text name="fallbackText" alignment="center" multiLine="true">
-          <origin>0 0.5</origin>
-          <pos>0 0.72</pos>
-          <size>1 1</size>
+          <origin>0.5 0.5</origin>
+          <pos>0.5 0.72</pos>
+          <size>0.6 0.2</size>
           <forceUppercase>true</forceUppercase>
           <visible>!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
           <text>{system:fullName}</text>
@@ -154,9 +154,9 @@
         </image>
 
         <text name="fallbackText" alignment="center" multiLine="true">
-          <origin>0 0.5</origin>
-          <pos>0 0.88</pos>
-          <size>1 1</size>
+          <origin>0.5 0.5</origin>
+          <pos>0.5 0.88</pos>
+          <size>0.5 0.2</size>
           <forceUppercase>true</forceUppercase>
           <visible>!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
           <text>{system:fullName}</text>

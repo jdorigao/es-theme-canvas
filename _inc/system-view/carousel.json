@@ -245,7 +245,7 @@
                     },
                     {
                       "name": "pos",
-                      "value": "0.5 0.75"
+                      "value": "0.5 0.78"
                     },
                     {
                       "name": "size",
@@ -265,7 +265,7 @@
                     },
                     {
                       "name": "fontPath",
-                      "value": "${fontBold}"
+                      "value": "${fontRegular}"
                     },
                     {
                       "name": "color",
@@ -295,15 +295,15 @@
                     },
                     {
                       "name": "origin",
-                      "value": "0 0.5"
+                      "value": "0.5 0.5"
                     },
                     {
                       "name": "pos",
-                      "value": "0 0.72"
+                      "value": "0.5 0.72"
                     },
                     {
                       "name": "size",
-                      "value": "1 1"
+                      "value": "0.6 0.2"
                     },
                     {
                       "name": "forceUppercase",
@@ -604,15 +604,15 @@
                     },
                     {
                       "name": "origin",
-                      "value": "0 0.5"
+                      "value": "0.5 0.5"
                     },
                     {
                       "name": "pos",
-                      "value": "0 0.88"
+                      "value": "0.5 0.88"
                     },
                     {
                       "name": "size",
-                      "value": "1 1"
+                      "value": "0.5 0.2"
                     },
                     {
                       "name": "forceUppercase",
