@@ -1,5 +1,4 @@
 {
-  "defaultTransition": "instant",
   "formatVersion": 7.0,
   "nodes": [
     {
@@ -163,13 +162,13 @@
                   "type": "image",
                   "name": "systemBack",
                   "extra": true,
+                  "filters": {
+                    "ifSubset": "icon-scheme:icon"
+                  },
                   "props": [
                     {
                       "name": "path",
-                      "value": "firstfile(\"${themePath}/_inc/systems/carousel-icons-icons/\" + {system:theme} + \".webp\",\"${themePath}/_inc/systems/carousel-icons-icons/_default.webp\")",
-                      "filters": {
-                        "ifSubset": "icon-scheme:icon"
-                      }
+                      "value": "firstfile(\"${themePath}/_inc/systems/carousel-icons-icons/\" + {system:theme} + \".webp\",\"${themePath}/_inc/systems/carousel-icons-icons/_default.webp\")"
                     },
                     {
                       "name": "pos",
@@ -450,13 +449,13 @@
                   "type": "image",
                   "name": "systemBack",
                   "extra": true,
+                  "filters": {
+                    "ifSubset": "icon-scheme:art"
+                  },
                   "props": [
                     {
                       "name": "path",
-                      "value": "firstfile(\"${themePath}/_inc/systems/carousel-icons-art/\" + {system:theme} + \".webp\",\"${themePath}/_inc/systems/carousel-icons-art/_default.webp\")",
-                      "filters": {
-                        "ifSubset": "icon-scheme:art"
-                      }
+                      "value": "firstfile(\"${themePath}/_inc/systems/carousel-icons-art/\" + {system:theme} + \".webp\",\"${themePath}/_inc/systems/carousel-icons-art/_default.webp\")"
                     },
                     {
                       "name": "pos",
