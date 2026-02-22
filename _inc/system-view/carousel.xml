@@ -93,7 +93,7 @@
           <zIndex>${zText}</zIndex>
         </text>
 
-        <image name="theLogoImage" pos="0.5 0.8" origin="0.5 1" maxSize="0.45 0.20" linearSmooth="true">
+        <image name="theLogoImage" pos="0.5 0.8" origin="0.5 1" maxSize="0.45 0.20" linearSmooth="true" extra="true">
           <path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
           <zIndex>${zIcons}</zIndex>
           <color>${systemInfoColor}</color>
@@ -145,7 +145,7 @@
           <zIndex>${zText}</zIndex>
         </text>
 
-        <image name="theLogoImage" pos="0.5 0.92" origin="0.5 0.75" maxSize="0.6 0.16" linearSmooth="true">
+        <image name="theLogoImage" pos="0.5 0.92" origin="0.5 0.75" maxSize="0.6 0.16" linearSmooth="true" extra="true">
           <path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
           <zIndex>${zIcons}</zIndex>
           <color>${systemInfoColor}</color>
