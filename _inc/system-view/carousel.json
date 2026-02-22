@@ -261,7 +261,7 @@
                     },
                     {
                       "name": "fontSize",
-                      "value": "${systemDescriptionFontSize}"
+                      "value": "${systemYearFontSize}"
                     },
                     {
                       "name": "fontPath",
@@ -540,7 +540,7 @@
                     },
                     {
                       "name": "fontPath",
-                      "value": "${fontBold}"
+                      "value": "${fontRegular}"
                     },
                     {
                       "name": "color",

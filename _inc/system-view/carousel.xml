@@ -73,7 +73,7 @@
           <size>0.5 0.2</size>
           <forceUppercase>true</forceUppercase>
           <text>{system:releaseYear}</text>
-          <fontSize>${systemDescriptionFontSize}</fontSize>
+          <fontSize>${systemYearFontSize}</fontSize>
           <fontPath>${fontRegular}</fontPath>
           <color>${systemInfoColor}</color>
           <scale>1</scale>
@@ -141,7 +141,7 @@
           <forceUppercase>true</forceUppercase>
           <text>{system:releaseYear}</text>
           <fontSize>${systemYearFontSize}</fontSize>
-          <fontPath>${fontBold}</fontPath>
+          <fontPath>${fontRegular}</fontPath>
           <color>${systemInfoColor}</color>
           <scale>1</scale>
           <zIndex>${zText}</zIndex>
