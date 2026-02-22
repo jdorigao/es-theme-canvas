@@ -24,6 +24,26 @@
     {
       "key": "bottomBarFontSize",
       "value": "0.025"
+    },
+    {
+      "key": "systemDescriptionFontSize",
+      "value": "0.042"
+    },
+    {
+      "key": "systemYearFontSize",
+      "value": "0.042"
+    },
+    {
+      "key": "gamelistFontSize",
+      "value": "0.031"
+    },
+    {
+      "key": "metaDatafontSize",
+      "value": "0.035"
+    },
+    {
+      "key": "descriptionFontSize",
+      "value": "0.031"
     }
   ]
 }

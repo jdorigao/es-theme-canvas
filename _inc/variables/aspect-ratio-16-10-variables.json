@@ -2,20 +2,6 @@
   "formatVersion": 7.0,
   "variables": [
     {
-      "key": "systemDescriptionFontSize",
-      "value": "0.042",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
-      "key": "systemYearFontSize",
-      "value": "0.042",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
       "key": "itemcount",
       "value": "3.5",
       "filters": {
@@ -39,13 +25,6 @@
     {
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-small.webp",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
-      "key": "gamelistFontSize",
-      "value": "0.026",
       "filters": {
         "ifSubset": "font-size:small"
       }
@@ -79,13 +58,6 @@
       }
     },
     {
-      "key": "metaDatafontSize",
-      "value": "0.029",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
       "key": "descriptionPos",
       "value": "0.685",
       "filters": {
@@ -95,13 +67,6 @@
     {
       "key": "descriptionHeight",
       "value": "0.135",
-      "filters": {
-        "ifSubset": "font-size:small"
-      }
-    },
-    {
-      "key": "descriptionFontSize",
-      "value": "0.029",
       "filters": {
         "ifSubset": "font-size:small"
       }
@@ -118,20 +83,6 @@
       "value": "17",
       "filters": {
         "ifSubset": "font-size:small"
-      }
-    },
-    {
-      "key": "systemDescriptionFontSize",
-      "value": "0.042",
-      "filters": {
-        "ifSubset": "font-size:medium"
-      }
-    },
-    {
-      "key": "systemYearFontSize",
-      "value": "0.042",
-      "filters": {
-        "ifSubset": "font-size:medium"
       }
     },
     {
@@ -158,13 +109,6 @@
     {
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp",
-      "filters": {
-        "ifSubset": "font-size:medium"
-      }
-    },
-    {
-      "key": "gamelistFontSize",
-      "value": "0.031",
       "filters": {
         "ifSubset": "font-size:medium"
       }
@@ -198,13 +142,6 @@
       }
     },
     {
-      "key": "metaDatafontSize",
-      "value": "0.035",
-      "filters": {
-        "ifSubset": "font-size:medium"
-      }
-    },
-    {
       "key": "descriptionPos",
       "value": "0.656",
       "filters": {
@@ -214,13 +151,6 @@
     {
       "key": "descriptionHeight",
       "value": "0.165",
-      "filters": {
-        "ifSubset": "font-size:medium"
-      }
-    },
-    {
-      "key": "descriptionFontSize",
-      "value": "0.031",
       "filters": {
         "ifSubset": "font-size:medium"
       }
@@ -237,20 +167,6 @@
       "value": "13",
       "filters": {
         "ifSubset": "font-size:medium"
-      }
-    },
-    {
-      "key": "systemDescriptionFontSize",
-      "value": "0.049",
-      "filters": {
-        "ifSubset": "font-size:large"
-      }
-    },
-    {
-      "key": "systemYearFontSize",
-      "value": "0.042",
-      "filters": {
-        "ifSubset": "font-size:large"
       }
     },
     {
@@ -277,13 +193,6 @@
     {
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-large.webp",
-      "filters": {
-        "ifSubset": "font-size:large"
-      }
-    },
-    {
-      "key": "gamelistFontSize",
-      "value": "0.037",
       "filters": {
         "ifSubset": "font-size:large"
       }
@@ -317,13 +226,6 @@
       }
     },
     {
-      "key": "metaDatafontSize",
-      "value": "0.044",
-      "filters": {
-        "ifSubset": "font-size:large"
-      }
-    },
-    {
       "key": "descriptionPos",
       "value": "0.656",
       "filters": {
@@ -333,13 +235,6 @@
     {
       "key": "descriptionHeight",
       "value": "0.165",
-      "filters": {
-        "ifSubset": "font-size:large"
-      }
-    },
-    {
-      "key": "descriptionFontSize",
-      "value": "0.036",
       "filters": {
         "ifSubset": "font-size:large"
       }
