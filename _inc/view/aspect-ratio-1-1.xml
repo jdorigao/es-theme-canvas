@@ -104,22 +104,22 @@
 					</image>
 
 					<image name="systemBack" extra="true">
-						<path ifSubset="icon-scheme:icon">${themePath}/_inc/systems/carousel-icons-icons/{system:theme}.webp</path>
-						<path ifSubset="icon-scheme:art">${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp</path>
+						<path
+              ifSubset="icon-scheme:icon"
+            >firstfile("${themePath}/_inc/systems/carousel-icons-icons/${system:theme}.webp", "${themePath}/_inc/systems/carousel-icons-icons/_default.webp")</path>
+						<path
+              ifSubset="icon-scheme:art"
+            >firstfile("${themePath}/_inc/systems/carousel-icons-art/${system:theme}.webp", "${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
 						<pos>0.5 0.45</pos>
 						<origin>0.5</origin>
 						<maxSize>0.8 0.9</maxSize>
 						<scale>1</scale>
-					</image>
-
-					<image name="systemBack" extra="true">
 						<opacity>${mediumOpacity}</opacity>
 						<linearSmooth>true</linearSmooth>
 						<zIndex>${zBackgroundArt}</zIndex>
 						<storyboard event="activate">
 						  <animation property="opacity" to="1.00" duration="250" mode="easeOut" />
 						</storyboard>
-
 						<storyboard event="deactivate">
 						  <animation property="opacity" to=".90" duration="250" mode="easeOut" />
 						</storyboard>
@@ -137,7 +137,6 @@
 							<pos>0 0.5</pos>
 							<size>1 1</size>
 							<forceUppercase>true</forceUppercase>
-							<visible>false</visible>
 							<visible>!exists("${themePath}/_inc/systems/carousel-icons-icons/" + {system:theme} + ".webp")</visible>
 							<text>{system:fullName}</text>
 							<fontSize>${systemDescriptionFontSize}</fontSize>
@@ -219,14 +218,11 @@
 					<opacity>${mediumOpacity}</opacity>
 					<linearSmooth>true</linearSmooth>
 					<zIndex>${zIcons}</zIndex>
-				</image>
-
-				<image name="systemBack" extra="true">
 					<storyboard event="activate">
-					<animation property="opacity" to="1.00" duration="250" mode="easeOut" />
+						<animation property="opacity" to="1.00" duration="250" mode="easeOut" />
 					</storyboard>
 					<storyboard event="deactivate">
-					<animation property="opacity" to=".90" duration="250" mode="easeOut" />
+						<animation property="opacity" to=".90" duration="250" mode="easeOut" />
 					</storyboard>
 				</image>
 
@@ -248,7 +244,6 @@
 					<pos>0 1</pos>
 					<size>1 1</size>
 					<forceUppercase>true</forceUppercase>
-					<visible>false</visible>
 					<text>{system:fullName}</text>
 					<fontSize>${systemDescriptionFontSize}</fontSize>
 					<fontPath>${fontBold}</fontPath>
@@ -312,7 +307,7 @@
 	<!-- Grid View Extended-->
 	<view name="grid" ifSubset="font-size:small,metadata:on">
 		<!-- Metadata Toggle-->
-		<video name="md_video,">
+		<video name="md_video">
 			<visible>false</visible>
 		</video>
 
@@ -678,7 +673,7 @@
 	<!-- Detailed Grid View-->
 	<!-- Detailed Grid- Small Metadata -->
 	<view name="grid" ifSubset="metadata:off">
-    <video name="md_video,">
+    <video name="md_video">
       <visible>false</visible>
     </video>
 

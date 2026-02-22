@@ -332,14 +332,14 @@
                       "props": [
                         {
                           "name": "path",
-                          "value": "${themePath}/_inc/systems/carousel-icons-icons/{system:theme}.webp",
+                          "value": "firstfile(\"${themePath}/_inc/systems/carousel-icons-icons/${system:theme}.webp\", \"${themePath}/_inc/systems/carousel-icons-icons/_default.webp\")",
                           "filters": {
                             "ifSubset": "icon-scheme:icon"
                           }
                         },
                         {
                           "name": "path",
-                          "value": "${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp",
+                          "value": "firstfile(\"${themePath}/_inc/systems/carousel-icons-art/${system:theme}.webp\", \"${themePath}/_inc/systems/carousel-icons-art/_default.webp\")",
                           "filters": {
                             "ifSubset": "icon-scheme:art"
                           }
@@ -359,14 +359,7 @@
                         {
                           "name": "scale",
                           "value": "1"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "image",
-                      "name": "systemBack",
-                      "extra": true,
-                      "props": [
+                        },
                         {
                           "name": "opacity",
                           "value": "${mediumOpacity}"
@@ -482,10 +475,6 @@
                             {
                               "name": "forceUppercase",
                               "value": "true"
-                            },
-                            {
-                              "name": "visible",
-                              "value": "false"
                             },
                             {
                               "name": "visible",
@@ -768,12 +757,7 @@
                       "name": "zIndex",
                       "value": "${zIcons}"
                     }
-                  ]
-                },
-                {
-                  "type": "image",
-                  "name": "systemBack",
-                  "extra": true,
+                  ],
                   "children": [
                     {
                       "type": "storyboard",
@@ -882,10 +866,6 @@
                     {
                       "name": "forceUppercase",
                       "value": "true"
-                    },
-                    {
-                      "name": "visible",
-                      "value": "false"
                     },
                     {
                       "name": "text",
@@ -1094,7 +1074,7 @@
       "elements": [
         {
           "type": "video",
-          "name": "md_video,",
+          "name": "md_video",
           "props": [
             {
               "name": "visible",
@@ -2199,7 +2179,7 @@
       "elements": [
         {
           "type": "video",
-          "name": "md_video,",
+          "name": "md_video",
           "props": [
             {
               "name": "visible",

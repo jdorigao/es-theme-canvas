@@ -623,7 +623,7 @@
             },
             {
               "name": "autoScrollDelay",
-              "value": "500000"
+              "value": "5000"
             },
             {
               "name": "zIndex",

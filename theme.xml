@@ -180,7 +180,7 @@ License: Creative Commons CC-BY-NC-SA
 			<color>${gameMetadataColor}</color>
 			<autoScroll>horizontal</autoScroll>
 			<autoScrollSpeed>50</autoScrollSpeed>
-			<autoScrollDelay>500000</autoScrollDelay>
+			<autoScrollDelay>5000</autoScrollDelay>
 			<zIndex>${zMetadata}</zIndex>
 		</text>
 

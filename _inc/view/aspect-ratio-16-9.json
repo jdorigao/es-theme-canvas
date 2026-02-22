@@ -169,7 +169,7 @@
       "elements": [
         {
           "type": "video",
-          "name": "md_video,",
+          "name": "md_video",
           "props": [
             {
               "name": "visible",
@@ -430,7 +430,7 @@
       "elements": [
         {
           "type": "video",
-          "name": "md_video,",
+          "name": "md_video",
           "props": [
             {
               "name": "visible",
@@ -1274,7 +1274,7 @@
       "elements": [
         {
           "type": "video",
-          "name": "md_video,",
+          "name": "md_video",
           "props": [
             {
               "name": "visible",
