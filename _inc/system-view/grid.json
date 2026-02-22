@@ -144,6 +144,30 @@
               "type": "itemTemplate",
               "children": [
                 {
+                  "type": "storyboard",
+                  "event": "activate",
+                  "animations": [
+                    {
+                      "property": "scale",
+                      "to": "1.05",
+                      "duration": "150",
+                      "mode": "easeOut"
+                    }
+                  ]
+                },
+                {
+                  "type": "storyboard",
+                  "event": "deactivate",
+                  "animations": [
+                    {
+                      "property": "scale",
+                      "to": true,
+                      "duration": "250",
+                      "mode": "easeOut"
+                    }
+                  ]
+                },
+                {
                   "type": "container",
                   "filters": {
                     "ifSubset": "icon-scheme:icon"
@@ -159,30 +183,6 @@
                     }
                   ],
                   "children": [
-                    {
-                      "type": "storyboard",
-                      "event": "activate",
-                      "animations": [
-                        {
-                          "property": "scale",
-                          "to": "1.05",
-                          "duration": "150",
-                          "mode": "easeOut"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "storyboard",
-                      "event": "deactivate",
-                      "animations": [
-                        {
-                          "property": "scale",
-                          "to": true,
-                          "duration": "250",
-                          "mode": "easeOut"
-                        }
-                      ]
-                    },
                     {
                       "type": "image",
                       "name": "selector",
@@ -496,7 +496,7 @@
                             },
                             {
                               "name": "zIndex",
-                              "value": "5"
+                              "value": "${zText}"
                             }
                           ]
                         },
@@ -543,37 +543,13 @@
                   ],
                   "children": [
                     {
-                      "type": "storyboard",
-                      "event": "activate",
-                      "animations": [
-                        {
-                          "property": "scale",
-                          "to": "1.05",
-                          "duration": "150",
-                          "mode": "easeOut"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "storyboard",
-                      "event": "deactivate",
-                      "animations": [
-                        {
-                          "property": "scale",
-                          "to": true,
-                          "duration": "250",
-                          "mode": "easeOut"
-                        }
-                      ]
-                    },
-                    {
                       "type": "image",
                       "name": "selector",
                       "extra": true,
                       "props": [
                         {
                           "name": "path",
-                          "value": "{themePath}/_inc/images/square.webp"
+                          "value": "${themePath}/_inc/images/square.webp"
                         },
                         {
                           "name": "pos",
@@ -810,10 +786,6 @@
                         },
                         {
                           "name": "visible",
-                          "value": "false"
-                        },
-                        {
-                          "name": "visible",
                           "value": "!exists(\"${themePath}/_inc/systems/logos/\" + {system:theme} + \".svg\")"
                         },
                         {
@@ -838,7 +810,7 @@
                         },
                         {
                           "name": "zIndex",
-                          "value": "10"
+                          "value": "${zText}"
                         }
                       ]
                     },

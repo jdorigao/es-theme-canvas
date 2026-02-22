@@ -31,18 +31,17 @@
       <padding>0 0 0 0</padding>
 
       <itemTemplate>
+        <storyboard event="activate">
+          <animation property="scale" to="1.05" duration="150" mode="easeOut" />
+        </storyboard>
+        <storyboard event="deactivate">
+          <animation property="scale" to="1" duration="250" mode="easeOut" />
+        </storyboard>
+
         <!-- System View: Grid (Icons)-->
         <container ifSubset="icon-scheme:icon">
           <scale>1</scale>
           <padding>10 10 10 10</padding>
-
-          <storyboard event="activate">
-            <animation property="scale" to="1.05" duration="150" mode="easeOut" />
-          </storyboard>
-
-          <storyboard event="deactivate">
-            <animation property="scale" to="1" duration="250" mode="easeOut" />
-          </storyboard>
 
           <image name="selector" extra="true">
             <path>${themePath}/_inc/images/4-5.webp</path>
@@ -134,7 +133,7 @@
               <fontPath>${fontBold}</fontPath>
               <color>${systemInfoColor}</color>
               <scale>1</scale>
-              <zIndex>5</zIndex>
+              <zIndex>${zText}</zIndex>
             </text>
 
             <opacity>${mediumOpacity}</opacity>
@@ -153,15 +152,9 @@
         <container ifSubset="icon-scheme:art|custom-art">
           <padding>0 0 0 0</padding>
           <scale>1</scale>
-          <storyboard event="activate">
-            <animation property="scale" to="1.05" duration="150" mode="easeOut" />
-          </storyboard>
-          <storyboard event="deactivate">
-            <animation property="scale" to="1" duration="250" mode="easeOut" />
-          </storyboard>
 
           <image name="selector" extra="true">
-            <path>{themePath}/_inc/images/square.webp</path>
+            <path>${themePath}/_inc/images/square.webp</path>
             <pos>0.5 0.74</pos>
             <origin>0.5 1</origin>
             <maxSize>0.77 0.67</maxSize>
@@ -202,14 +195,14 @@
             <zIndex>${zUI}</zIndex>
           </image>
           <image name="systemBack" extra="true">
-          <path
+            <path
               ifSubset="icon-scheme:art"
             >firstfile("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
             <pos>0.5 0.73</pos>
             <origin>0.5 1</origin>
             <maxSize>0.75 0.65</maxSize>
-     	      <scale>1</scale>
-     	      <roundCorners>${CornersSmall}</roundCorners>
+            <scale>1</scale>
+            <roundCorners>${CornersSmall}</roundCorners>
             <opacity>${mediumOpacity}</opacity>
             <linearSmooth>true</linearSmooth>
             <zIndex>${zUI}</zIndex>
@@ -233,14 +226,13 @@
             <pos>0 0.82</pos>
             <size>1 1</size>
             <forceUppercase>true</forceUppercase>
-            <visible>false</visible>
             <visible>!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
             <text>{system:fullName}</text>
             <fontSize>${systemDescriptionFontSize}</fontSize>
             <fontPath>${fontBold}</fontPath>
             <color>${systemInfoColor}</color>
             <scale>1</scale>
-            <zIndex>10</zIndex>
+            <zIndex>${zText}</zIndex>
          	</text>
           <container padding="0">
             <opacity>${mediumOpacity}</opacity>
