@@ -81,6 +81,13 @@ License: Creative Commons CC-BY-NC-SA
 		<include name="playtime" displayName="Playtime" />
 	</subset>
 
+	<!-- Subset: Transition Style -->
+	<subset name="transition-style" displayName="Transition Style">
+		<include name="instant" displayName="Instant" />
+		<include name="fade" displayName="Fade" />
+		<include name="slide" displayName="Slide" />
+	</subset>
+
 	<!-- Aspect Ratios Variables -->
 	<include ifSubset="aspect-ratio:16-9|16-9-auto">${themePath}/_inc/variables/aspect-ratio-16-9-variables.xml</include>
 	<include ifSubset="aspect-ratio:16-10|16-10-auto">${themePath}/_inc/variables/aspect-ratio-16-10-variables.xml</include>

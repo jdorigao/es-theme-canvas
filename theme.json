@@ -266,6 +266,28 @@
       ]
     },
     {
+      "type": "subset",
+      "name": "transition-style",
+      "displayName": "Transition Style",
+      "nodes": [
+        {
+          "type": "include",
+          "name": "instant",
+          "displayName": "Instant"
+        },
+        {
+          "type": "include",
+          "name": "fade",
+          "displayName": "Fade"
+        },
+        {
+          "type": "include",
+          "name": "slide",
+          "displayName": "Slide"
+        }
+      ]
+    },
+    {
       "type": "include",
       "path": "${themePath}/_inc/variables/aspect-ratio-16-9-variables.json",
       "filters": {

@@ -173,7 +173,7 @@
 			<scaledLogoSpacing>${logospacing}</scaledLogoSpacing>
 			<minLogoOpacity>${highOpacity}</minLogoOpacity>
 			<logoAlignment>center</logoAlignment>
-			<defaultTransition>instant</defaultTransition>
+			<defaultTransition>${transitionType}</defaultTransition>
 			<linearSmooth>true</linearSmooth>
 
 			<!-- System View: Carousel (Icon)-->

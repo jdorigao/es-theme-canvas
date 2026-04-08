@@ -56,6 +56,27 @@
     {
       "key": "highOpacity",
       "value": "1.0"
+    },
+    {
+      "key": "transitionType",
+      "value": "instant",
+      "filters": {
+        "ifSubset": "transition-style:instant"
+      }
+    },
+    {
+      "key": "transitionType",
+      "value": "fade",
+      "filters": {
+        "ifSubset": "transition-style:fade"
+      }
+    },
+    {
+      "key": "transitionType",
+      "value": "slide",
+      "filters": {
+        "ifSubset": "transition-style:slide"
+      }
     }
   ]
 }

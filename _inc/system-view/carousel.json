@@ -58,7 +58,7 @@
             },
             {
               "name": "defaultTransition",
-              "value": "instant"
+              "value": "${transitionType}"
             }
           ],
           "children": [

@@ -17,7 +17,7 @@
       <scaledLogoSpacing>${logospacing}</scaledLogoSpacing>
       <minLogoOpacity>${mediumOpacity}</minLogoOpacity>
       <logoAlignment>center</logoAlignment>
-      <defaultTransition>instant</defaultTransition>
+      <defaultTransition>${transitionType}</defaultTransition>
 
       <!-- System View: Carousel (Icon)-->
       <itemTemplate ifSubset="icon-scheme:icon">
