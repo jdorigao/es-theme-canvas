@@ -148,6 +148,24 @@
           ]
         },
         {
+          "type": "menuButton",
+          "name": "menubutton",
+          "props": [
+            {
+              "name": "path",
+              "value": "${themePath}/_inc/images/menu/button.png"
+            },
+            {
+              "name": "filledPath",
+              "value": "${themePath}/_inc/images/menu/button_filled.png"
+            },
+            {
+              "name": "cornerSize",
+              "value": "20 20"
+            }
+          ]
+        },
+        {
           "type": "menuIcons",
           "name": "menuicons",
           "props": [

@@ -48,6 +48,12 @@
       <cornerSize>20 20</cornerSize>
     </menuBackground>
 
+    <menuButton name="menubutton">
+      <path>${themePath}/_inc/images/menu/button.png</path>
+      <filledPath>${themePath}/_inc/images/menu/button_filled.png</filledPath>
+      <cornerSize>20 20</cornerSize>
+    </menuButton>
+
     <menuIcons name="menuicons">
       <iconSystem>${themePath}/_inc/images/menu/System.png</iconSystem>
       <iconUpdates>${themePath}/_inc/images/menu/Updates.png</iconUpdates>
