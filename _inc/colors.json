@@ -850,7 +850,7 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "5a421d",
+      "value": "513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
@@ -864,21 +864,21 @@
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "5a421d",
+      "value": "513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "5a421d",
+      "value": "513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "5a421d",
+      "value": "513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
@@ -913,7 +913,7 @@
     },
     {
       "key": "menuTextColor",
-      "value": "5a421d",
+      "value": "513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }

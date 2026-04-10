@@ -139,16 +139,16 @@
     <gamelistLogoColor>fff0a0</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-retro</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-retro</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>5a421d</gamelistSelectorColor>
+    <gamelistSelectorColor>513811</gamelistSelectorColor>
     <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-    <gamelistPrimaryColor>5a421d</gamelistPrimaryColor>
-    <gamelistSecondaryColor>5a421d</gamelistSecondaryColor>
-    <gameMetadataColor>5a421d</gameMetadataColor>
+    <gamelistPrimaryColor>513811</gamelistPrimaryColor>
+    <gamelistSecondaryColor>513811</gamelistSecondaryColor>
+    <gameMetadataColor>513811</gameMetadataColor>
     <BackdropColor>291c0a</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/retro</backgroundArtPath>
     <menuBackgroundColor>ac9358</menuBackgroundColor>
     <menuBackgroundColorTitle>887852</menuBackgroundColorTitle>
-    <menuTextColor>5a421d</menuTextColor>
+    <menuTextColor>513811</menuTextColor>
     <menuInputMode>light</menuInputMode>
     <systemProgressbarSelectorColor>bd9e5e</systemProgressbarSelectorColor>
   </variables>
