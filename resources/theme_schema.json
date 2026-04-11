@@ -162,6 +162,8 @@
     {
       "name": "gridtile",
       "properties": [
+        { "name": "backgroundColor" },
+        { "name": "selectionMode" },
         { "name": "size" },
         { "name": "padding" },
         { "name": "backgroundImage" },
@@ -278,6 +280,182 @@
         { "name": "showVideo" },
         { "name": "showVirtualFolders" }
       ]
+    },
+    {
+      "name": "textlist",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "fontSize" },
+        { "name": "fontPath" },
+        { "name": "selectorColor" },
+        { "name": "selectorHeight" },
+        { "name": "selectedColor" },
+        { "name": "primaryColor" },
+        { "name": "secondaryColor" },
+        { "name": "horizontalMargin" },
+        { "name": "zIndex" },
+        { "name": "scrollSound" },
+        { "name": "lines" },
+        { "name": "alignment" }
+      ]
+    },
+    {
+      "name": "helpsystem",
+      "properties": [
+        { "name": "pos" },
+        { "name": "origin" },
+        { "name": "textColor" },
+        { "name": "iconColor" },
+        { "name": "fontSize" },
+        { "name": "fontPath" },
+        { "name": "iconA" },
+        { "name": "iconB" },
+        { "name": "iconX" },
+        { "name": "iconY" }
+      ]
+    },
+    {
+      "name": "clock",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "origin" },
+        { "name": "alignment" },
+        { "name": "color" },
+        { "name": "fontSize" },
+        { "name": "fontPath" },
+        { "name": "zIndex" }
+      ]
+    },
+    {
+      "name": "controllerActivity",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "horizontalAlignment" },
+        { "name": "itemSpacing" },
+        { "name": "color" },
+        { "name": "zIndex" },
+        { "name": "imagePath" },
+        { "name": "gunPath" },
+        { "name": "wheelPath" },
+        { "name": "activityColor" },
+        { "name": "hotkeyColor" }
+      ]
+    },
+    {
+      "name": "batteryIndicator",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "color" },
+        { "name": "full" },
+        { "name": "at75" },
+        { "name": "at50" },
+        { "name": "at25" },
+        { "name": "empty" },
+        { "name": "incharge" },
+        { "name": "networkIcon" },
+        { "name": "planemodeIcon" },
+        { "name": "zIndex" }
+      ]
+    },
+    {
+      "name": "menuGroup",
+      "properties": [
+        { "name": "fontPath" },
+        { "name": "fontSize" },
+        { "name": "color" },
+        { "name": "alignment" },
+        { "name": "separatorColor" },
+        { "name": "backgroundColor" }
+      ]
+    },
+    {
+      "name": "menuBackground",
+      "properties": [{ "name": "color" }, { "name": "cornerSize" }]
+    },
+    {
+      "name": "menuIcons",
+      "properties": [
+        { "name": "iconSystem" },
+        { "name": "iconUpdates" },
+        { "name": "iconControllers" },
+        { "name": "iconGames" },
+        { "name": "iconUI" },
+        { "name": "iconSound" },
+        { "name": "iconNetwork" },
+        { "name": "iconScraper" },
+        { "name": "iconAdvanced" },
+        { "name": "iconQuit" },
+        { "name": "iconRetroachievements" },
+        { "name": "iconKodi" },
+        { "name": "iconRestart" },
+        { "name": "iconShutdown" },
+        { "name": "iconFastShutdown" }
+      ]
+    },
+    {
+      "name": "menuText",
+      "properties": [
+        { "name": "fontPath" },
+        { "name": "fontSize" },
+        { "name": "color" },
+        { "name": "separatorColor" },
+        { "name": "selectedColor" },
+        { "name": "selectorColor" }
+      ]
+    },
+    {
+      "name": "menuTextEdit",
+      "properties": [{ "name": "inactive" }, { "name": "active" }]
+    },
+    {
+      "name": "menuButton",
+      "properties": [{ "name": "path" }, { "name": "filledPath" }, { "name": "cornerSize" }]
+    },
+    {
+      "name": "menuSwitch",
+      "properties": [{ "name": "pathOn" }, { "name": "pathOff" }]
+    },
+    {
+      "name": "menuSlider",
+      "properties": [{ "name": "path" }]
+    },
+    {
+      "name": "container",
+      "properties": [
+        { "name": "pos" },
+        { "name": "size" },
+        { "name": "origin" },
+        { "name": "padding" },
+        { "name": "scale" },
+        { "name": "opacity" },
+        { "name": "zIndex" },
+        { "name": "visible" }
+      ]
+    },
+    {
+      "name": "itemTemplate",
+      "properties": [{ "name": "size" }]
+    },
+    {
+      "name": "storyboard",
+      "properties": [],
+      "child_elements": ["animation", "sound"]
+    },
+    {
+      "name": "animation",
+      "properties": [
+        { "name": "property" },
+        { "name": "from" },
+        { "name": "to" },
+        { "name": "duration" },
+        { "name": "mode" },
+        { "name": "begin" },
+        { "name": "autoReverse" }
+      ]
     }
   ],
   "element_aliases": [
@@ -305,6 +483,6 @@
     { "type": "menuSwitch", "base": "image" },
     { "type": "menuButton", "base": "image" },
     { "type": "menuSlider", "base": "image" },
-    { "type": "menuWindow", "base": "image" }
+    { "type": "menuTextSmall", "base": "text" }
   ]
 }

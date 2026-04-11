@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <theme>
+  <formatVersion>7</formatVersion>
   <!-- View: Menu -->
   <view name="menu">
     <menuText name="menutitle">

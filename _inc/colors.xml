@@ -1,4 +1,5 @@
 <theme>
+  <formatVersion>7</formatVersion>
   <variables ifSubset="color-scheme:dark">
     <helpTextColor>dddddd</helpTextColor>
     <helpIconColor>dddddd</helpIconColor>

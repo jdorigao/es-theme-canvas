@@ -124,8 +124,12 @@ def convert_storyboard(node):
                     anim["mode"] = str(value)
                 elif attr in ("autoreverse", "autoReverse"):
                     anim["autoReverse"] = normalize_bool(value)
+                elif attr in ("enabled",):
+                    anim["enabled"] = normalize_bool(value)
+                elif attr in ("to", "from", "duration", "begin", "repeat"):
+                    anim[attr] = str(value)
                 else:
-                    anim[attr] = normalize_bool(value)
+                    anim[attr] = str(value)
             animations.append(anim)
         elif child.tag == "sound":
             snd: dict = {}
@@ -135,7 +139,7 @@ def convert_storyboard(node):
                 elif attr == "at":
                     snd["begin"] = str(value)
                 else:
-                    snd[attr] = normalize_bool(value)
+                    snd[attr] = str(value)
             sounds.append(snd)
 
     if animations:

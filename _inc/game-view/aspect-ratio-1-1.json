@@ -172,7 +172,7 @@
                       "animations": [
                         {
                           "property": "scale",
-                          "to": true,
+                          "to": "1.0",
                           "duration": "250",
                           "mode": "easeOut"
                         }
@@ -512,7 +512,7 @@
                           "animations": [
                             {
                               "property": "opacity",
-                              "to": true
+                              "to": "1.0"
                             }
                           ]
                         },
@@ -620,7 +620,7 @@
                   "animations": [
                     {
                       "property": "scale",
-                      "to": true,
+                      "to": "1",
                       "duration": "250",
                       "mode": "easeOut"
                     }

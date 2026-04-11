@@ -158,7 +158,7 @@ License: Creative Commons CC-BY-NC-SA
 			<fontPath>${fontRegular}</fontPath>
 			<color>${gameMetadataColor}</color>
 			<lineSpacing>1.2</lineSpacing>
-			<value>Unknown</value>
+			<text>Unknown</text>
 		</text>
 
 		<datetime name="md_releasedate">

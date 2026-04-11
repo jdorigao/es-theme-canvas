@@ -37,7 +37,7 @@
   <variables ifSubset="font-size:large">
     <itemcount>1.5</itemcount>
     <itemsize>0.44 0.54</itemsize>
-    <logospacing>0.75</logospacing>
+    <logospacing>-0.75</logospacing>
     <gamelistBackgroundImageCalculated
       cache="true"
     >${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-large.webp</gamelistBackgroundImageCalculated>

@@ -185,7 +185,7 @@
     },
     {
       "key": "logospacing",
-      "value": "0.75",
+      "value": "-0.75",
       "filters": {
         "ifSubset": "font-size:large"
       }
