@@ -372,7 +372,6 @@
 		<datetime name="md_lastplayed">
 			<value>Never</value>
       <pos>0.872 0.8556</pos>
-      <size>0.084 ${metaDatafontSize}</size>
 			<size>0.1 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</datetime>

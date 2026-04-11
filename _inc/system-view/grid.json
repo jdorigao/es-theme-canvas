@@ -524,7 +524,7 @@
                 {
                   "type": "container",
                   "filters": {
-                    "ifSubset": "icon-scheme:art|custom-art"
+                    "ifSubset": "icon-scheme:art"
                   },
                   "props": [
                     {
@@ -650,7 +650,7 @@
                       "name": "systemBack",
                       "extra": true,
                       "filters": {
-                        "ifSubset": "icon-scheme:art|custom-art"
+                        "ifSubset": "icon-scheme:art"
                       },
                       "props": [
                         {

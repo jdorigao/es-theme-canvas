@@ -1261,10 +1261,6 @@
             },
             {
               "name": "size",
-              "value": "0.084 ${metaDatafontSize}"
-            },
-            {
-              "name": "size",
               "value": "0.1 ${metaDatafontSize}"
             },
             {

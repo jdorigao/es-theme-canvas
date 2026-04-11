@@ -154,7 +154,7 @@
         </container>
 
         <!-- System View: Grid (Art)-->
-        <container ifSubset="icon-scheme:art|custom-art">
+        <container ifSubset="icon-scheme:art">
           <padding>0 0 0 0</padding>
           <scale>1</scale>
 
@@ -200,7 +200,7 @@
             <zIndex>${zUI}</zIndex>
           </image>
 
-          <image name="systemBack" extra="true" ifSubset="icon-scheme:art|custom-art">
+          <image name="systemBack" extra="true" ifSubset="icon-scheme:art">
             <path
             >firstfile("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
             <pos>0.5 0.73</pos>
