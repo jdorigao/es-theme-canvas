@@ -397,7 +397,7 @@
 	<!-- Grid View Base-->
 	<view name="grid" ifSubset="font-size:medium|large,metadata:on">
 		<!-- Metadata Toggle-->
-		<video name="md_video,">
+		<video name="md_video">
 			<visible>false</visible>
 		</video>
 
