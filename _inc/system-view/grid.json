@@ -119,7 +119,7 @@
             },
             {
               "name": "scrollbarColor",
-              "value": "96969620"
+              "value": "#96969620"
             },
             {
               "name": "scrollbarCorner",
@@ -213,7 +213,7 @@
                         },
                         {
                           "name": "color",
-                          "value": "00000000"
+                          "value": "#00000000"
                         }
                       ],
                       "children": [
@@ -568,7 +568,7 @@
                         },
                         {
                           "name": "color",
-                          "value": "00000000"
+                          "value": "#00000000"
                         }
                       ],
                       "children": [

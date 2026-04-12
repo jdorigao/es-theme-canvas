@@ -1,156 +1,156 @@
 <theme>
   <formatVersion>7</formatVersion>
   <variables ifSubset="color-scheme:dark">
-    <helpTextColor>dddddd</helpTextColor>
-    <helpIconColor>dddddd</helpIconColor>
-    <systemInfoColor>eeeeee</systemInfoColor>
-    <systemCarouselSelectorColor>cccccc</systemCarouselSelectorColor>
-    <gamelistLogoColor>eeeeee</gamelistLogoColor>
+    <helpTextColor>#dddddd</helpTextColor>
+    <helpIconColor>#dddddd</helpIconColor>
+    <systemInfoColor>#eeeeee</systemInfoColor>
+    <systemCarouselSelectorColor>#cccccc</systemCarouselSelectorColor>
+    <gamelistLogoColor>#eeeeee</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>5f5f5f</gamelistSelectorColor>
-    <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-    <gamelistPrimaryColor>5f5f5f</gamelistPrimaryColor>
-    <gamelistSecondaryColor>5f5f5f</gamelistSecondaryColor>
-    <gameMetadataColor>dddddd</gameMetadataColor>
-    <BackdropColor>000000</BackdropColor>
+    <gamelistSelectorColor>#5f5f5f</gamelistSelectorColor>
+    <gamelistSelectedColor>#ffffff</gamelistSelectedColor>
+    <gamelistPrimaryColor>#5f5f5f</gamelistPrimaryColor>
+    <gamelistSecondaryColor>#5f5f5f</gamelistSecondaryColor>
+    <gameMetadataColor>#dddddd</gameMetadataColor>
+    <BackdropColor>#000000</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/dark</backgroundArtPath>
-    <menuBackgroundColor>373737</menuBackgroundColor>
-    <menuBackgroundColorTitle>1c1c1c</menuBackgroundColorTitle>
-    <menuTextColor>dddddd</menuTextColor>
+    <menuBackgroundColor>#373737</menuBackgroundColor>
+    <menuBackgroundColorTitle>#1c1c1c</menuBackgroundColorTitle>
+    <menuTextColor>#dddddd</menuTextColor>
     <menuInputMode>dark</menuInputMode>
-    <systemProgressbarSelectorColor>cccccc</systemProgressbarSelectorColor>
+    <systemProgressbarSelectorColor>#cccccc</systemProgressbarSelectorColor>
   </variables>
 
   <variables ifSubset="color-scheme:light">
-    <helpTextColor>333333</helpTextColor>
-    <helpIconColor>333333</helpIconColor>
-    <systemInfoColor>333333</systemInfoColor>
-    <systemCarouselSelectorColor>222222</systemCarouselSelectorColor>
-    <gamelistLogoColor>333333</gamelistLogoColor>
+    <helpTextColor>#333333</helpTextColor>
+    <helpIconColor>#333333</helpIconColor>
+    <systemInfoColor>#333333</systemInfoColor>
+    <systemCarouselSelectorColor>#222222</systemCarouselSelectorColor>
+    <gamelistLogoColor>#333333</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>222222</gamelistSelectorColor>
-    <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-    <gamelistPrimaryColor>444444</gamelistPrimaryColor>
-    <gamelistSecondaryColor>444444</gamelistSecondaryColor>
-    <gameMetadataColor>444444</gameMetadataColor>
-    <BackdropColor>ffffff</BackdropColor>
+    <gamelistSelectorColor>#222222</gamelistSelectorColor>
+    <gamelistSelectedColor>#ffffff</gamelistSelectedColor>
+    <gamelistPrimaryColor>#444444</gamelistPrimaryColor>
+    <gamelistSecondaryColor>#444444</gamelistSecondaryColor>
+    <gameMetadataColor>#444444</gameMetadataColor>
+    <BackdropColor>#ffffff</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/light</backgroundArtPath>
-    <menuBackgroundColor>ffffff</menuBackgroundColor>
-    <menuBackgroundColorTitle>c2c2c2</menuBackgroundColorTitle>
-    <menuTextColor>333333</menuTextColor>
+    <menuBackgroundColor>#ffffff</menuBackgroundColor>
+    <menuBackgroundColorTitle>#c2c2c2</menuBackgroundColorTitle>
+    <menuTextColor>#333333</menuTextColor>
     <menuInputMode>light</menuInputMode>
-    <systemProgressbarSelectorColor>666666</systemProgressbarSelectorColor>
+    <systemProgressbarSelectorColor>#666666</systemProgressbarSelectorColor>
   </variables>
 
   <variables ifSubset="color-scheme:neon">
-    <helpTextColor>FFFFFF</helpTextColor>
-    <helpIconColor>FFFFFF</helpIconColor>
-    <systemInfoColor>FFFFFF</systemInfoColor>
-    <systemCarouselSelectorColor>d43ff4</systemCarouselSelectorColor>
-    <gamelistLogoColor>eeeeee</gamelistLogoColor>
+    <helpTextColor>#ffffff</helpTextColor>
+    <helpIconColor>#ffffff</helpIconColor>
+    <systemInfoColor>#ffffff</systemInfoColor>
+    <systemCarouselSelectorColor>#d43ff4</systemCarouselSelectorColor>
+    <gamelistLogoColor>#eeeeee</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>d43ff4</gamelistSelectorColor>
-    <gamelistSelectedColor>fff732</gamelistSelectedColor>
-    <gamelistPrimaryColor>eeeeee</gamelistPrimaryColor>
-    <gamelistSecondaryColor>eeeeee</gamelistSecondaryColor>
-    <gameMetadataColor>eeeeee</gameMetadataColor>
-    <BackdropColor>111111</BackdropColor>
+    <gamelistSelectorColor>#d43ff4</gamelistSelectorColor>
+    <gamelistSelectedColor>#fff732</gamelistSelectedColor>
+    <gamelistPrimaryColor>#eeeeee</gamelistPrimaryColor>
+    <gamelistSecondaryColor>#eeeeee</gamelistSecondaryColor>
+    <gameMetadataColor>#eeeeee</gameMetadataColor>
+    <BackdropColor>#111111</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/neon</backgroundArtPath>
-    <menuBackgroundColor>3f2452</menuBackgroundColor>
-    <menuBackgroundColorTitle>513863</menuBackgroundColorTitle>
-    <menuTextColor>eeeeee</menuTextColor>
+    <menuBackgroundColor>#3f2452</menuBackgroundColor>
+    <menuBackgroundColorTitle>#513863</menuBackgroundColorTitle>
+    <menuTextColor>#eeeeee</menuTextColor>
     <menuInputMode>dark</menuInputMode>
-    <systemProgressbarSelectorColor>9a228f</systemProgressbarSelectorColor>
+    <systemProgressbarSelectorColor>#9a228f</systemProgressbarSelectorColor>
   </variables>
 
   <variables ifSubset="color-scheme:pastel">
-    <helpTextColor>555555</helpTextColor>
-    <helpIconColor>555555</helpIconColor>
-    <systemInfoColor>555555</systemInfoColor>
-    <systemCarouselSelectorColor>85a5c5</systemCarouselSelectorColor>
-    <gamelistLogoColor>555555</gamelistLogoColor>
+    <helpTextColor>#555555</helpTextColor>
+    <helpIconColor>#555555</helpIconColor>
+    <systemInfoColor>#555555</systemInfoColor>
+    <systemCarouselSelectorColor>#85a5c5</systemCarouselSelectorColor>
+    <gamelistLogoColor>#555555</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>85a5c5</gamelistSelectorColor>
-    <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-    <gamelistPrimaryColor>555555</gamelistPrimaryColor>
-    <gamelistSecondaryColor>555555</gamelistSecondaryColor>
-    <gameMetadataColor>555555</gameMetadataColor>
-    <BackdropColor>ffffff</BackdropColor>
+    <gamelistSelectorColor>#85a5c5</gamelistSelectorColor>
+    <gamelistSelectedColor>#ffffff</gamelistSelectedColor>
+    <gamelistPrimaryColor>#555555</gamelistPrimaryColor>
+    <gamelistSecondaryColor>#555555</gamelistSecondaryColor>
+    <gameMetadataColor>#555555</gameMetadataColor>
+    <BackdropColor>#ffffff</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/pastel</backgroundArtPath>
-    <menuBackgroundColor>ffffff</menuBackgroundColor>
-    <menuBackgroundColorTitle>dedede</menuBackgroundColorTitle>
-    <menuTextColor>555555</menuTextColor>
+    <menuBackgroundColor>#ffffff</menuBackgroundColor>
+    <menuBackgroundColorTitle>#dedede</menuBackgroundColorTitle>
+    <menuTextColor>#555555</menuTextColor>
     <menuInputMode>dark</menuInputMode>
-    <systemProgressbarSelectorColor>a7c7e7</systemProgressbarSelectorColor>
+    <systemProgressbarSelectorColor>#a7c7e7</systemProgressbarSelectorColor>
   </variables>
 
   <variables ifSubset="color-scheme:purple">
-    <helpTextColor>2a2929</helpTextColor>
-    <helpIconColor>2a2929</helpIconColor>
-    <systemInfoColor>2a2929</systemInfoColor>
-    <systemCarouselSelectorColor>382a6a</systemCarouselSelectorColor>
-    <gamelistLogoColor>2a2929</gamelistLogoColor>
+    <helpTextColor>#2a2929</helpTextColor>
+    <helpIconColor>#2a2929</helpIconColor>
+    <systemInfoColor>#2a2929</systemInfoColor>
+    <systemCarouselSelectorColor>#382a6a</systemCarouselSelectorColor>
+    <gamelistLogoColor>#2a2929</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-purple</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-purple</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>382a6a</gamelistSelectorColor>
-    <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-    <gamelistPrimaryColor>2a2929</gamelistPrimaryColor>
-    <gamelistSecondaryColor>2a2929</gamelistSecondaryColor>
-    <gameMetadataColor>2a2929</gameMetadataColor>
-    <BackdropColor>dedede</BackdropColor>
+    <gamelistSelectorColor>#382a6a</gamelistSelectorColor>
+    <gamelistSelectedColor>#ffffff</gamelistSelectedColor>
+    <gamelistPrimaryColor>#2a2929</gamelistPrimaryColor>
+    <gamelistSecondaryColor>#2a2929</gamelistSecondaryColor>
+    <gameMetadataColor>#2a2929</gameMetadataColor>
+    <BackdropColor>#dedede</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/purple</backgroundArtPath>
-    <menuBackgroundColor>bdbcc1</menuBackgroundColor>
-    <menuBackgroundColorTitle>a2a1a6</menuBackgroundColorTitle>
-    <menuTextColor>2a2929</menuTextColor>
+    <menuBackgroundColor>#bdbcc1</menuBackgroundColor>
+    <menuBackgroundColorTitle>#a2a1a6</menuBackgroundColorTitle>
+    <menuTextColor>#2a2929</menuTextColor>
     <menuInputMode>light</menuInputMode>
-    <systemProgressbarSelectorColor>6a52a8</systemProgressbarSelectorColor>
+    <systemProgressbarSelectorColor>#6a52a8</systemProgressbarSelectorColor>
   </variables>
 
   <variables ifSubset="color-scheme:beige">
-    <helpTextColor>494846</helpTextColor>
-    <helpIconColor>494846</helpIconColor>
-    <systemInfoColor>494846</systemInfoColor>
-    <systemCarouselSelectorColor>3a6b6c</systemCarouselSelectorColor>
-    <gamelistLogoColor>494846</gamelistLogoColor>
+    <helpTextColor>#494846</helpTextColor>
+    <helpIconColor>#494846</helpIconColor>
+    <systemInfoColor>#494846</systemInfoColor>
+    <systemCarouselSelectorColor>#3a6b6c</systemCarouselSelectorColor>
+    <gamelistLogoColor>#494846</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>3a6b6c</gamelistSelectorColor>
-    <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-    <gamelistPrimaryColor>555555</gamelistPrimaryColor>
-    <gamelistSecondaryColor>555555</gamelistSecondaryColor>
-    <gameMetadataColor>555555</gameMetadataColor>
-    <BackdropColor>ffffff</BackdropColor>
+    <gamelistSelectorColor>#3a6b6c</gamelistSelectorColor>
+    <gamelistSelectedColor>#ffffff</gamelistSelectedColor>
+    <gamelistPrimaryColor>#555555</gamelistPrimaryColor>
+    <gamelistSecondaryColor>#555555</gamelistSecondaryColor>
+    <gameMetadataColor>#555555</gameMetadataColor>
+    <BackdropColor>#ffffff</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/beige</backgroundArtPath>
-    <menuBackgroundColor>fbf6de</menuBackgroundColor>
-    <menuBackgroundColorTitle>faf1c5</menuBackgroundColorTitle>
-    <menuTextColor>494846</menuTextColor>
+    <menuBackgroundColor>#fbf6de</menuBackgroundColor>
+    <menuBackgroundColorTitle>#faf1c5</menuBackgroundColorTitle>
+    <menuTextColor>#494846</menuTextColor>
     <menuInputMode>light</menuInputMode>
-    <systemProgressbarSelectorColor>72a395</systemProgressbarSelectorColor>
+    <systemProgressbarSelectorColor>#72a395</systemProgressbarSelectorColor>
   </variables>
 
   <variables ifSubset="color-scheme:retro">
-    <helpTextColor>ffffff</helpTextColor>
-    <helpIconColor>ffffff</helpIconColor>
-    <systemInfoColor>ffffff</systemInfoColor>
-    <systemCarouselSelectorColor>ebca80</systemCarouselSelectorColor>
-    <gamelistLogoColor>fff0a0</gamelistLogoColor>
+    <helpTextColor>#ffffff</helpTextColor>
+    <helpIconColor>#ffffff</helpIconColor>
+    <systemInfoColor>#ffffff</systemInfoColor>
+    <systemCarouselSelectorColor>#ebca80</systemCarouselSelectorColor>
+    <gamelistLogoColor>#fff0a0</gamelistLogoColor>
     <gamelistBackgroundImage>gamelist-background-retro</gamelistBackgroundImage>
     <gamelistMetadataBackgroundImage>gamelist-metadata-background-retro</gamelistMetadataBackgroundImage>
-    <gamelistSelectorColor>513811</gamelistSelectorColor>
-    <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-    <gamelistPrimaryColor>513811</gamelistPrimaryColor>
-    <gamelistSecondaryColor>513811</gamelistSecondaryColor>
-    <gameMetadataColor>513811</gameMetadataColor>
-    <BackdropColor>291c0a</BackdropColor>
+    <gamelistSelectorColor>#513811</gamelistSelectorColor>
+    <gamelistSelectedColor>#ffffff</gamelistSelectedColor>
+    <gamelistPrimaryColor>#513811</gamelistPrimaryColor>
+    <gamelistSecondaryColor>#513811</gamelistSecondaryColor>
+    <gameMetadataColor>#513811</gameMetadataColor>
+    <BackdropColor>#291c0a</BackdropColor>
     <backgroundArtPath>${themePath}/wallpapers/retro</backgroundArtPath>
-    <menuBackgroundColor>ac9358</menuBackgroundColor>
-    <menuBackgroundColorTitle>887852</menuBackgroundColorTitle>
-    <menuTextColor>513811</menuTextColor>
+    <menuBackgroundColor>#ac9358</menuBackgroundColor>
+    <menuBackgroundColorTitle>#887852</menuBackgroundColorTitle>
+    <menuTextColor>#513811</menuTextColor>
     <menuInputMode>light</menuInputMode>
-    <systemProgressbarSelectorColor>bd9e5e</systemProgressbarSelectorColor>
+    <systemProgressbarSelectorColor>#bd9e5e</systemProgressbarSelectorColor>
   </variables>
 </theme>

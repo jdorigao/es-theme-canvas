@@ -24,7 +24,7 @@
       <autoLayout ifSubset="sysgridsize:5x4">5 4</autoLayout>
       <cellProportion>1</cellProportion>
       <margin>0</margin>
-      <scrollbarColor>96969620</scrollbarColor>
+      <scrollbarColor>#96969620</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
       <scrollbarSize>0.005</scrollbarSize>
       <scrollbarAlignment>right</scrollbarAlignment>
@@ -50,7 +50,7 @@
             <maxSize>1 1</maxSize>
             <linearSmooth>true</linearSmooth>
             <zIndex>${zSelector}</zIndex>
-            <color>00000000</color>
+            <color>#00000000</color>
             <storyboard event="activate" repeat="forever">
               <animation property="path" to="${themePath}/_inc/images/backgrounds/4-5.webp" />
               <animation
@@ -165,7 +165,7 @@
             <maxSize>0.77 0.67</maxSize>
             <linearSmooth>true</linearSmooth>
             <zIndex>${zSelector}</zIndex>
-            <color>00000000</color>
+            <color>#00000000</color>
 
             <storyboard event="activate" repeat="forever">
               <animation property="path" to="${themePath}/_inc/images/backgrounds/square.webp" />

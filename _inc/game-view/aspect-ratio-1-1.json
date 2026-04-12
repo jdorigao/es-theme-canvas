@@ -126,7 +126,7 @@
             },
             {
               "name": "scrollbarColor",
-              "value": "96969620"
+              "value": "#969696"
             },
             {
               "name": "scrollbarCorner",
@@ -575,7 +575,7 @@
             },
             {
               "name": "color",
-              "value": "ffffff00"
+              "value": "#ffffff"
             },
             {
               "name": "scaledLogoSpacing",
