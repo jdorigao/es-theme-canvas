@@ -6,105 +6,107 @@ Co-Author: jdorigao
 License: Creative Commons CC-BY-NC-SA
 -->
 <theme defaultTransition="instant">
-	<formatVersion>7</formatVersion>
+  <formatVersion>7</formatVersion>
 
-	<!-- Includes -->
-	<include>${themePath}/_inc/variables/variables.xml</include>
-	<include>${themePath}/_inc/fonts/fonts.xml</include>
-	<include>${themePath}/_inc/colors.xml</include>
+  <!-- Includes -->
+  <include>${themePath}/_inc/variables/variables.xml</include>
+  <include>${themePath}/_inc/fonts/fonts.xml</include>
+  <include>${themePath}/_inc/colors.xml</include>
 
-	<!-- Aspect Ratios -->
-	<subset name="aspect-ratio" displayName="Aspect Ratio">
-		<include if="{screen.ratio} == '1/1'" name="1-1-auto" displayName="Automatic" />
-		<include if="{screen.ratio} == '16/9'" name="16-9-auto" displayName="Automatic" />
-		<include if="{screen.ratio} == '16/10'" name="16-10-auto" displayName="Automatic" />
-		<include if="{screen.ratio} == '4/3'" name="4-3-auto" displayName="Automatic" />
-		<include name="16-9" displayName="16:9" />
-		<include name="16-10" displayName="16:10" />
-		<include name="4-3" displayName="4:3" />
-		<include name="1-1" displayName="1:1" />
-	</subset>
+  <!-- Aspect Ratios -->
+  <subset name="aspect-ratio" displayName="Aspect Ratio">
+    <include if="{screen.ratio} == '1/1'" name="1-1-auto" displayName="Automatic" />
+    <include if="{screen.ratio} == '16/9'" name="16-9-auto" displayName="Automatic" />
+    <include if="{screen.ratio} == '16/10'" name="16-10-auto" displayName="Automatic" />
+    <include if="{screen.ratio} == '4/3'" name="4-3-auto" displayName="Automatic" />
+    <include name="16-9" displayName="16:9" />
+    <include name="16-10" displayName="16:10" />
+    <include name="4-3" displayName="4:3" />
+    <include name="1-1" displayName="1:1" />
+  </subset>
 
-	<!-- Subset: System View Options -->
-	<subset name="system-view" displayName="System View">
-		<include name="grid" displayName="Grid" />
-		<include name="carousel" displayName="Carousel" />
-	</subset>
+  <!-- Subset: System View Options -->
+  <subset name="system-view" displayName="System View">
+    <include name="grid" displayName="Grid" />
+    <include name="carousel" displayName="Carousel" />
+  </subset>
 
-	<!-- Subset: System Grid Sizes -->
-	<subset name="sysgridsize" ifSubset="system-view:grid" displayName="System Grid Size">
-		<include name="automatic" displayName="Automatic" />
-		<include name="3x1" displayName="3X1" />
-		<include name="3x2" displayName="3X2" />
-		<include name="3x3" displayName="3X3" />
-		<include name="4x2" displayName="4X2" />
-		<include name="4x3" displayName="4X3" />
-		<include name="4x4" displayName="4X4" />
-		<include name="5x2" displayName="5X2" />
-		<include name="5x3" displayName="5X3" />
-		<include name="5x4" displayName="5X4" />
-	</subset>
+  <!-- Subset: System Grid Sizes -->
+  <subset name="sysgridsize" ifSubset="system-view:grid" displayName="System Grid Size">
+    <include name="automatic" displayName="Automatic" />
+    <include name="3x1" displayName="3X1" />
+    <include name="3x2" displayName="3X2" />
+    <include name="3x3" displayName="3X3" />
+    <include name="4x2" displayName="4X2" />
+    <include name="4x3" displayName="4X3" />
+    <include name="4x4" displayName="4X4" />
+    <include name="5x2" displayName="5X2" />
+    <include name="5x3" displayName="5X3" />
+    <include name="5x4" displayName="5X4" />
+  </subset>
 
-	<!-- Subset: Icon Scheme -->
-	<subset name="icon-scheme" displayName="System Icon Style">
-		<include name="icon" displayName="Icons" />
-		<include name="art" displayName="Art" />
-	</subset>
+  <!-- Subset: Icon Scheme -->
+  <subset name="icon-scheme" displayName="System Icon Style">
+    <include name="icon" displayName="Icons" />
+    <include name="art" displayName="Art" />
+  </subset>
 
-	<!-- Subset: Color Scheme -->
-	<subset name="color-scheme" displayName="Color Scheme">
-		<include name="retro" displayName="Retro" />
-		<include name="beige" displayName="Beige" />
-		<include name="dark" displayName="Dark" />
-		<include name="light" displayName="Light" />
-		<include name="neon" displayName="Neon" />
-		<include name="pastel" displayName="Pastel" />
-		<include name="purple" displayName="Purple" />
-	</subset>
+  <!-- Subset: Color Scheme -->
+  <subset name="color-scheme" displayName="Color Scheme">
+    <include name="retro" displayName="Retro" />
+    <include name="beige" displayName="Beige" />
+    <include name="dark" displayName="Dark" />
+    <include name="light" displayName="Light" />
+    <include name="neon" displayName="Neon" />
+    <include name="pastel" displayName="Pastel" />
+    <include name="purple" displayName="Purple" />
+  </subset>
 
-	<!-- Subset: Font Size -->
-	<subset name="font-size" displayName="Font Size">
-		<include name="medium" displayName="Default" />
-		<include name="small" displayName="Small" />
-		<include name="large" displayName="Large" />
-	</subset>
+  <!-- Subset: Font Size -->
+  <subset name="font-size" displayName="Font Size">
+    <include name="medium" displayName="Default" />
+    <include name="small" displayName="Small" />
+    <include name="large" displayName="Large" />
+  </subset>
 
-	<!-- Subset: Game Metadata -->
-	<subset name="metadata" displayName="Metadata">
-		<include name="on" displayName="On" />
-		<include name="off" displayName="Off" />
-	</subset>
+  <!-- Subset: Game Metadata -->
+  <subset name="metadata" displayName="Metadata">
+    <include name="on" displayName="On" />
+    <include name="off" displayName="Off" />
+  </subset>
 
-	<!-- Subset: Game Metadata Option -->
-	<subset name="metadata-option" displayName="Metadata Rating/Playtime">
-		<include name="rating" displayName="Rating" />
-		<include name="playtime" displayName="Playtime" />
-	</subset>
+  <!-- Subset: Game Metadata Option -->
+  <subset name="metadata-option" displayName="Metadata Rating/Playtime">
+    <include name="rating" displayName="Rating" />
+    <include name="playtime" displayName="Playtime" />
+  </subset>
 
-	<!-- Subset: Transition Style -->
-	<subset name="transition-style" displayName="Transition Style">
-		<include name="instant" displayName="Instant" />
-		<include name="fade" displayName="Fade" />
-		<include name="slide" displayName="Slide" />
-	</subset>
+  <!-- Subset: Transition Style -->
+  <subset name="transition-style" displayName="Transition Style">
+    <include name="instant" displayName="Instant" />
+    <include name="fade" displayName="Fade" />
+    <include name="slide" displayName="Slide" />
+  </subset>
 
-	<!-- Aspect Ratios Variables -->
-	<include ifSubset="aspect-ratio:16-9|16-9-auto">${themePath}/_inc/variables/aspect-ratio-16-9-variables.xml</include>
-	<include ifSubset="aspect-ratio:16-10|16-10-auto">${themePath}/_inc/variables/aspect-ratio-16-10-variables.xml</include>
-	<include ifSubset="aspect-ratio:4-3|4-3-auto">${themePath}/_inc/variables/aspect-ratio-4-3-variables.xml</include>
-	<include ifSubset="aspect-ratio:1-1|1-1-auto">${themePath}/_inc/variables/aspect-ratio-1-1-variables.xml</include>
+  <!-- Aspect Ratios Variables -->
+  <include ifSubset="aspect-ratio:16-9|16-9-auto">${themePath}/_inc/variables/aspect-ratio-16-9-variables.xml</include>
+  <include
+    ifSubset="aspect-ratio:16-10|16-10-auto"
+  >${themePath}/_inc/variables/aspect-ratio-16-10-variables.xml</include>
+  <include ifSubset="aspect-ratio:4-3|4-3-auto">${themePath}/_inc/variables/aspect-ratio-4-3-variables.xml</include>
+  <include ifSubset="aspect-ratio:1-1|1-1-auto">${themePath}/_inc/variables/aspect-ratio-1-1-variables.xml</include>
 
-	<!-- SystemView Include -->
-	<include ifSubset="system-view:grid">${themePath}/_inc/system-view/grid.xml</include>
-	<include ifSubset="system-view:carousel">${themePath}/_inc/system-view/carousel.xml</include>
+  <!-- SystemView Include -->
+  <include ifSubset="system-view:grid">${themePath}/_inc/system-view/grid.xml</include>
+  <include ifSubset="system-view:carousel">${themePath}/_inc/system-view/carousel.xml</include>
 
-	<!-- Screen View -->
-	<include>${themePath}/_inc/bar/top-bar.xml</include>
-	<include>${themePath}/_inc/bar/bottom-bar.xml</include>
-	<include>${themePath}/_inc/menu/menu.xml</include>
+  <!-- Screen View -->
+  <include>${themePath}/_inc/bar/top-bar.xml</include>
+  <include>${themePath}/_inc/bar/bottom-bar.xml</include>
+  <include>${themePath}/_inc/menu/menu.xml</include>
 
-	<!-- All Views -->
-	<view name="system, basic, detailed, gamecarousel, grid">
+  <!-- All Views -->
+  <view name="system, basic, detailed, gamecarousel, grid">
   	<!-- System Backgrounds -->
   	<image name="background-art" extra="true">
   		<path ifSubset="color-scheme:beige|dark|light|neon|pastel|purple|retro">${backgroundArtPath}.webp</path>
@@ -115,229 +117,229 @@ License: Creative Commons CC-BY-NC-SA
   	</image>
   </view>
 
-	<!-- Gamelist: System Logo -->
-	<view name="basic, detailed, gamecarousel, grid">
-		<image name="logo" origin="0.5 0.5" linearSmooth="true">
-			<path>${themePath}/_inc/systems/logos/${system.theme}.svg</path>
-			<maxSize>0.4 0.12</maxSize>
-			<zIndex>${zUI}</zIndex>
-			<color>${systemInfoColor}</color>
-			<visible>true</visible>
-			<opacity>${mediumOpacity}</opacity>
-		</image>
-	</view>
+  <!-- Gamelist: System Logo -->
+  <view name="basic, detailed, gamecarousel, grid">
+    <image name="logo" origin="0.5 0.5" linearSmooth="true">
+      <path>${themePath}/_inc/systems/logos/${system.theme}.svg</path>
+      <maxSize>0.4 0.12</maxSize>
+      <zIndex>${zUI}</zIndex>
+      <color>${systemInfoColor}</color>
+      <visible>true</visible>
+      <opacity>${mediumOpacity}</opacity>
+    </image>
+  </view>
 
-	<!-- Gamelist: Full Metadata Call -->
-	<view name="detailed, gamecarousel, grid">
-		<image name="playtime-logo" origin="0.5 0.5" linearSmooth="true" extra="true">
-			<path>${themePath}/_inc/images/icons/playtime-icon.svg</path>
-			<zIndex>${zUI}</zIndex>
-			<color>${gameMetadataColor}</color>
-			<opacity>${lowOpacity}</opacity>
-			<visible ifSubset="metadata-option:rating">false</visible>
-			<visible ifSubset="metadata-option:playtime">true</visible>
-		</image>
+  <!-- Gamelist: Full Metadata Call -->
+  <view name="detailed, gamecarousel, grid">
+    <image name="playtime-logo" origin="0.5 0.5" linearSmooth="true" extra="true">
+      <path>${themePath}/_inc/images/icons/playtime-icon.svg</path>
+      <zIndex>${zUI}</zIndex>
+      <color>${gameMetadataColor}</color>
+      <opacity>${lowOpacity}</opacity>
+      <visible ifSubset="metadata-option:rating">false</visible>
+      <visible ifSubset="metadata-option:playtime">true</visible>
+    </image>
 
-		<video name="md_video">
-			<origin>0.5 0.5</origin>
-			<delay>1.4</delay>
-			<roundCorners>0.005</roundCorners>
-			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+    <video name="md_video">
+      <origin>0.5 0.5</origin>
+      <delay>1.4</delay>
+      <roundCorners>0.005</roundCorners>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
-			<zIndex>${zVideo}</zIndex>
-		</video>
+      <zIndex>${zVideo}</zIndex>
+    </video>
 
-		<datetime name="md_releasedate,md_lastplayed">
-			<origin>0 0.5</origin>
-			<fontPath>${fontRegular}</fontPath>
-			<color>${gameMetadataColor}</color>
-			<lineSpacing>1.2</lineSpacing>
-		</datetime>
+    <datetime name="md_releasedate,md_lastplayed">
+      <origin>0 0.5</origin>
+      <fontPath>${fontRegular}</fontPath>
+      <color>${gameMetadataColor}</color>
+      <lineSpacing>1.2</lineSpacing>
+    </datetime>
 
-		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
-			<origin>0 0.5</origin>
-			<fontPath>${fontRegular}</fontPath>
-			<color>${gameMetadataColor}</color>
-			<lineSpacing>1.2</lineSpacing>
-			<text>Unknown</text>
-		</text>
+    <text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
+      <origin>0 0.5</origin>
+      <fontPath>${fontRegular}</fontPath>
+      <color>${gameMetadataColor}</color>
+      <lineSpacing>1.2</lineSpacing>
+      <text>Unknown</text>
+    </text>
 
-		<datetime name="md_releasedate">
-			<value>Unknown</value>
-			<format>%Y</format>
-		</datetime>
+    <datetime name="md_releasedate">
+      <value>Unknown</value>
+      <format>%Y</format>
+    </datetime>
 
-		<datetime name="md_lastplayed">
-			<value>Unknown</value>
-		</datetime>
+    <datetime name="md_lastplayed">
+      <value>Unknown</value>
+    </datetime>
 
-		<rating name="md_rating">
-			<origin>0.5 0.5</origin>
-			<filledPath>${themePath}/_inc/images/icons/icon-star-filled.svg</filledPath>
-			<unfilledPath>${themePath}/_inc/images/icons/icon-star-unfilled.svg</unfilledPath>
-			<color>${gameMetadataColor}</color>
-			<zIndex>${zMetadata}</zIndex>
-			<visible ifSubset="metadata-option:rating">true</visible>
-			<visible ifSubset="metadata-option:playtime">false</visible>
-		</rating>
+    <rating name="md_rating">
+      <origin>0.5 0.5</origin>
+      <filledPath>${themePath}/_inc/images/icons/icon-star-filled.svg</filledPath>
+      <unfilledPath>${themePath}/_inc/images/icons/icon-star-unfilled.svg</unfilledPath>
+      <color>${gameMetadataColor}</color>
+      <zIndex>${zMetadata}</zIndex>
+      <visible ifSubset="metadata-option:rating">true</visible>
+      <visible ifSubset="metadata-option:playtime">false</visible>
+    </rating>
 
-		<text name="md_gametime_custom" extra="true">
-			<visible ifSubset="metadata-option:rating">false</visible>
-			<visible ifSubset="metadata-option:playtime">true</visible>
-			<text>{game:gametime} > 0 ? formatseconds({game:gametime}) : "Never"</text>
-			<color>${gameMetadataColor}</color>
-			<autoScroll>horizontal</autoScroll>
-			<autoScrollSpeed>50</autoScrollSpeed>
-			<autoScrollDelay>5000</autoScrollDelay>
-			<zIndex>${zMetadata}</zIndex>
-		</text>
+    <text name="md_gametime_custom" extra="true">
+      <visible ifSubset="metadata-option:rating">false</visible>
+      <visible ifSubset="metadata-option:playtime">true</visible>
+      <text>{game:gametime} > 0 ? formatseconds({game:gametime}) : "Never"</text>
+      <color>${gameMetadataColor}</color>
+      <autoScroll>horizontal</autoScroll>
+      <autoScrollSpeed>50</autoScrollSpeed>
+      <autoScrollDelay>5000</autoScrollDelay>
+      <zIndex>${zMetadata}</zIndex>
+    </text>
 
-		<text name="md_genre">
-			<forceUppercase>false</forceUppercase>
-			<autoScroll>horizontal</autoScroll>
-			<autoScrollSpeed>50</autoScrollSpeed>
-			<autoScrollDelay>5000</autoScrollDelay>
-		</text>
+    <text name="md_genre">
+      <forceUppercase>false</forceUppercase>
+      <autoScroll>horizontal</autoScroll>
+      <autoScrollSpeed>50</autoScrollSpeed>
+      <autoScrollDelay>5000</autoScrollDelay>
+    </text>
 
-		<text name="md_name">
-			<autoScroll>horizontal</autoScroll>
-			<autoScrollSpeed>50</autoScrollSpeed>
-			<autoScrollDelay>5000</autoScrollDelay>
-			<alignment>left</alignment>
-		</text>
+    <text name="md_name">
+      <autoScroll>horizontal</autoScroll>
+      <autoScrollSpeed>50</autoScrollSpeed>
+      <autoScrollDelay>5000</autoScrollDelay>
+      <alignment>left</alignment>
+    </text>
 
-		<text name="md_description">
-			<origin>0.5 0</origin>
-			<fontPath>${fontRegular}</fontPath>
-			<autoScroll>vertical</autoScroll>
-			<autoScrollSpeed>50</autoScrollSpeed>
-			<autoScrollDelay>5000</autoScrollDelay>
-			<color>${gameMetadataColor}</color>
-			<zIndex>${zMetadata}</zIndex>
-			<lineSpacing>1.2</lineSpacing>
-		</text>
-	</view>
+    <text name="md_description">
+      <origin>0.5 0</origin>
+      <fontPath>${fontRegular}</fontPath>
+      <autoScroll>vertical</autoScroll>
+      <autoScrollSpeed>50</autoScrollSpeed>
+      <autoScrollDelay>5000</autoScrollDelay>
+      <color>${gameMetadataColor}</color>
+      <zIndex>${zMetadata}</zIndex>
+      <lineSpacing>1.2</lineSpacing>
+    </text>
+  </view>
 
-	<view name="grid">
-		<video name="md_video">
-			<visible>false</visible>
-		</video>
+  <view name="grid">
+    <video name="md_video">
+      <visible>false</visible>
+    </video>
 
-		<image name="md_marquee">
-			<visible>false</visible>
-		</image>
-	</view>
+    <image name="md_marquee">
+      <visible>false</visible>
+    </image>
+  </view>
 
-	<!-- Small Detailed Metadata Backgrounds -->
-	<view name="detailed, gamecarousel, grid" ifSubset="font-size:small,metadata:on">
-		<!-- Start: Extended Metadata -->
-		<image name="game-metadata-background-shadow-extended" extra="true">
-			<origin>0.5 0.5</origin>
-			<zIndex>${zUI}</zIndex>
-			<linearSmooth>true</linearSmooth>
-		</image>
+  <!-- Small Detailed Metadata Backgrounds -->
+  <view name="detailed, gamecarousel, grid" ifSubset="font-size:small,metadata:on">
+    <!-- Start: Extended Metadata -->
+    <image name="game-metadata-background-shadow-extended" extra="true">
+      <origin>0.5 0.5</origin>
+      <zIndex>${zUI}</zIndex>
+      <linearSmooth>true</linearSmooth>
+    </image>
 
-		<image name="game-metadata-background-image-extended" extra="true">
-			<origin>0.5 0.5</origin>
-			<zIndex>${zMetadata}</zIndex>
-			<linearSmooth>true</linearSmooth>
-		</image>
-	</view>
+    <image name="game-metadata-background-image-extended" extra="true">
+      <origin>0.5 0.5</origin>
+      <zIndex>${zMetadata}</zIndex>
+      <linearSmooth>true</linearSmooth>
+    </image>
+  </view>
 
-	<!-- Medium/Large Metadata Backgrounds -->
-	<view name="detailed, gamecarousel, grid" ifSubset="font-size:medium|large,metadata:on">
-		<image name="game-metadata-background-shadow-base" extra="true">
-			<origin>0.5 0.5</origin>
-			<zIndex>${zUI}</zIndex>
-			<linearSmooth>true</linearSmooth>
-		</image>
+  <!-- Medium/Large Metadata Backgrounds -->
+  <view name="detailed, gamecarousel, grid" ifSubset="font-size:medium|large,metadata:on">
+    <image name="game-metadata-background-shadow-base" extra="true">
+      <origin>0.5 0.5</origin>
+      <zIndex>${zUI}</zIndex>
+      <linearSmooth>true</linearSmooth>
+    </image>
 
-		<image name="game-metadata-background-image-base" extra="true">
-			<origin>0.5 0.5</origin>
-			<zIndex>${zMetadata}</zIndex>
-			<linearSmooth>true</linearSmooth>
-		</image>
-	</view>
+    <image name="game-metadata-background-image-base" extra="true">
+      <origin>0.5 0.5</origin>
+      <zIndex>${zMetadata}</zIndex>
+      <linearSmooth>true</linearSmooth>
+    </image>
+  </view>
 
-	<!-- Medium/Large Metadata Toggle -->
-	<view name="detailed, gamecarousel, grid" ifSubset="font-size:medium|large,metadata:on">
-		<text name="md_players">
-			<visible>false</visible>
-		</text>
+  <!-- Medium/Large Metadata Toggle -->
+  <view name="detailed, gamecarousel, grid" ifSubset="font-size:medium|large,metadata:on">
+    <text name="md_players">
+      <visible>false</visible>
+    </text>
 
-		<text name="md_developer">
-			<visible>false</visible>
-		</text>
+    <text name="md_developer">
+      <visible>false</visible>
+    </text>
 
-		<text name="md_publisher" extra="true">
-			<visible>false</visible>
-		</text>
+    <text name="md_publisher" extra="true">
+      <visible>false</visible>
+    </text>
 
-		<datetime name="md_lastplayed">
-			<visible>false</visible>
-		</datetime>
+    <datetime name="md_lastplayed">
+      <visible>false</visible>
+    </datetime>
 
-		<text name="md_playcount" extra="true">
-			<visible>false</visible>
-		</text>
-	</view>
+    <text name="md_playcount" extra="true">
+      <visible>false</visible>
+    </text>
+  </view>
 
-	<!-- Game Grid View -->
-	<include>${themePath}/_inc/game-view/grid.xml</include>
+  <!-- Game Grid View -->
+  <include>${themePath}/_inc/game-view/grid.xml</include>
 
-	<!-- Off Metadata Toggle -->
-	<view name="detailed, gamecarousel, grid, grid-detailed" ifSubset="metadata:off">
-		<image name="game-metadata-background-shadow-base" extra="true">
-			<visible>false</visible>
-		</image>
+  <!-- Off Metadata Toggle -->
+  <view name="detailed, gamecarousel, grid, grid-detailed" ifSubset="metadata:off">
+    <image name="game-metadata-background-shadow-base" extra="true">
+      <visible>false</visible>
+    </image>
 
-		<image name="game-metadata-background-image-base" extra="true">
-			<visible>false</visible>
-		</image>
+    <image name="game-metadata-background-image-base" extra="true">
+      <visible>false</visible>
+    </image>
 
-		<datetime name="md_releasedate,md_lastplayed">
-			<visible>false</visible>
-		</datetime>
+    <datetime name="md_releasedate,md_lastplayed">
+      <visible>false</visible>
+    </datetime>
 
-		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
-			<visible>false</visible>
-		</text>
+    <text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
+      <visible>false</visible>
+    </text>
 
-		<text name="md_description">
-			<visible>false</visible>
-		</text>
+    <text name="md_description">
+      <visible>false</visible>
+    </text>
 
-		<rating name="md_rating">
-			<visible>false</visible>
-		</rating>
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
 
-		<image name="playtime-logo">
-			<visible>false</visible>
-		</image>
-	</view>
+    <image name="playtime-logo">
+      <visible>false</visible>
+    </image>
+  </view>
 
-	<!-- Carousel Detailed View -->
-	<view name="gamecarousel">
-		<gamecarousel name="gamecarousel">
-		  <zIndex>${zUI}</zIndex>
-			<type>vertical_wheel</type>
-			<size>1 1</size>
-			<logoRotation>-7</logoRotation>
-			<logoRotationOrigin>5 0.5</logoRotationOrigin>
-			<logoAlignment>center</logoAlignment>
-			<imageSource>marquee</imageSource>
-		</gamecarousel>
-	</view>
+  <!-- Carousel Detailed View -->
+  <view name="gamecarousel">
+    <gamecarousel name="gamecarousel">
+      <zIndex>${zUI}</zIndex>
+      <type>vertical_wheel</type>
+      <size>1 1</size>
+      <logoRotation>-7</logoRotation>
+      <logoRotationOrigin>5 0.5</logoRotationOrigin>
+      <logoAlignment>center</logoAlignment>
+      <imageSource>marquee</imageSource>
+    </gamecarousel>
+  </view>
 
-	<!-- Detailed Game Grid View -->
-	<subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed">
-		<include name="automatic" displayName="Automatic" />
-		<include name="large" displayName="2 Columns" />
-		<include name="medium" displayName="3 Columns" />
-		<include name="small" displayName="4 Columns" />
-	</subset>
+  <!-- Detailed Game Grid View -->
+  <subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed">
+    <include name="automatic" displayName="Automatic" />
+    <include name="large" displayName="2 Columns" />
+    <include name="medium" displayName="3 Columns" />
+    <include name="small" displayName="4 Columns" />
+  </subset>
 
-	<!-- Aspect Ratios -->
+  <!-- Aspect Ratios -->
    <include ifSubset="aspect-ratio:16-9|16-9-auto">${themePath}/_inc/game-view/aspect-ratio-16-9.xml</include>
    <include ifSubset="aspect-ratio:16-10|16-10-auto">${themePath}/_inc/game-view/aspect-ratio-16-10.xml</include>
    <include ifSubset="aspect-ratio:4-3|4-3-auto">${themePath}/_inc/game-view/aspect-ratio-4-3.xml</include>

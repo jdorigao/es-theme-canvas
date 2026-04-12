@@ -5,62 +5,62 @@
   <include>${themePath}/_inc/variables/variables.xml</include>
 
   <!-- Subset: Auto Grid Options -->
-	<subset name="autogridsize" displayName="Automatic Grid Size" appliesTo="grid">
-		<include name="automatic" displayName="Automatic" />
-		<include name="large" displayName="2 Rows" />
-		<include name="medium" displayName="3 Rows" />
-		<include name="small" displayName="4 Rows" />
-	</subset>
+  <subset name="autogridsize" displayName="Automatic Grid Size" appliesTo="grid">
+    <include name="automatic" displayName="Automatic" />
+    <include name="large" displayName="2 Rows" />
+    <include name="medium" displayName="3 Rows" />
+    <include name="small" displayName="4 Rows" />
+  </subset>
 
-	<!-- Game Grid View -->
-	<view name="grid">
-		<imagegrid name="gamegrid" ifSubset="autogridsize:automatic">
+  <!-- Game Grid View -->
+  <view name="grid">
+    <imagegrid name="gamegrid" ifSubset="autogridsize:automatic">
   		<autoLayout ifSubset="aspect-ratio:16-9|16-9-auto">0 2</autoLayout>
-			<autoLayout ifSubset="aspect-ratio:16-10|16-10-auto">0 3</autoLayout>
-			<autoLayout ifSubset="aspect-ratio:1-1|1-1-auto">0 3</autoLayout>
-			<autoLayout ifSubset="aspect-ratio:4-3|4-3-auto">0 2</autoLayout>
-		</imagegrid>
+      <autoLayout ifSubset="aspect-ratio:16-10|16-10-auto">0 3</autoLayout>
+      <autoLayout ifSubset="aspect-ratio:1-1|1-1-auto">0 3</autoLayout>
+      <autoLayout ifSubset="aspect-ratio:4-3|4-3-auto">0 2</autoLayout>
+    </imagegrid>
 
-		<imagegrid name="gamegrid" ifSubset="autogridsize:small,medium,large">
-			<autoLayout ifSubset="autogriddetailedsize:large">0 2</autoLayout>
-			<autoLayout ifSubset="autogriddetailedsize:medium">0 3</autoLayout>
-			<autoLayout ifSubset="autogriddetailedsize:small">0 4</autoLayout>
-		</imagegrid>
+    <imagegrid name="gamegrid" ifSubset="autogridsize:small,medium,large">
+      <autoLayout ifSubset="autogriddetailedsize:large">0 2</autoLayout>
+      <autoLayout ifSubset="autogriddetailedsize:medium">0 3</autoLayout>
+      <autoLayout ifSubset="autogriddetailedsize:small">0 4</autoLayout>
+    </imagegrid>
 
-		<imagegrid name="gamegrid">
-			<margin>0.025</margin>
+    <imagegrid name="gamegrid">
+      <margin>0.025</margin>
   		<pos>0.0125 0.08</pos>
   		<size ifSubset="metadata:on">0.975 0.72</size>
   		<size ifSubset="metadata:off">0.975 0.78</size>
-			<padding>10 10 10 10</padding>
-			<imageSource>cover</imageSource>
-			<scrollbarColor>${gamelistSecondaryColor}</scrollbarColor>
-			<scrollbarCorner>0.49</scrollbarCorner>
-			<scrollbarSize>0.005</scrollbarSize>
-			<scrollbarAlignment>right</scrollbarAlignment>
-			<autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
-			<zIndex>${zUI}</zIndex>
-		</imagegrid>
+      <padding>10 10 10 10</padding>
+      <imageSource>cover</imageSource>
+      <scrollbarColor>${gamelistSecondaryColor}</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.005</scrollbarSize>
+      <scrollbarAlignment>right</scrollbarAlignment>
+      <autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
+      <zIndex>${zUI}</zIndex>
+    </imagegrid>
 
-		<gridtile name="default">
-			<backgroundColor>00000000</backgroundColor>
-			<backgroundEdgeColor>00000000</backgroundEdgeColor>
-			<backgroundCornerSize>11 11</backgroundCornerSize>
-			<selectionMode>image</selectionMode>
-			<padding>5 5</padding>
-		</gridtile>
+    <gridtile name="default">
+      <backgroundColor>00000000</backgroundColor>
+      <backgroundEdgeColor>00000000</backgroundEdgeColor>
+      <backgroundCornerSize>11 11</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+    </gridtile>
 
     <image name="gridtile.image">
-			<linearSmooth>true</linearSmooth>
-			<roundCorners>${CornersGrid}</roundCorners>
-			<scale>0.99</scale>
+      <linearSmooth>true</linearSmooth>
+      <roundCorners>${CornersGrid}</roundCorners>
+      <scale>0.99</scale>
     </image>
 
    	<ninepatch name="gridtile.background:selected">
-			<color>${systemCarouselSelectorColor}</color>
-			<animateColor>${systemCarouselSelectorColor}00</animateColor>
-			<animateColorTime>800</animateColorTime>
-			<scale>0.9</scale>
+      <color>${systemCarouselSelectorColor}</color>
+      <animateColor>${systemCarouselSelectorColor}00</animateColor>
+      <animateColorTime>800</animateColorTime>
+      <scale>0.9</scale>
     </ninepatch>
-	</view>
+  </view>
 </theme>
