@@ -16,6 +16,7 @@
     <gamelistSecondaryColor>#5f5f5f</gamelistSecondaryColor>
     <gameMetadataColor>#dddddd</gameMetadataColor>
     <BackdropColor>#000000</BackdropColor>
+    <BackdropBorderColor>#00000000</BackdropBorderColor>
     <backgroundArtPath>${themePath}/wallpapers/dark</backgroundArtPath>
     <menuBackgroundColor>#373737</menuBackgroundColor>
     <menuBackgroundColorTitle>#1c1c1c</menuBackgroundColorTitle>
@@ -40,6 +41,7 @@
     <gamelistSecondaryColor>#444444</gamelistSecondaryColor>
     <gameMetadataColor>#444444</gameMetadataColor>
     <BackdropColor>#ffffff</BackdropColor>
+    <BackdropBorderColor>#00000000</BackdropBorderColor>
     <backgroundArtPath>${themePath}/wallpapers/light</backgroundArtPath>
     <menuBackgroundColor>#ffffff</menuBackgroundColor>
     <menuBackgroundColorTitle>#c2c2c2</menuBackgroundColorTitle>
@@ -64,6 +66,7 @@
     <gamelistSecondaryColor>#eeeeee</gamelistSecondaryColor>
     <gameMetadataColor>#eeeeee</gameMetadataColor>
     <BackdropColor>#111111</BackdropColor>
+    <BackdropBorderColor>#00000000</BackdropBorderColor>
     <backgroundArtPath>${themePath}/wallpapers/neon</backgroundArtPath>
     <menuBackgroundColor>#3f2452</menuBackgroundColor>
     <menuBackgroundColorTitle>#513863</menuBackgroundColorTitle>
@@ -88,6 +91,7 @@
     <gamelistSecondaryColor>#555555</gamelistSecondaryColor>
     <gameMetadataColor>#555555</gameMetadataColor>
     <BackdropColor>#ffffff</BackdropColor>
+    <BackdropBorderColor>#00000000</BackdropBorderColor>
     <backgroundArtPath>${themePath}/wallpapers/pastel</backgroundArtPath>
     <menuBackgroundColor>#ffffff</menuBackgroundColor>
     <menuBackgroundColorTitle>#dedede</menuBackgroundColorTitle>
@@ -112,6 +116,7 @@
     <gamelistSecondaryColor>#2a2929</gamelistSecondaryColor>
     <gameMetadataColor>#2a2929</gameMetadataColor>
     <BackdropColor>#dedede</BackdropColor>
+    <BackdropBorderColor>#00000000</BackdropBorderColor>
     <backgroundArtPath>${themePath}/wallpapers/purple</backgroundArtPath>
     <menuBackgroundColor>#bdbcc1</menuBackgroundColor>
     <menuBackgroundColorTitle>#a2a1a6</menuBackgroundColorTitle>
@@ -136,6 +141,7 @@
     <gamelistSecondaryColor>#555555</gamelistSecondaryColor>
     <gameMetadataColor>#555555</gameMetadataColor>
     <BackdropColor>#ffffff</BackdropColor>
+    <BackdropBorderColor>#00000000</BackdropBorderColor>
     <backgroundArtPath>${themePath}/wallpapers/beige</backgroundArtPath>
     <menuBackgroundColor>#fbf6de</menuBackgroundColor>
     <menuBackgroundColorTitle>#faf1c5</menuBackgroundColorTitle>
@@ -160,6 +166,7 @@
     <gamelistSecondaryColor>#513811</gamelistSecondaryColor>
     <gameMetadataColor>#513811</gameMetadataColor>
     <BackdropColor>#291c0a</BackdropColor>
+    <BackdropBorderColor>#00000000</BackdropBorderColor>
     <backgroundArtPath>${themePath}/wallpapers/retro</backgroundArtPath>
     <menuBackgroundColor>#ac9358</menuBackgroundColor>
     <menuBackgroundColorTitle>#887852</menuBackgroundColorTitle>

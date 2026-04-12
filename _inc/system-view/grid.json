@@ -118,10 +118,6 @@
               "value": "0"
             },
             {
-              "name": "scrollbarColor",
-              "value": "#96969620"
-            },
-            {
               "name": "scrollbarCorner",
               "value": "0.49"
             },
@@ -213,7 +209,7 @@
                         },
                         {
                           "name": "color",
-                          "value": "#00000000"
+                          "value": "${BackdropBorderColor}"
                         }
                       ],
                       "children": [
@@ -565,10 +561,6 @@
                         {
                           "name": "zIndex",
                           "value": "${zSelector}"
-                        },
-                        {
-                          "name": "color",
-                          "value": "#00000000"
                         }
                       ],
                       "children": [
