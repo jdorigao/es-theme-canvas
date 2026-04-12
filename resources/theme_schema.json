@@ -22,7 +22,8 @@
         { "name": "visible" },
         { "name": "opacity" },
         { "name": "zIndex" },
-        { "name": "multiLine" }
+        { "name": "multiLine" },
+        { "name": "scale" }
       ]
     },
     {
@@ -35,8 +36,10 @@
         { "name": "path" },
         { "name": "tile" },
         { "name": "color" },
+        { "name": "colorEnd" },
         { "name": "origin" },
         { "name": "rotation" },
+        { "name": "scale" },
         { "name": "visible" },
         { "name": "opacity" },
         { "name": "linearSmooth" },
@@ -53,7 +56,11 @@
         { "name": "path" },
         { "name": "centerColor" },
         { "name": "edgeColor" },
-        { "name": "cornerSize" }
+        { "name": "color" },
+        { "name": "cornerSize" },
+        { "name": "scale" },
+        { "name": "animateColor" },
+        { "name": "animateColorTime" }
       ]
     },
     {
@@ -97,6 +104,7 @@
       "properties": [
         { "name": "pos" },
         { "name": "size" },
+        { "name": "maxSize" },
         { "name": "origin" },
         { "name": "path" },
         { "name": "delay" },
@@ -130,8 +138,10 @@
         { "name": "origin" },
         { "name": "color" },
         { "name": "logoScale" },
+        { "name": "logoSize" },
         { "name": "logoRotation" },
         { "name": "logoRotationOrigin" },
+        { "name": "logoAlignment" },
         { "name": "maxLogoCount" },
         { "name": "zIndex" },
         { "name": "defaultTransition" },
@@ -140,7 +150,10 @@
         { "name": "wrapAround" },
         { "name": "circular" },
         { "name": "horizontal" },
-        { "name": "enableMasking" }
+        { "name": "enableMasking" },
+        { "name": "minLogoOpacity" },
+        { "name": "scaledLogoSpacing" },
+        { "name": "linearSmooth" }
       ]
     },
     {
@@ -151,12 +164,14 @@
         { "name": "size" },
         { "name": "origin" },
         { "name": "logoScale" },
+        { "name": "logoSize" },
         { "name": "logoRotation" },
         { "name": "logoRotationOrigin" },
         { "name": "logoAlignment" },
         { "name": "maxLogoCount" },
         { "name": "zIndex" },
-        { "name": "imageSource" }
+        { "name": "imageSource" },
+        { "name": "scaledLogoSpacing" }
       ]
     },
     {
@@ -220,7 +235,11 @@
       "properties": [
         { "name": "pos" },
         { "name": "size" },
+        { "name": "w" },
+        { "name": "h" },
         { "name": "margin" },
+        { "name": "padding" },
+        { "name": "cellProportion" },
         { "name": "gameImage" },
         { "name": "folderImage" },
         { "name": "imageSource" },
@@ -260,6 +279,10 @@
         { "name": "selectorSize" },
         { "name": "selectorOffset" },
         { "name": "scrollSound" },
+        { "name": "scrollbarColor" },
+        { "name": "scrollbarSize" },
+        { "name": "scrollbarCorner" },
+        { "name": "scrollbarAlignment" },
         { "name": "centerSelectionCursor" },
         { "name": "alwaysDisplayGrid" },
         { "name": "reflexionDistance" },
@@ -442,7 +465,7 @@
     },
     {
       "name": "storyboard",
-      "properties": [],
+      "properties": [{ "name": "event" }, { "name": "repeat" }, { "name": "repeatAt" }],
       "child_elements": ["animation", "sound"]
     },
     {
