@@ -14,10 +14,6 @@
       "value": "${themePath}/_inc/fonts/Inter-Bold.otf"
     },
     {
-      "key": "spacerImage",
-      "value": "${themePath}/_inc/images/space.png"
-    },
-    {
       "key": "topBarFontSize",
       "value": "0.028"
     },
