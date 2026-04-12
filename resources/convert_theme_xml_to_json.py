@@ -12,7 +12,6 @@ import json
 import os
 import sys
 import xml.etree.ElementTree as ET
-from pathlib import Path
 
 FILTER_KEYS = {
     "if",
@@ -27,37 +26,165 @@ FILTER_KEYS = {
     "ifSubset",
 }
 
+# Embedded theme schema (from resources/theme_schema.json)
+# Eliminates external file dependency for conversion.
+EMBEDDED_SCHEMA = {
+    "elements": {
+        "text": {"pos", "size", "origin", "color", "fontSize", "fontPath", "text",
+                 "value", "alignment", "horizontalAlignment", "verticalAlignment",
+                 "forceUppercase", "lineSpacing", "autoScroll", "autoScrollSpeed",
+                 "autoScrollDelay", "visible", "opacity", "zIndex", "multiLine", "scale"},
+        "image": {"pos", "size", "minSize", "maxSize", "path", "tile", "color",
+                  "colorEnd", "origin", "rotation", "scale", "visible", "opacity",
+                  "linearSmooth", "roundCorners", "zIndex", "extra"},
+        "ninepatch": {"pos", "size", "path", "centerColor", "edgeColor", "color",
+                      "cornerSize", "scale", "animateColor", "animateColorTime"},
+        "datetime": {"pos", "size", "origin", "color", "fontSize", "fontPath",
+                     "format", "value", "displayRelative", "lineSpacing", "visible",
+                     "zIndex"},
+        "rating": {"pos", "size", "origin", "color", "filledPath", "unfilledPath",
+                   "visibleCount", "displayCount", "visible", "zIndex"},
+        "sound": {"path"},
+        "video": {"pos", "size", "maxSize", "origin", "path", "delay", "volume",
+                  "showSnapshotNoVideo", "showSnapshotDelay", "roundCorners",
+                  "visible", "zIndex"},
+        "animate": {"pos", "size", "color", "opacity", "duration", "easing",
+                    "delay", "repeat"},
+        "carousel": {"type", "pos", "size", "origin", "color", "logoScale",
+                     "logoSize", "logoRotation", "logoRotationOrigin",
+                     "logoAlignment", "maxLogoCount", "zIndex", "defaultTransition",
+                     "scrollSound", "anyLogoFills", "wrapAround", "circular",
+                     "horizontal", "enableMasking", "minLogoOpacity",
+                     "scaledLogoSpacing", "linearSmooth"},
+        "gamecarousel": {"type", "pos", "size", "origin", "logoScale", "logoSize",
+                         "logoRotation", "logoRotationOrigin", "logoAlignment",
+                         "maxLogoCount", "zIndex", "imageSource", "scaledLogoSpacing"},
+        "gridtile": {"backgroundColor", "selectionMode", "size", "padding",
+                     "backgroundImage", "backgroundCornerSize", "backgroundCenterColor",
+                     "backgroundEdgeColor", "selectedBackgroundColor", "textColor",
+                     "selectedTextColor", "fontPath", "fontSize", "textMarquee",
+                     "textLetterCase", "textHorizontalAlignment", "textVerticalAlignment",
+                     "imageColor", "imageOrigin", "imageScale", "imageRotate",
+                     "imageZIndex", "textZIndex", "reflexionDistance", "reflexionAlpha",
+                     "reflexionOnCurrent", "imageLeftPadding", "imageRightPadding",
+                     "imageTopPadding", "imageBottomPadding", "imageMinSize",
+                     "imageMaxSize", "imageRoundCorners", "textLeftPadding",
+                     "textRightPadding", "textTopPadding", "textBottomPadding",
+                     "imageHorizontalAlignment", "imageVerticalAlignment",
+                     "imageBackgroundPath", "imageBackgroundCenterColor",
+                     "imageBackgroundEdgeColor", "imageBackgroundCornerSize",
+                     "imageBackgroundTile", "imageBackgroundOrigin",
+                     "imageBackgroundScale", "imageBackgroundRotate",
+                     "imageBackgroundZIndex", "imageBackgroundHorizontalAlignment",
+                     "imageBackgroundVerticalAlignment"},
+        "imagegrid": {"pos", "size", "w", "h", "margin", "padding", "cellProportion",
+                      "gameImage", "folderImage", "imageSource", "showVideoAtDelay",
+                      "scrollDirection", "autoLayout", "autoLayoutSelectedZoom",
+                      "animateSelection", "centerSelection", "scrollLoop",
+                      "imageSizeMode", "imageGridMode", "imageGrowth", "imageMargin",
+                      "imageUnfocusedScale", "imageFocusScale", "imageRotation",
+                      "imageRotationOrigin", "imageFlip", "imageHorizontalAlignment",
+                      "imageVerticalAlignment", "imageAspect", "imageColor",
+                      "imageTargetRatio", "zIndex", "label", "labelTextSize",
+                      "labelTextOffset", "labelTextAlign", "labelColor", "labelFont",
+                      "selectedColor", "selectorColor", "selectorImagePath",
+                      "selectorImageTile", "selectorMinSize", "selectorSize",
+                      "selectorOffset", "scrollSound", "scrollbarColor",
+                      "scrollbarSize", "scrollbarCorner", "scrollbarAlignment",
+                      "centerSelectionCursor", "alwaysDisplayGrid", "reflexionDistance",
+                      "reflexionAlpha", "reflexionOnCurrent", "drawables",
+                      "showSnapshots", "showClones", "showFavorites", "showHidden",
+                      "showManuals", "showMissing", "showParentFolder", "showPlaylist",
+                      "showRegion", "showSorts", "showSystem", "showVideo",
+                      "showVirtualFolders"},
+        "textlist": {"pos", "size", "fontSize", "fontPath", "selectorColor",
+                     "selectorHeight", "selectedColor", "primaryColor", "secondaryColor",
+                     "horizontalMargin", "zIndex", "scrollSound", "lines", "alignment"},
+        "helpsystem": {"pos", "origin", "textColor", "iconColor", "fontSize",
+                       "fontPath", "iconA", "iconB", "iconX", "iconY"},
+        "clock": {"pos", "size", "origin", "alignment", "color", "fontSize",
+                  "fontPath", "zIndex"},
+        "controllerActivity": {"pos", "size", "horizontalAlignment", "itemSpacing",
+                               "color", "zIndex", "imagePath", "gunPath", "wheelPath",
+                               "activityColor", "hotkeyColor"},
+        "batteryIndicator": {"pos", "size", "color", "full", "at75", "at50", "at25",
+                             "empty", "incharge", "networkIcon", "planemodeIcon",
+                             "zIndex"},
+        "menuGroup": {"fontPath", "fontSize", "color", "alignment", "separatorColor",
+                      "backgroundColor"},
+        "menuBackground": {"color", "cornerSize"},
+        "menuIcons": {"iconSystem", "iconUpdates", "iconControllers", "iconGames",
+                      "iconUI", "iconSound", "iconNetwork", "iconScraper",
+                      "iconAdvanced", "iconQuit", "iconRetroachievements", "iconKodi",
+                      "iconRestart", "iconShutdown", "iconFastShutdown"},
+        "menuText": {"fontPath", "fontSize", "color", "separatorColor",
+                     "selectedColor", "selectorColor"},
+        "menuTextEdit": {"inactive", "active"},
+        "menuButton": {"path", "filledPath", "cornerSize"},
+        "menuSwitch": {"pathOn", "pathOff"},
+        "menuSlider": {"path"},
+        "container": {"pos", "size", "origin", "padding", "scale", "opacity",
+                      "zIndex", "visible"},
+        "itemTemplate": {"size"},
+        "storyboard": {"event", "repeat", "repeatAt"},
+        "animation": {"property", "from", "to", "duration", "mode", "begin",
+                      "autoReverse"},
+    },
+    "aliases": {
+        "md_lblRating": "text", "md_lblReleaseDate": "text",
+        "md_lblDeveloper": "text", "md_lblPublisher": "text",
+        "md_lblGenre": "text", "md_lblPlayers": "text",
+        "md_lblLastPlayed": "text", "md_lblPlayCount": "text",
+        "md_image": "image", "md_video": "video",
+        "md_rating": "rating", "md_releasedate": "datetime",
+        "headerImage": "image", "logo": "image",
+        "background": "image", "gridtile": "image",
+    },
+    "base_classes": {
+        "menuComponent": "image", "menuText": "text", "menuTextEdit": "text",
+        "menuSwitch": "image", "menuButton": "image", "menuSlider": "image",
+        "menuTextSmall": "text",
+    },
+}
 
-def load_schema(schema_path):
-    """Load and parse the theme schema JSON file."""
-    if not os.path.exists(schema_path):
+
+def load_schema(schema_path=None):
+    """Return theme schema. Uses embedded schema if no path given."""
+    if schema_path is None:
+        schema = EMBEDDED_SCHEMA
+    elif not os.path.exists(schema_path):
         print(f"Error: Schema file not found: {schema_path}", file=sys.stderr)
         sys.exit(1)
+    else:
+        try:
+            with open(schema_path, "r", encoding="utf-8") as handle:
+                data = json.load(handle)
+            elements = {}
+            for element in data.get("elements", []):
+                elements[element["name"]] = {
+                    prop["name"] for prop in element.get("properties", [])
+                }
+            aliases = {
+                alias["alias"]: alias["target"]
+                for alias in data.get("element_aliases", [])
+            }
+            base_classes = {
+                item["type"]: item["base"] for item in data.get("base_classes", [])
+            }
+            schema = {"elements": elements, "aliases": aliases,
+                      "base_classes": base_classes}
+        except json.JSONDecodeError as exc:
+            print(
+                f"Error: Invalid JSON in schema file {schema_path}: {exc}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        except IOError as exc:
+            print(f"Error: Cannot read schema file {schema_path}: {exc}",
+                  file=sys.stderr)
+            sys.exit(1)
 
-    try:
-        with open(schema_path, "r", encoding="utf-8") as handle:
-            data = json.load(handle)
-    except json.JSONDecodeError as exc:
-        print(
-            f"Error: Invalid JSON in schema file {schema_path}: {exc}", file=sys.stderr
-        )
-        sys.exit(1)
-    except IOError as exc:
-        print(f"Error: Cannot read schema file {schema_path}: {exc}", file=sys.stderr)
-        sys.exit(1)
-
-    elements = {}
-    for element in data.get("elements", []):
-        elements[element["name"]] = {
-            prop["name"] for prop in element.get("properties", [])
-        }
-
-    aliases = {
-        alias["alias"]: alias["target"] for alias in data.get("element_aliases", [])
-    }
-    base_classes = {item["type"]: item["base"] for item in data.get("base_classes", [])}
-
-    return {"elements": elements, "aliases": aliases, "base_classes": base_classes}
+    return schema
 
 
 def resolve_element_type(tag, schema):
@@ -433,7 +560,7 @@ def main():
         "--schema",
         "-s",
         default=None,
-        help="Path to theme_schema.json (default: resources/theme_schema.json relative to script location).",
+        help="Path to external schema JSON (default: use embedded schema).",
     )
     parser.add_argument(
         "--no-rewrite-includes",
@@ -445,17 +572,8 @@ def main():
     )
     args = parser.parse_args()
 
-    # Determine schema path
-    if args.schema:
-        schema_path = args.schema
-    else:
-        # Default: look for schema in resources/ relative to script location
-        script_dir = Path(__file__).parent
-        schema_path = script_dir / "resources" / "theme_schema.json"
-
-    schema_path = str(schema_path)
-
-    # Load schema
+    # Load schema (embedded by default, or external if --schema provided)
+    schema_path = args.schema
     schema = load_schema(schema_path)
     rewrite_includes = not args.no_rewrite_includes
 

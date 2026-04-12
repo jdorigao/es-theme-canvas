@@ -58,3 +58,27 @@ You are free to share and adapt this theme as long as you:
 1. Provide attribution to the author (Siddy212) and all credited artists above
 2. Share any updates/derivatives under the same license terms (ShareAlike)
 3. Do not use for commercial purposes (NonCommercial)
+
+---
+
+## Theme Conversion
+
+The theme is maintained in dual format (XML and JSON). Use the included
+converter to regenerate JSON files from XML:
+
+```bash
+# Convert all XML files in the theme directory (uses embedded schema)
+python3 resources/convert_theme_xml_to_json.py .
+
+# Convert with verbose output
+python3 resources/convert_theme_xml_to_json.py . -v
+
+# Convert a single file
+python3 resources/convert_theme_xml_to_json.py theme.xml
+
+# Use an external schema file instead of the embedded one
+python3 resources/convert_theme_xml_to_json.py . --schema custom_schema.json
+```
+
+The schema is **embedded** in the converter script — no external files needed.
+An optional `--schema` flag can override it with a custom schema file.
