@@ -1,6 +1,8 @@
 <theme>
   <formatVersion>7</formatVersion>
   <variables ifSubset="color-scheme:dark">
+    <controlActivityColor>#a0a0ff</controlActivityColor>
+    <controlHotkeyColor>#ffa0a0</controlHotkeyColor>
     <helpTextColor>#dddddd</helpTextColor>
     <helpIconColor>#dddddd</helpIconColor>
     <systemInfoColor>#eeeeee</systemInfoColor>
@@ -23,6 +25,8 @@
   </variables>
 
   <variables ifSubset="color-scheme:light">
+    <controlActivityColor>#a0a0ff</controlActivityColor>
+    <controlHotkeyColor>#ffa0a0</controlHotkeyColor>
     <helpTextColor>#333333</helpTextColor>
     <helpIconColor>#333333</helpIconColor>
     <systemInfoColor>#333333</systemInfoColor>
@@ -45,6 +49,8 @@
   </variables>
 
   <variables ifSubset="color-scheme:neon">
+    <controlActivityColor>#a0a0ff</controlActivityColor>
+    <controlHotkeyColor>#ffa0a0</controlHotkeyColor>
     <helpTextColor>#ffffff</helpTextColor>
     <helpIconColor>#ffffff</helpIconColor>
     <systemInfoColor>#ffffff</systemInfoColor>
@@ -67,6 +73,8 @@
   </variables>
 
   <variables ifSubset="color-scheme:pastel">
+    <controlActivityColor>#a0a0ff</controlActivityColor>
+    <controlHotkeyColor>#ffa0a0</controlHotkeyColor>
     <helpTextColor>#555555</helpTextColor>
     <helpIconColor>#555555</helpIconColor>
     <systemInfoColor>#555555</systemInfoColor>
@@ -89,6 +97,8 @@
   </variables>
 
   <variables ifSubset="color-scheme:purple">
+    <controlActivityColor>#a0a0ff</controlActivityColor>
+    <controlHotkeyColor>#ffa0a0</controlHotkeyColor>
     <helpTextColor>#2a2929</helpTextColor>
     <helpIconColor>#2a2929</helpIconColor>
     <systemInfoColor>#2a2929</systemInfoColor>
@@ -111,6 +121,8 @@
   </variables>
 
   <variables ifSubset="color-scheme:beige">
+    <controlActivityColor>#a0a0ff</controlActivityColor>
+    <controlHotkeyColor>#ffa0a0</controlHotkeyColor>
     <helpTextColor>#494846</helpTextColor>
     <helpIconColor>#494846</helpIconColor>
     <systemInfoColor>#494846</systemInfoColor>
@@ -133,6 +145,8 @@
   </variables>
 
   <variables ifSubset="color-scheme:retro">
+    <controlActivityColor>#a0a0ff</controlActivityColor>
+    <controlHotkeyColor>#ffa0a0</controlHotkeyColor>
     <helpTextColor>#ffffff</helpTextColor>
     <helpIconColor>#ffffff</helpIconColor>
     <systemInfoColor>#ffffff</systemInfoColor>

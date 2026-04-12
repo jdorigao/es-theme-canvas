@@ -170,11 +170,11 @@
           "props": [
             {
               "name": "backgroundColor",
-              "value": "#000000"
+              "value": "#00000000"
             },
             {
               "name": "backgroundEdgeColor",
-              "value": "#000000"
+              "value": "#00000000"
             },
             {
               "name": "backgroundCornerSize",

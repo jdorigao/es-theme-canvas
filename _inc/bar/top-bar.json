@@ -153,11 +153,11 @@
             },
             {
               "name": "activityColor",
-              "value": "#A0A0FF"
+              "value": "${controlActivityColor}"
             },
             {
               "name": "hotkeyColor",
-              "value": "#FFA0A0"
+              "value": "${controlHotkeyColor}"
             }
           ]
         },

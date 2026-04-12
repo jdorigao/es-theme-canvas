@@ -125,10 +125,6 @@
               "value": "0 0 0 0"
             },
             {
-              "name": "scrollbarColor",
-              "value": "#969696"
-            },
-            {
               "name": "scrollbarCorner",
               "value": "0.49"
             },
@@ -572,10 +568,6 @@
             {
               "name": "maxLogoCount",
               "value": "${itemcount}"
-            },
-            {
-              "name": "color",
-              "value": "#ffffff"
             },
             {
               "name": "scaledLogoSpacing",

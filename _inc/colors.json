@@ -2,6 +2,20 @@
   "formatVersion": 7,
   "variables": [
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:dark"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:dark"
+      }
+    },
+    {
       "key": "helpTextColor",
       "value": "#dddddd",
       "filters": {
@@ -132,6 +146,20 @@
       "value": "#cccccc",
       "filters": {
         "ifSubset": "color-scheme:dark"
+      }
+    },
+    {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:light"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:light"
       }
     },
     {
@@ -268,6 +296,20 @@
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:neon"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:neon"
+      }
+    },
+    {
       "key": "helpTextColor",
       "value": "#ffffff",
       "filters": {
@@ -398,6 +440,20 @@
       "value": "#9a228f",
       "filters": {
         "ifSubset": "color-scheme:neon"
+      }
+    },
+    {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:pastel"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:pastel"
       }
     },
     {
@@ -534,6 +590,20 @@
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:purple"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:purple"
+      }
+    },
+    {
       "key": "helpTextColor",
       "value": "#2a2929",
       "filters": {
@@ -667,6 +737,20 @@
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:beige"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:beige"
+      }
+    },
+    {
       "key": "helpTextColor",
       "value": "#494846",
       "filters": {
@@ -797,6 +881,20 @@
       "value": "#72a395",
       "filters": {
         "ifSubset": "color-scheme:beige"
+      }
+    },
+    {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:retro"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:retro"
       }
     },
     {
