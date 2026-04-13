@@ -540,7 +540,7 @@
                       "props": [
                         {
                           "name": "path",
-                          "value": "${themePath}/_inc/images/backgrounds/square.webp"
+                          "value": "${themePath}/_inc/images/backgrounds/square.svg"
                         },
                         {
                           "name": "pos",
@@ -571,7 +571,7 @@
                           "animations": [
                             {
                               "property": "path",
-                              "to": "${themePath}/_inc/images/backgrounds/square.webp"
+                              "to": "${themePath}/_inc/images/backgrounds/square.svg"
                             },
                             {
                               "property": "color",
@@ -596,7 +596,7 @@
                           "animations": [
                             {
                               "property": "path",
-                              "to": "${themePath}/_inc/images/backgrounds/square.webp"
+                              "to": "${themePath}/_inc/images/backgrounds/square.svg"
                             },
                             {
                               "property": "color",

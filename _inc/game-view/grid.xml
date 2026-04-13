@@ -29,9 +29,9 @@
 
     <imagegrid name="gamegrid">
       <margin>0.025</margin>
-  		<pos>0.0125 0.08</pos>
-  		<size ifSubset="metadata:on">0.975 0.72</size>
-  		<size ifSubset="metadata:off">0.975 0.78</size>
+      <pos>0.02 0.08</pos>
+      <size ifSubset="metadata:on">0.96 0.72</size>
+      <size ifSubset="metadata:off">0.96 0.78</size>
       <padding>10 10 10 10</padding>
       <imageSource>cover</imageSource>
       <scrollbarColor>${gamelistSecondaryColor}</scrollbarColor>
@@ -56,7 +56,7 @@
       <scale>0.99</scale>
     </image>
 
-   	<ninepatch name="gridtile.background:selected">
+     <ninepatch name="gridtile.background:selected">
       <color>${systemCarouselSelectorColor}</color>
       <animateColor>${systemCarouselSelectorColor}00</animateColor>
       <animateColorTime>800</animateColorTime>

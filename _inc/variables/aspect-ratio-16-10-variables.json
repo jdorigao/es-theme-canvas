@@ -26,7 +26,8 @@
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-small.webp",
       "filters": {
-        "ifSubset": "font-size:small"
+        "ifSubset": "font-size:small",
+        "cache": "true"
       }
     },
     {
@@ -110,7 +111,8 @@
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp",
       "filters": {
-        "ifSubset": "font-size:medium"
+        "ifSubset": "font-size:medium",
+        "cache": "true"
       }
     },
     {
@@ -194,7 +196,8 @@
       "key": "gamelistBackgroundImageCalculated",
       "value": "${themePath}/_inc/images/gamelist/${gamelistBackgroundImage}-large.webp",
       "filters": {
-        "ifSubset": "font-size:large"
+        "ifSubset": "font-size:large",
+        "cache": "true"
       }
     },
     {

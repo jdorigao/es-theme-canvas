@@ -34,15 +34,15 @@ License: Creative Commons CC-BY-NC-SA
   <!-- Subset: System Grid Sizes -->
   <subset name="sysgridsize" ifSubset="system-view:grid" displayName="System Grid Size">
     <include name="automatic" displayName="Automatic" />
-    <include name="3x1" displayName="3X1" />
-    <include name="3x2" displayName="3X2" />
-    <include name="3x3" displayName="3X3" />
-    <include name="4x2" displayName="4X2" />
-    <include name="4x3" displayName="4X3" />
-    <include name="4x4" displayName="4X4" />
-    <include name="5x2" displayName="5X2" />
-    <include name="5x3" displayName="5X3" />
-    <include name="5x4" displayName="5X4" />
+    <include name="3x1" displayName="3×1" />
+    <include name="3x2" displayName="3×2" />
+    <include name="3x3" displayName="3×3" />
+    <include name="4x2" displayName="4×2" />
+    <include name="4x3" displayName="4×3" />
+    <include name="4x4" displayName="4×4" />
+    <include name="5x2" displayName="5×2" />
+    <include name="5x3" displayName="5×3" />
+    <include name="5x4" displayName="5×4" />
   </subset>
 
   <!-- Subset: Icon Scheme -->
@@ -107,14 +107,14 @@ License: Creative Commons CC-BY-NC-SA
 
   <!-- All Views -->
   <view name="system, basic, detailed, gamecarousel, grid">
-  	<!-- System Backgrounds -->
-  	<image name="background-art" extra="true">
-  		<path ifSubset="color-scheme:beige|dark|light|neon|pastel|purple|retro">${backgroundArtPath}.webp</path>
-  		<origin>0.5 0.5</origin>
-  		<pos>0.5 0.5</pos>
-  		<minSize>1 1</minSize>
-  		<zIndex>${zBackgroundArt}</zIndex>
-  	</image>
+    <!-- System Backgrounds -->
+    <image name="background-art" extra="true">
+      <path ifSubset="color-scheme:beige|dark|light|neon|pastel|purple|retro">${backgroundArtPath}.webp</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <minSize>1 1</minSize>
+      <zIndex>${zBackgroundArt}</zIndex>
+    </image>
   </view>
 
   <!-- Gamelist: System Logo -->
@@ -288,7 +288,7 @@ License: Creative Commons CC-BY-NC-SA
   <include>${themePath}/_inc/game-view/grid.xml</include>
 
   <!-- Off Metadata Toggle -->
-  <view name="detailed, gamecarousel, grid, grid-detailed" ifSubset="metadata:off">
+  <view name="detailed, gamecarousel, grid" ifSubset="metadata:off">
     <image name="game-metadata-background-shadow-base" extra="true">
       <visible>false</visible>
     </image>
@@ -330,14 +330,6 @@ License: Creative Commons CC-BY-NC-SA
       <imageSource>marquee</imageSource>
     </gamecarousel>
   </view>
-
-  <!-- Detailed Game Grid View -->
-  <subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed">
-    <include name="automatic" displayName="Automatic" />
-    <include name="large" displayName="2 Columns" />
-    <include name="medium" displayName="3 Columns" />
-    <include name="small" displayName="4 Columns" />
-  </subset>
 
   <!-- Aspect Ratios -->
    <include ifSubset="aspect-ratio:16-9|16-9-auto">${themePath}/_inc/game-view/aspect-ratio-16-9.xml</include>

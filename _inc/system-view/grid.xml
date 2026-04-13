@@ -158,7 +158,7 @@
           <scale>1</scale>
 
           <image name="selector" extra="true">
-            <path>${themePath}/_inc/images/backgrounds/square.webp</path>
+            <path>${themePath}/_inc/images/backgrounds/square.svg</path>
             <pos>0.5 0.74</pos>
             <origin>0.5 1</origin>
             <maxSize>0.77 0.67</maxSize>
@@ -166,7 +166,7 @@
             <zIndex>${zSelector}</zIndex>
 
             <storyboard event="activate" repeat="forever">
-              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.webp" />
+              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.svg" />
               <animation
                 property="color"
                 from="${systemCarouselSelectorColor}00"
@@ -184,7 +184,7 @@
               />
             </storyboard>
             <storyboard event="deactivate">
-              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.webp" />
+              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.svg" />
               <animation property="color" to="00000000" />
             </storyboard>
           </image>

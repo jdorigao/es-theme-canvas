@@ -106,47 +106,47 @@
         {
           "type": "include",
           "name": "3x1",
-          "displayName": "3X1"
+          "displayName": "3×1"
         },
         {
           "type": "include",
           "name": "3x2",
-          "displayName": "3X2"
+          "displayName": "3×2"
         },
         {
           "type": "include",
           "name": "3x3",
-          "displayName": "3X3"
+          "displayName": "3×3"
         },
         {
           "type": "include",
           "name": "4x2",
-          "displayName": "4X2"
+          "displayName": "4×2"
         },
         {
           "type": "include",
           "name": "4x3",
-          "displayName": "4X3"
+          "displayName": "4×3"
         },
         {
           "type": "include",
           "name": "4x4",
-          "displayName": "4X4"
+          "displayName": "4×4"
         },
         {
           "type": "include",
           "name": "5x2",
-          "displayName": "5X2"
+          "displayName": "5×2"
         },
         {
           "type": "include",
           "name": "5x3",
-          "displayName": "5X3"
+          "displayName": "5×3"
         },
         {
           "type": "include",
           "name": "5x4",
-          "displayName": "5X4"
+          "displayName": "5×4"
         }
       ]
     },
@@ -928,7 +928,7 @@
     },
     {
       "type": "view",
-      "name": "detailed, gamecarousel, grid, grid-detailed",
+      "name": "detailed, gamecarousel, grid",
       "filters": {
         "ifSubset": "metadata:off"
       },
@@ -1044,34 +1044,6 @@
               "value": "marquee"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "subset",
-      "name": "autogriddetailedsize",
-      "displayName": "Automatic Grid-Detailed Size",
-      "appliesTo": "grid-detailed",
-      "nodes": [
-        {
-          "type": "include",
-          "name": "automatic",
-          "displayName": "Automatic"
-        },
-        {
-          "type": "include",
-          "name": "large",
-          "displayName": "2 Columns"
-        },
-        {
-          "type": "include",
-          "name": "medium",
-          "displayName": "3 Columns"
-        },
-        {
-          "type": "include",
-          "name": "small",
-          "displayName": "4 Columns"
         }
       ]
     },

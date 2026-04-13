@@ -24,6 +24,7 @@ FILTER_KEYS = {
     "ifArch",
     "ifNotArch",
     "ifSubset",
+    "cache",
 }
 
 # Embedded theme schema (from resources/theme_schema.json)
