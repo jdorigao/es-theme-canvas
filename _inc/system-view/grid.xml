@@ -159,11 +159,12 @@
 
           <image name="selector" extra="true">
             <path>${themePath}/_inc/images/backgrounds/square.svg</path>
-            <pos>0.5 0.74</pos>
-            <origin>0.5 1</origin>
-            <maxSize>0.77 0.67</maxSize>
+            <pos>0.5 0.475</pos>
+            <origin>0.5</origin>
+            <size>0.65 0.84</size>
             <linearSmooth>true</linearSmooth>
             <zIndex>${zSelector}</zIndex>
+            <color>${BackdropBorderColor}</color>
 
             <storyboard event="activate" repeat="forever">
               <animation property="path" to="${themePath}/_inc/images/backgrounds/square.svg" />
@@ -185,7 +186,7 @@
             </storyboard>
             <storyboard event="deactivate">
               <animation property="path" to="${themePath}/_inc/images/backgrounds/square.svg" />
-              <animation property="color" to="00000000" />
+              <animation property="color" to="#00000000" />
             </storyboard>
           </image>
 
@@ -201,9 +202,9 @@
           <image name="systemBack" extra="true" ifSubset="icon-scheme:art">
             <path
             >firstfile("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
-            <pos>0.5 0.73</pos>
+            <pos>0.5 0.71</pos>
             <origin>0.5 1</origin>
-            <maxSize>0.75 0.65</maxSize>
+            <maxSize>0.74 0.64</maxSize>
             <scale>1</scale>
             <roundCorners>${CornersSmall}</roundCorners>
             <linearSmooth>true</linearSmooth>

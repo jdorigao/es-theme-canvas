@@ -544,15 +544,15 @@
                         },
                         {
                           "name": "pos",
-                          "value": "0.5 0.74"
+                          "value": "0.5 0.475"
                         },
                         {
                           "name": "origin",
-                          "value": "0.5 1"
+                          "value": "0.5"
                         },
                         {
-                          "name": "maxSize",
-                          "value": "0.77 0.67"
+                          "name": "size",
+                          "value": "0.65 0.84"
                         },
                         {
                           "name": "linearSmooth",
@@ -561,6 +561,10 @@
                         {
                           "name": "zIndex",
                           "value": "${zSelector}"
+                        },
+                        {
+                          "name": "color",
+                          "value": "${BackdropBorderColor}"
                         }
                       ],
                       "children": [
@@ -600,7 +604,7 @@
                             },
                             {
                               "property": "color",
-                              "to": "00000000"
+                              "to": "#00000000"
                             }
                           ]
                         }
@@ -651,7 +655,7 @@
                         },
                         {
                           "name": "pos",
-                          "value": "0.5 0.73"
+                          "value": "0.5 0.71"
                         },
                         {
                           "name": "origin",
@@ -659,7 +663,7 @@
                         },
                         {
                           "name": "maxSize",
-                          "value": "0.75 0.65"
+                          "value": "0.74 0.64"
                         },
                         {
                           "name": "scale",
