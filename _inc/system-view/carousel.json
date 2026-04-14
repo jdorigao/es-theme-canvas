@@ -42,7 +42,7 @@
             },
             {
               "name": "color",
-              "value": "ffffff00"
+              "value": "${BackdropBorderColor}"
             },
             {
               "name": "scaledLogoSpacing",
@@ -58,7 +58,7 @@
             },
             {
               "name": "defaultTransition",
-              "value": "instant"
+              "value": "${transitionType}"
             }
           ],
           "children": [
@@ -86,7 +86,7 @@
                   "animations": [
                     {
                       "property": "scale",
-                      "to": true,
+                      "to": "1.0",
                       "duration": "250",
                       "mode": "easeOut"
                     }
@@ -395,7 +395,7 @@
                   "animations": [
                     {
                       "property": "scale",
-                      "to": true,
+                      "to": "1.0",
                       "duration": "250",
                       "mode": "easeOut"
                     }

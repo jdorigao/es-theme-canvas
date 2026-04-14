@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <theme>
+  <formatVersion>7</formatVersion>
   <!-- View: Menu -->
   <view name="menu">
     <menuText name="menutitle">
@@ -47,6 +48,12 @@
       <color>${menuBackgroundColor}</color>
       <cornerSize>20 20</cornerSize>
     </menuBackground>
+
+    <menuButton name="menubutton">
+      <path>${themePath}/_inc/images/menu/button.png</path>
+      <filledPath>${themePath}/_inc/images/menu/button_filled.png</filledPath>
+      <cornerSize>20 20</cornerSize>
+    </menuButton>
 
     <menuIcons name="menuicons">
       <iconSystem>${themePath}/_inc/images/menu/System.png</iconSystem>

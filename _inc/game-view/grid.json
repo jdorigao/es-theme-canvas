@@ -114,18 +114,18 @@
             },
             {
               "name": "pos",
-              "value": "0.0125 0.08"
+              "value": "0.02 0.08"
             },
             {
               "name": "size",
-              "value": "0.975 0.72",
+              "value": "0.96 0.72",
               "filters": {
                 "ifSubset": "metadata:on"
               }
             },
             {
               "name": "size",
-              "value": "0.975 0.78",
+              "value": "0.96 0.78",
               "filters": {
                 "ifSubset": "metadata:off"
               }
@@ -170,11 +170,11 @@
           "props": [
             {
               "name": "backgroundColor",
-              "value": "00000000"
+              "value": "#00000000"
             },
             {
               "name": "backgroundEdgeColor",
-              "value": "00000000"
+              "value": "#00000000"
             },
             {
               "name": "backgroundCornerSize",

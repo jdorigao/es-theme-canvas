@@ -367,10 +367,6 @@
             },
             {
               "name": "size",
-              "value": "0.099 ${metaDatafontSize}"
-            },
-            {
-              "name": "size",
               "value": "0.1 ${metaDatafontSize}"
             },
             {

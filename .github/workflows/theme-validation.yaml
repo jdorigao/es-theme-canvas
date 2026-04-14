@@ -10,18 +10,13 @@ on:
       - "**.xml"
       - "**.json"
       - "**.md"
-      - "themes/**"
 
 env:
   PYTHON_VERSION: "3.12"
-  NODE_VERSION: "20"
 
 jobs:
   validate-theme-files:
     runs-on: ubuntu-latest
-    outputs:
-      xml-files-changed: ${{ steps.changes.outputs.xml }}
-      json-files-changed: ${{ steps.changes.outputs.json }}
 
     steps:
       - name: Checkout repository
@@ -470,8 +465,8 @@ jobs:
         run: |
           mkdir -p build/optimized
 
-          # Copy all non-git files, excluding development resources and conversion script
-          rsync -av --exclude='.git*' --exclude='.github*' --exclude='build*' --exclude='resources/*' --exclude='convert_theme_xml_to_json.py' ./ build/optimized/
+          # Copy all non-git files, excluding development resources
+          rsync -av --exclude='.git*' --exclude='.github*' --exclude='build*' --exclude='resources/' ./ build/optimized/
 
       - name: Minify XML and JSON files
         run: |

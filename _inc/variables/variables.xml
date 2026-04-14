@@ -18,5 +18,10 @@
     <lowOpacity>0.6</lowOpacity>
     <mediumOpacity>0.8</mediumOpacity>
     <highOpacity>1.0</highOpacity>
+
+    <!-- Transition Style Values -->
+    <transitionType ifSubset="transition-style:instant">instant</transitionType>
+    <transitionType ifSubset="transition-style:fade">fade</transitionType>
+    <transitionType ifSubset="transition-style:slide">slide</transitionType>
   </variables>
 </theme>

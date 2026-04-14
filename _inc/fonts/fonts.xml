@@ -1,4 +1,5 @@
 <theme>
+  <formatVersion>7</formatVersion>
   <!--
     Font Configuration
     Note: Primary font variables are defined in fonts.json
@@ -9,7 +10,6 @@
     <fontRegular>${themePath}/_inc/fonts/Inter-Regular.otf</fontRegular>
     <fontBold>${themePath}/_inc/fonts/Inter-Bold.otf</fontBold>
     <fontLogo>${themePath}/_inc/fonts/Inter-Bold.otf</fontLogo>
-    <spacerImage>${themePath}/_inc/images/space.png</spacerImage>
 
     <!-- Top bar - Default (screens >= 720p) -->
     <topBarFontSize>0.028</topBarFontSize>

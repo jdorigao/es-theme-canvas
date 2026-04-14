@@ -24,7 +24,6 @@
       <autoLayout ifSubset="sysgridsize:5x4">5 4</autoLayout>
       <cellProportion>1</cellProportion>
       <margin>0</margin>
-      <scrollbarColor>96969620</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
       <scrollbarSize>0.005</scrollbarSize>
       <scrollbarAlignment>right</scrollbarAlignment>
@@ -35,7 +34,7 @@
           <animation property="scale" to="1.05" duration="150" mode="easeOut" />
         </storyboard>
         <storyboard event="deactivate">
-          <animation property="scale" to="1" duration="250" mode="easeOut" />
+          <animation property="scale" to="1.0" duration="250" mode="easeOut" />
         </storyboard>
 
         <!-- System View: Grid (Icons)-->
@@ -50,7 +49,7 @@
             <maxSize>1 1</maxSize>
             <linearSmooth>true</linearSmooth>
             <zIndex>${zSelector}</zIndex>
-            <color>00000000</color>
+            <color>${BackdropBorderColor}</color>
             <storyboard event="activate" repeat="forever">
               <animation property="path" to="${themePath}/_inc/images/backgrounds/4-5.webp" />
               <animation
@@ -144,7 +143,7 @@
             <opacity>${mediumOpacity}</opacity>
 
             <storyboard event="activate">
-              <animation property="opacity" to="1" />
+              <animation property="opacity" to="1.0" />
             </storyboard>
 
             <storyboard event="deactivate">
@@ -154,21 +153,21 @@
         </container>
 
         <!-- System View: Grid (Art)-->
-        <container ifSubset="icon-scheme:art|custom-art">
+        <container ifSubset="icon-scheme:art">
           <padding>0 0 0 0</padding>
           <scale>1</scale>
 
           <image name="selector" extra="true">
-            <path>${themePath}/_inc/images/backgrounds/square.webp</path>
-            <pos>0.5 0.74</pos>
-            <origin>0.5 1</origin>
-            <maxSize>0.77 0.67</maxSize>
+            <path>${themePath}/_inc/images/backgrounds/square.svg</path>
+            <pos>0.5 0.475</pos>
+            <origin>0.5</origin>
+            <size>0.65 0.84</size>
             <linearSmooth>true</linearSmooth>
             <zIndex>${zSelector}</zIndex>
-            <color>00000000</color>
+            <color>${BackdropBorderColor}</color>
 
             <storyboard event="activate" repeat="forever">
-              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.webp" />
+              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.svg" />
               <animation
                 property="color"
                 from="${systemCarouselSelectorColor}00"
@@ -186,8 +185,8 @@
               />
             </storyboard>
             <storyboard event="deactivate">
-              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.webp" />
-              <animation property="color" to="00000000" />
+              <animation property="path" to="${themePath}/_inc/images/backgrounds/square.svg" />
+              <animation property="color" to="#00000000" />
             </storyboard>
           </image>
 
@@ -200,12 +199,12 @@
             <zIndex>${zUI}</zIndex>
           </image>
 
-          <image name="systemBack" extra="true" ifSubset="icon-scheme:art|custom-art">
+          <image name="systemBack" extra="true" ifSubset="icon-scheme:art">
             <path
             >firstfile("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
-            <pos>0.5 0.73</pos>
+            <pos>0.5 0.71</pos>
             <origin>0.5 1</origin>
-            <maxSize>0.75 0.65</maxSize>
+            <maxSize>0.74 0.64</maxSize>
             <scale>1</scale>
             <roundCorners>${CornersSmall}</roundCorners>
             <linearSmooth>true</linearSmooth>
@@ -244,7 +243,7 @@
             <opacity>${mediumOpacity}</opacity>
 
             <storyboard event="activate">
-              <animation property="opacity" to="1" />
+              <animation property="opacity" to="1.0" />
             </storyboard>
 
             <storyboard event="deactivate">

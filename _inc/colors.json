@@ -2,36 +2,50 @@
   "formatVersion": 7,
   "variables": [
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:dark"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:dark"
+      }
+    },
+    {
       "key": "helpTextColor",
-      "value": "dddddd",
+      "value": "#dddddd",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "helpIconColor",
-      "value": "dddddd",
+      "value": "#dddddd",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "systemInfoColor",
-      "value": "eeeeee",
+      "value": "#eeeeee",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "systemCarouselSelectorColor",
-      "value": "cccccc",
+      "value": "#cccccc",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "gamelistLogoColor",
-      "value": "eeeeee",
+      "value": "#eeeeee",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
@@ -52,42 +66,49 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "5f5f5f",
+      "value": "#5f5f5f",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "gamelistSelectedColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "5f5f5f",
+      "value": "#5f5f5f",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "5f5f5f",
+      "value": "#5f5f5f",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "dddddd",
+      "value": "#dddddd",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "BackdropColor",
-      "value": "000000",
+      "value": "#000000",
+      "filters": {
+        "ifSubset": "color-scheme:dark"
+      }
+    },
+    {
+      "key": "BackdropBorderColor",
+      "value": "#00000000",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
@@ -101,21 +122,21 @@
     },
     {
       "key": "menuBackgroundColor",
-      "value": "373737",
+      "value": "#373737",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "menuBackgroundColorTitle",
-      "value": "1c1c1c",
+      "value": "#1c1c1c",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
       "key": "menuTextColor",
-      "value": "dddddd",
+      "value": "#dddddd",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
@@ -129,42 +150,56 @@
     },
     {
       "key": "systemProgressbarSelectorColor",
-      "value": "cccccc",
+      "value": "#cccccc",
       "filters": {
         "ifSubset": "color-scheme:dark"
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:light"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:light"
+      }
+    },
+    {
       "key": "helpTextColor",
-      "value": "333333",
+      "value": "#333333",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "helpIconColor",
-      "value": "333333",
+      "value": "#333333",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "systemInfoColor",
-      "value": "333333",
+      "value": "#333333",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "systemCarouselSelectorColor",
-      "value": "222222",
+      "value": "#222222",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "gamelistLogoColor",
-      "value": "333333",
+      "value": "#333333",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
@@ -185,42 +220,49 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "222222",
+      "value": "#222222",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "gamelistSelectedColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "444444",
+      "value": "#444444",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "444444",
+      "value": "#444444",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "444444",
+      "value": "#444444",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "BackdropColor",
-      "value": "ffffff",
+      "value": "#ffffff",
+      "filters": {
+        "ifSubset": "color-scheme:light"
+      }
+    },
+    {
+      "key": "BackdropBorderColor",
+      "value": "#00000000",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
@@ -234,21 +276,21 @@
     },
     {
       "key": "menuBackgroundColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "menuBackgroundColorTitle",
-      "value": "c2c2c2",
+      "value": "#c2c2c2",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
       "key": "menuTextColor",
-      "value": "333333",
+      "value": "#333333",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
@@ -262,42 +304,56 @@
     },
     {
       "key": "systemProgressbarSelectorColor",
-      "value": "666666",
+      "value": "#666666",
       "filters": {
         "ifSubset": "color-scheme:light"
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:neon"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:neon"
+      }
+    },
+    {
       "key": "helpTextColor",
-      "value": "FFFFFF",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "helpIconColor",
-      "value": "FFFFFF",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "systemInfoColor",
-      "value": "FFFFFF",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "systemCarouselSelectorColor",
-      "value": "d43ff4",
+      "value": "#d43ff4",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "gamelistLogoColor",
-      "value": "eeeeee",
+      "value": "#eeeeee",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
@@ -318,42 +374,49 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "d43ff4",
+      "value": "#d43ff4",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "gamelistSelectedColor",
-      "value": "fff732",
+      "value": "#fff732",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "eeeeee",
+      "value": "#eeeeee",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "eeeeee",
+      "value": "#eeeeee",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "eeeeee",
+      "value": "#eeeeee",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "BackdropColor",
-      "value": "111111",
+      "value": "#111111",
+      "filters": {
+        "ifSubset": "color-scheme:neon"
+      }
+    },
+    {
+      "key": "BackdropBorderColor",
+      "value": "#00000000",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
@@ -367,21 +430,21 @@
     },
     {
       "key": "menuBackgroundColor",
-      "value": "3f2452",
+      "value": "#3f2452",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "menuBackgroundColorTitle",
-      "value": "513863",
+      "value": "#513863",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
       "key": "menuTextColor",
-      "value": "eeeeee",
+      "value": "#eeeeee",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
@@ -395,42 +458,56 @@
     },
     {
       "key": "systemProgressbarSelectorColor",
-      "value": "9a228f",
+      "value": "#9a228f",
       "filters": {
         "ifSubset": "color-scheme:neon"
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:pastel"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:pastel"
+      }
+    },
+    {
       "key": "helpTextColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "helpIconColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "systemInfoColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "systemCarouselSelectorColor",
-      "value": "85a5c5",
+      "value": "#85a5c5",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "gamelistLogoColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
@@ -451,42 +528,49 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "85a5c5",
+      "value": "#85a5c5",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "gamelistSelectedColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "BackdropColor",
-      "value": "ffffff",
+      "value": "#ffffff",
+      "filters": {
+        "ifSubset": "color-scheme:pastel"
+      }
+    },
+    {
+      "key": "BackdropBorderColor",
+      "value": "#00000000",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
@@ -500,21 +584,21 @@
     },
     {
       "key": "menuBackgroundColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "menuBackgroundColorTitle",
-      "value": "dedede",
+      "value": "#dedede",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
       "key": "menuTextColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
@@ -528,42 +612,56 @@
     },
     {
       "key": "systemProgressbarSelectorColor",
-      "value": "a7c7e7",
+      "value": "#a7c7e7",
       "filters": {
         "ifSubset": "color-scheme:pastel"
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:purple"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:purple"
+      }
+    },
+    {
       "key": "helpTextColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "helpIconColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "systemInfoColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "systemCarouselSelectorColor",
-      "value": "382a6a",
+      "value": "#382a6a",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "gamelistLogoColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
@@ -584,42 +682,49 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "382a6a",
+      "value": "#382a6a",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "gamelistSelectedColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "BackdropColor",
-      "value": "dedede",
+      "value": "#dedede",
+      "filters": {
+        "ifSubset": "color-scheme:purple"
+      }
+    },
+    {
+      "key": "BackdropBorderColor",
+      "value": "#00000000",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
@@ -633,21 +738,21 @@
     },
     {
       "key": "menuBackgroundColor",
-      "value": "bdbcc1",
+      "value": "#bdbcc1",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "menuBackgroundColorTitle",
-      "value": "a2a1a6",
+      "value": "#a2a1a6",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
       "key": "menuTextColor",
-      "value": "2a2929",
+      "value": "#2a2929",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
@@ -661,42 +766,56 @@
     },
     {
       "key": "systemProgressbarSelectorColor",
-      "value": "6a52a8",
+      "value": "#6a52a8",
       "filters": {
         "ifSubset": "color-scheme:purple"
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:beige"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:beige"
+      }
+    },
+    {
       "key": "helpTextColor",
-      "value": "494846",
+      "value": "#494846",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "helpIconColor",
-      "value": "494846",
+      "value": "#494846",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "systemInfoColor",
-      "value": "494846",
+      "value": "#494846",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "systemCarouselSelectorColor",
-      "value": "3a6b6c",
+      "value": "#3a6b6c",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "gamelistLogoColor",
-      "value": "494846",
+      "value": "#494846",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
@@ -717,42 +836,49 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "3a6b6c",
+      "value": "#3a6b6c",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "gamelistSelectedColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "555555",
+      "value": "#555555",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "BackdropColor",
-      "value": "ffffff",
+      "value": "#ffffff",
+      "filters": {
+        "ifSubset": "color-scheme:beige"
+      }
+    },
+    {
+      "key": "BackdropBorderColor",
+      "value": "#00000000",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
@@ -766,21 +892,21 @@
     },
     {
       "key": "menuBackgroundColor",
-      "value": "fbf6de",
+      "value": "#fbf6de",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "menuBackgroundColorTitle",
-      "value": "faf1c5",
+      "value": "#faf1c5",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
       "key": "menuTextColor",
-      "value": "494846",
+      "value": "#494846",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
@@ -794,42 +920,56 @@
     },
     {
       "key": "systemProgressbarSelectorColor",
-      "value": "72a395",
+      "value": "#72a395",
       "filters": {
         "ifSubset": "color-scheme:beige"
       }
     },
     {
+      "key": "controlActivityColor",
+      "value": "#a0a0ff",
+      "filters": {
+        "ifSubset": "color-scheme:retro"
+      }
+    },
+    {
+      "key": "controlHotkeyColor",
+      "value": "#ffa0a0",
+      "filters": {
+        "ifSubset": "color-scheme:retro"
+      }
+    },
+    {
       "key": "helpTextColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "helpIconColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "systemInfoColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "systemCarouselSelectorColor",
-      "value": "ebca80",
+      "value": "#ebca80",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "gamelistLogoColor",
-      "value": "fff0a0",
+      "value": "#fff0a0",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
@@ -850,42 +990,49 @@
     },
     {
       "key": "gamelistSelectorColor",
-      "value": "5a421d",
+      "value": "#513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "gamelistSelectedColor",
-      "value": "ffffff",
+      "value": "#ffffff",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "gamelistPrimaryColor",
-      "value": "5a421d",
+      "value": "#513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "gamelistSecondaryColor",
-      "value": "5a421d",
+      "value": "#513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "gameMetadataColor",
-      "value": "5a421d",
+      "value": "#513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "BackdropColor",
-      "value": "291c0a",
+      "value": "#291c0a",
+      "filters": {
+        "ifSubset": "color-scheme:retro"
+      }
+    },
+    {
+      "key": "BackdropBorderColor",
+      "value": "#00000000",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
@@ -899,21 +1046,21 @@
     },
     {
       "key": "menuBackgroundColor",
-      "value": "ac9358",
+      "value": "#ac9358",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "menuBackgroundColorTitle",
-      "value": "887852",
+      "value": "#887852",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
     },
     {
       "key": "menuTextColor",
-      "value": "5a421d",
+      "value": "#513811",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
@@ -927,7 +1074,7 @@
     },
     {
       "key": "systemProgressbarSelectorColor",
-      "value": "bd9e5e",
+      "value": "#bd9e5e",
       "filters": {
         "ifSubset": "color-scheme:retro"
       }
